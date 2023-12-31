@@ -1,0 +1,143 @@
+
+.blogHading-rjj{
+color: var(--black, #292525);
+text-align: center;
+font-family: Space Grotesk;
+font-size: 50px;
+font-style: normal;
+font-weight: 300;
+line-height: 112.5%;
+letter-spacing: -0.87px;
+}
+.herodesc-rjj {
+color: var(--black, #292525);
+text-align: center;
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 157.2%;
+}
+.input-btn {
+
+background: #FFF;
+box-shadow: 0px 2px 48px 0px rgba(0, 0, 0, 0.06);
+width: 501px;
+/* height: 60px; */
+border: none;
+border-radius: 50px;
+}
+.btn-1 {
+color: #FFF;
+/* margin: 10px; */
+border-radius: 1000px;
+background: #5454AC;
+width: 120px;
+height: 50px;
+flex-shrink: 0;
+border: none;
+}
+.card-rj {
+/* width: 359px; */
+height: 100%;
+flex-shrink: 0;
+border-radius: 12px;
+background: #FDFDFF;
+box-shadow: 0px 24px 56px 0px rgba(7, 0, 59, 0.12);
+}
+.card-title-rjj {
+color: #38484F;
+text-align: center;
+font-family: Space Grotesk;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: -0.5px;
+}
+.card-text-rjj {
+color: #38484F;
+text-align: center;
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 163.2%; /* 26.112px */
+}
+.btn-primary-1 {
+color: #38484F;
+text-align: center;
+font-family: DM Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.btn {
+background: #A4D5DB;
+width: 135.667px;
+height: 32.217px;
+border-radius: 1000px;
+/* border: 1px solid var(--Secondary, #7bc0e3); */
+box-shadow: 0px 24px 32px 0px rgba(82, 35, 0, 0.12);
+}
+.img-hend-rjj {
+    top: 134px;
+    position: relative;
+    /* left: 37%; */
+}
+@media (min-width: 320px) and (max-width: 480px){
+    .input-btn {
+      
+        width: 293px;
+    }
+    .btn-1 {
+       
+        width: 103px;
+        height: 38px;
+    }
+    .main-top-rjj {
+        margin-top: 6rem;
+        margin-bottom: 5rem;
+    }
+    .img-hend-rjj {
+        top: 100px;
+}
+}
+@media (min-width: 481px) and (max-width: 768px){
+    .input-btn {
+      
+        width: 440px;
+    }
+    .btn-1 {
+       
+        width: 103px;
+        height: 38px;
+    }
+    .main-top-rjj {
+        margin-top: 0rem;
+        margin-bottom: 5rem;
+    }
+    .img-hend-rjj {
+        top: 100px;
+}
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+}
+
+@media (min-width: 1401px) and (max-width: 1600px) {
+}

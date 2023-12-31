@@ -1,0 +1,177 @@
+.ck_gs_12_text1 {
+  color: #38484f;
+  font-family: Space Grotesk;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: bold;
+  /* line-height: 112.5%;  */
+  /* letter-spacing: -0.87px; */
+}
+
+/* .ck_gs_text2 {
+              color: #38484f;
+              font-family: DM Sans;
+              font-size: 20px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 157.2%;
+            } */
+
+.ck_gs_12_btn {
+  border: none;
+  border-radius: 50px;
+  background: #a4d5db;
+  box-shadow: 0px 46px 52px 0px rgba(96, 225, 203, 0.56);
+
+  /* display: flex; */
+  width: 290px;
+  height: 68px;
+  padding: 14px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+
+  color: #38484f;
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 24px */
+  letter-spacing: 0.1px;
+}
+
+.ck_gs_12_input1 {
+  /* display: flex; */
+  /* width: 250px;
+  height: 120px; */
+  /* padding: 14px 24px; */
+  color: rgba(164, 213, 219, 0.50);
+
+
+  padding: 10px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  font-weight: 600;
+  font-size: 3rem;
+
+  border-radius: 50px;
+  border: none;
+  /* border: 1px solid rgba(7, 0, 59, 0.17); */
+  box-shadow: 0px 14px 39px 0px rgba(15, 35, 37, 0.3);
+}
+
+/* Add this CSS to increase the thickness of the range slider track */
+input[type="range"] {
+  height: 20px; /* Set the height to increase thickness */
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 100%;
+}
+input[type="range"]:focus {
+  outline: none;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  height: 30px; /* Set the height to increase thickness */
+  background: #38484f; /* Change the color of the track */
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 25px;
+  height: 30px;
+  background: #d1ccc1;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+input[type="range"]:focus {
+  outline: none;
+}
+
+input[type="range"]::-moz-range-track {
+  height: 10px; /* Set the height to increase thickness */
+  background: #ddd; /* Change the color of the track */
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  background: #4caf50; /* Change the color of the thumb */
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+input[type="range"]::-ms-track {
+  height: 10px; /* Set the height to increase thickness */
+  background: #ddd; /* Change the color of the track */
+}
+
+input[type="range"]::-ms-fill-lower {
+  background: #ddd; /* Change the color of the lower fill */
+}
+
+input[type="range"]::-ms-fill-upper {
+  background: #ddd; /* Change the color of the upper fill */
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .ck_gs_12_input1 {
+    /* display: flex; */
+    width: 250px;
+    height: 120px;
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .ck_gs_12_input1 {
+    /* display: flex; */
+    width: 250px;
+    height: 120px;
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .ck_gs_12_input1 {
+    /* display: flex; */
+    width: 250px;
+    height: 120px;
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+  .ck_gs_12_input1 {
+    /* display: flex; */
+    width: 250px;
+    height: 120px;
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+  .ck_gs_12_input1 {
+    /* display: flex; */
+    width: 250px;
+    height: 120px;
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 1401px) and (max-width: 1600px) {
+  .ck_gs_12_input1 {
+    /* display: flex; */
+    width: 250px;
+    height: 120px;
+    font-size: 2rem;
+  }
+}

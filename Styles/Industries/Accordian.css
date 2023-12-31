@@ -1,0 +1,187 @@
+.ck_Accordian {
+  margin: 0 auto;
+  padding: 0 15px 20px;
+  max-width: 800px;
+  transition: box-shadow 0.2s ease-in;
+  border-radius: 10px;
+  /* box-shadow: 0 0 40px 25px #111; */
+  height: 600px;
+  border:2px solid black;
+}
+/* .ck_Accordian:hover {
+  box-shadow: 0 0 30px 15px #5454ac;
+} */
+.ck_text567 {
+  margin: 20px 0;
+  color: #00000;
+  text-align: center;
+}
+
+.ck_Accordian_text12 {
+  color: var(--white, #38484f);
+
+  font-family: Plus Jakarta Sans;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%; 
+  letter-spacing: 5.72px;
+  text-transform: uppercase;
+}
+.ck_Accordian_text13 {
+  color: var(--White, var(--white, #000));
+
+  font-family: Plus Jakarta Sans;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 5.72px;
+  text-transform: uppercase;
+}
+.ck_Accordian_text11 {
+  color: var(--white, #5454ac);
+
+  /* H2 */
+  font-family: Plus Jakarta Sans;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 5.72px;
+  text-transform: uppercase;
+}
+/* ======== // end of optional styles ============= */
+
+.accordion {
+  position: relative;
+  padding: 18px 35px 18px 18px;
+
+  width: 100%;
+  text-align: left;
+  font-size: 15px;
+  color: #fff;
+  background-color: #555555cc;
+  border: 1px solid #000;
+  transition: 0.4s;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.accordion::after {
+  content: "";
+  position: absolute;
+  right: 18px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 2px;
+  background-color: #fff;
+}
+.accordion::before {
+  content: "";
+  position: absolute;
+  right: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2px;
+  height: 16px;
+  background-color: #fff;
+  transition: height 0.2s ease-in;
+}
+.accordion.active::before {
+  height: 0;
+}
+.accordion.active,
+.accordion:hover {
+  background-color: #5454ac;
+}
+.accordion.active + .panel {
+  margin-top: 2px;
+}
+
+.panel + .accordion {
+  margin-top: 1px;
+}
+.panel {
+  padding: 0 18px;
+  background-color: #ffffffee;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  box-shadow: 0 0 1px 0 #444;
+  border-radius: 10px;
+}
+.panel p:first-child {
+  padding-top: 20px;
+}
+.panel p:last-child {
+  padding-bottom: 20px;
+}
+.panel p + p {
+  margin-bottom: 15px;
+}
+
+/* === for List === */
+.pr-list {
+  padding: 20px 0;
+}
+.pr-list div {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+
+.pr-list div span:nth-child(2) {
+  flex-grow: 1;
+  line-height: 1.6;
+  border-bottom: 1px dotted #333;
+}
+
+.pr-list div span:nth-child(3) {
+  text-align: right;
+}
+
+.ck_img_agency1 {
+  height: 600px;
+  width: -webkit-fill-available;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+	
+	  .ck_Accordian_text13 {
+		font-size: 22px;	
+	  }
+	  .ck_Accordian_text11 {
+		font-size: 22px;	
+	  }
+	  .ck_Accordian_text12 {
+		font-size: 22px;	
+	  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+	.ck_Accordian_text13 {
+		font-size: 22px;	
+	  }
+	  .ck_Accordian_text11 {
+		font-size: 22px;	
+	  }
+	  .ck_Accordian_text12 {
+		font-size: 22px;	
+	  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+}
+
+@media (min-width: 1401px) and (max-width: 1600px) {
+}

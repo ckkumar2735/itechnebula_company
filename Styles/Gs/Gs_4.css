@@ -1,0 +1,126 @@
+.card {
+  width: 200px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.ck_Gs_4_btn1 {
+  border: none;
+  background: #a4d5db;
+
+  width: 230px;
+  height: 68px;
+  padding: 14px 24px;
+
+  gap: 10px;
+
+  color: #38484f;
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 24px */
+  letter-spacing: 0.1px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.ck_gs_4_text1 {
+  color: #495057;
+  font-family: Space Grotesk;
+    font-weight: 400;
+    font-size: 1.8rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.ck_gs_4_text2{
+    color: #38484f;
+    font-family: Space Grotesk;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+
+
+.ck_Gs_4_input1 {
+  /* display: flex; */
+  width: 736px;
+  /* width: 300px; */
+  height: 68px;
+  padding: 14px 24px;
+  /* justify-content: center; */
+  /* align-items: center; */
+  gap: 10px;
+  flex-shrink: 0;
+
+  border-radius: 50px;
+  border: 1px solid rgba(7, 0, 59, 0.17);
+  box-shadow: 0px 14px 39px 0px rgba(15, 35, 37, 0.3);
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .ck_gs_4_text1 {  
+    font-size: 28px;
+  }
+  
+  .ck_gs_4_text2 {  
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .ck_gs_4_text1 {  
+    font-size: 28px;
+  }
+  
+  .ck_gs_4_text2 {  
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .ck_gs_4_text1 {  
+    font-size: 30px;
+  }
+  
+  .ck_gs_4_text2 {  
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+}
+
+@media (min-width: 1401px) and (max-width: 1600px) {
+}
+
+

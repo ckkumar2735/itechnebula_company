@@ -1,0 +1,47 @@
+
+.ck_carousel4_text1{
+    color: #5454AC;
+text-align: center;
+font-family: Space Grotesk;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+fill: #E9FBF8;
+/* width:100px;
+height:50px; */
+
+border-radius: 50px;
+border: 1px solid var(--Secondary, #7BC0E3);
+box-shadow: 0px 24px 32px 0px rgba(82, 35, 0, 0.12);
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .ms_button_view {
+        display: flex;
+        justify-content: center;
+      }
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+
+}
+
+@media (min-width: 1401px) and (max-width: 1600px) {
+
+
+}

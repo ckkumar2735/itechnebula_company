@@ -1,0 +1,205 @@
+.cart_location_shipping_address_row1{
+    border: 1px solid var(--grey, #B5ABAA);
+
+   
+padding: 40px;
+flex-direction: column;
+align-items: flex-end;
+gap: 30px;
+}
+.ck_location_shipping_address_text1{
+    color: var(--black, #311C1C);
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.ck_location_shipping_address_text2{
+    color: var(--black, #311C1C);
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.ck_location_shipping_address_text3{
+    color: var(--black, #311C1C);
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.ck_location_shipping_address_text4{
+    color: var(--black, #311C1C);
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.ck_location_shipping_address_text5{
+    color: var(--black, #311C1C);
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.ck_location_shipping_address_text6{
+    color: var(--black, #311C1C);
+    /* text-align: center; */
+    font-family: DM Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 171.429% */
+}
+.ck_location_shipping_address_text7{
+    color: var(--black, #311C1C);
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.ck_location_shipping_address_text8{
+    color: var(--black, #311C1C);
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.ck_location_shipping_address_text9{
+    color: var(--black, #311C1C);
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.ck_location_shipping_address_text10{
+    color: var(--black, #311C1C);
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.ck_location_shipping_address_text11{
+    color: var(--black, #311C1C);
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+}
+
+.ck_location_shipping_address_input1{
+    /* display: flex; */
+/* width: 400px; */
+height: 52px;
+padding: 10px 135px 10px 10px;
+align-items: center;
+gap: 10px;
+
+border: 1px solid var(--beige, #EDE8E7);
+}
+.ck_location_shipping_address_input2{
+    /* width: 455px; */
+    height: 52px;
+    padding: 10px 135px 10px 10px;
+    align-items: center;
+    gap: 10px;
+    
+    border: 1px solid var(--beige, #EDE8E7);
+}
+.ck_location_shipping_address_input3{
+    /* display: flex; */
+    width: 730px;
+    height: 52px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 1px solid var(--beige, #EDE8E7);
+}
+.ck_location_shipping_address_input4{
+    width: 730px;
+    height: 52px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 1px solid var(--beige, #EDE8E7);
+}
+.ck_location_shipping_address_input5{
+    width: 730px;
+    height: 52px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 1px solid var(--beige, #EDE8E7);
+}
+.ck_location_shipping_address_input6{
+    height: 52px;
+    padding: 10px 135px 10px 10px;
+    align-items: center;
+    gap: 10px;
+    
+    border: 1px solid var(--beige, #EDE8E7);
+}
+.ck_location_shipping_address_input7{
+    height: 52px;
+    padding: 10px 135px 10px 10px;
+    align-items: center;
+    gap: 10px;
+    
+    border: 1px solid var(--beige, #EDE8E7);
+}
+
+.ck_location_shipping_address_input8{
+    width: 730px;
+    height: 52px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 1px solid var(--beige, #EDE8E7);
+}
+.ck_location_shipping_address_button1{
+    border-radius: 50px;
+background: #A4D5DB;
+box-shadow: 0px 46px 52px 0px rgba(96, 225, 203, 0.56);
+
+/* display: flex; */
+width: 230px;
+height: 52px;
+padding: 14px 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+
+color: #38484F;
+text-align: center;
+
+/* button */
+font-family: Libre Bodoni;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-transform: capitalize;
+border:none;
+}

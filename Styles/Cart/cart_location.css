@@ -1,0 +1,125 @@
+.cart_location_row1{
+    border: 1px solid var(--grey, #B5ABAA);
+
+    
+/* width: 1010px; */
+padding: 40px;
+flex-direction: column;
+align-items: flex-end;
+gap: 30px;
+}
+
+.cart_location_row2{
+    border: 1px solid var(--grey, #B5ABAA);
+background: var(--white, #FFF);
+
+
+padding: 40px;
+justify-content: space-between;
+align-items: center;
+}
+
+.cart_location_row3{
+    border: 1px solid var(--grey, #B5ABAA);
+    background: var(--white, #FFF);
+
+padding: 40px;
+justify-content: space-between;
+align-items: center;
+
+}
+
+
+.ck_cart1_sec1_location_text1{
+    color: var(--black, #311C1C);
+font-family: DM Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.ck_cart1_sec1_location_text2{
+    color: var(--black, #311C1C);
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.ck_cart1_sec1_location_text3{
+    color: var(--black, #311C1C);
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 24px */
+letter-spacing: 0.08px;
+}
+.ck_cart1_sec1_location_text4{
+    color: #5454AC;
+font-family: DM Sans;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.ck_cart1_sec1_location_btn1{
+    color: #D1CCC1;
+text-align: center;
+font-family: Space Grotesk;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 19.2px */
+letter-spacing: 0.08px;
+
+border-radius: 1000px;
+background: #38484F;
+box-shadow: 0px 46px 52px 0px rgba(96, 225, 203, 0.56);
+
+border:none;
+width: 230px;
+height: 52px;
+padding: 14px 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+}
+
+.ck_cart1_sec1_location_input1{
+    border: 1px solid var(--beige, #EDE8E7);
+    
+    /* display: flex; */
+width: 730px;
+height: 52px;
+padding: 10px;
+align-items: center;
+gap: 10px;
+}
+
+.ck_cart1_sec1_location_text5{
+    color: var(--black, #311C1C);
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.ck_cart1_sec1_location_text6{
+    color: #040484;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 27px */
+}
+.ck_cart1_sec1_location_text7{
+    color: var(--black, #311C1C);
+    font-family: DM Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}

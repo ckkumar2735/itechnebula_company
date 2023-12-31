@@ -1,0 +1,122 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400&display=swap');
+
+
+.ind_text11 {
+    font-family: Space Grotesk;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    letter-spacing: 0em;
+    /* text-align: center; */
+}
+
+.ck_ind_text25{
+  color: #38484F;
+  font-family: Space Grotesk;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px; 
+}
+
+
+.ck_ind_text22{
+  text-align:center;
+}
+.ck_ind_text23_1{
+  font-family: Space Grotesk;
+  font-weight: 300;
+  font-size: 20px;
+  margin-top:50px;
+  text-align: center;
+}
+
+.ck_ind_text23_2{
+  font-family: Space Grotesk;
+  font-weight: 300;
+  font-size: 20px;
+  margin-top:50px;
+  text-align: center;
+}
+
+.ck_ind_text23_3{
+  font-family: Space Grotesk;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: center;
+}
+
+.ind_text-33 {
+    font-family: Work Sans;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .ck_ind_text22{
+    text-align:center;
+    font-size: 21px;
+
+  }
+  .ck_ind_text25{
+    text-align:center;
+    font-size: 25px;
+
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .ck_ind_text25{
+    text-align:center;
+    font-size: 25px;
+
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .ck_ind_text22{
+    text-align:center;
+    font-size: 40px;
+  }
+
+  .ck_ind_text25{
+    text-align:center;
+
+  }
+  .ck_ind_text23_1{
+    /* font-weight: 300; */
+    font-size: 25px;
+    line-height:40px;
+    /* margin-top:50px; */
+  }
+  
+  .ck_ind_text23_2{
+    /* font-weight: 300; */
+    font-size: 25px;
+    margin-top:50px;
+    line-height:40px;
+
+  }
+  
+  .ck_ind_text23_3{
+    /* font-weight: 300; */
+    font-size: 25px;
+    margin-top:50px;
+    line-height:40px;
+
+
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+}
+
+@media (min-width: 1401px) and (max-width: 1600px) {
+}

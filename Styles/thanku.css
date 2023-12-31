@@ -1,0 +1,335 @@
+.ck_765{
+    border-radius: 54px;
+background: #F1F1F1;
+box-shadow: 0px 4px 20px 0px rgba(21, 24, 55, 0.15) inset;
+}
+
+.ck_766{
+    color: #38484F;
+text-align: center;
+font-family: Space Grotesk;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.ck_768{
+  color: #38484F;
+text-align: center;
+font-family: Space Grotesk;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+margin-top:50px;
+}
+html, body {
+    overflow: hidden;
+}
+
+
+.ck_767{
+    min-height: 100vh;
+}
+
+.ck_771{
+    color: #38484F;
+text-align: center;
+font-family: Space Grotesk;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%; /* 24px */
+letter-spacing: 0.1px;
+    display: flex;
+width: 188px;
+height: 68px;
+padding: 14px 24px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+    border-radius: 1000px;
+background: #A4D5DB;
+box-shadow: 0px 46px 52px 0px rgba(96, 225, 203, 0.56);
+}
+
+@media (min-width: 320px) and (max-width: 480px){
+    .ck_767{
+        min-height: 50vh;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    .ck_767{
+        min-height: 50vh;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px){
+    .ck_767{
+        min-height: 50vh;
+    } 
+}
+/* .can-rj{
+  width: 100%;
+  height: 100%;
+
+} */
+
+
+/* .wrapper {
+    position: relative;
+    min-height: 100vh;
+  } */
+  
+  [class|="confetti"] {
+    position: absolute;
+    width: 10px;
+    height: 8px;
+    top: -10%;
+    opacity: 0.5;
+    transform-origin: center bottom;
+    animation: drop 2s linear infinite;
+  }
+  
+  .confetti-1 {
+    background-color: #d13447;
+    animation-delay: -1s;
+  }
+  
+  .confetti-2 {
+    background-color: #ffbf00;
+    animation-delay: -0.9s;
+  }
+  
+  .confetti-3 {
+    background-color: #263672;
+    animation-delay: -0.8s;
+  }
+  
+  .confetti-4 {
+    background-color: #4caf50;
+    animation-delay: -0.7s;
+  }
+  
+  .confetti-5 {
+    background-color: #9c27b0;
+    animation-delay: -0.6s;
+  }
+  
+  .confetti-6 {
+    background-color: #2196f3;
+    animation-delay: -0.5s;
+  }
+  
+  .confetti-7 {
+    background-color: #ff5722;
+    animation-delay: -0.4s;
+  }
+  
+  .confetti-8 {
+    background-color: #607d8b;
+    animation-delay: -0.3s;
+  }
+  
+  .confetti-9 {
+    background-color: #795548;
+    animation-delay: -0.2s;
+  }
+  
+  .confetti-10 {
+    background-color: #e91e63;
+    animation-delay: -0.1s;
+  }
+  
+  .confetti-11 {
+    background-color: #d13447;
+    animation-delay: -1s;
+  }
+  
+  .confetti-12 {
+    background-color: #ffbf00;
+    animation-delay: -0.9s;
+  }
+  
+  .confetti-13 {
+    background-color: #263672;
+    animation-delay: -0.8s;
+  }
+  
+  .confetti-14 {
+    background-color: #4caf50;
+    animation-delay: -0.7s;
+  }
+  
+  .confetti-15 {
+    background-color: #9c27b0;
+    animation-delay: -0.6s;
+  }
+  
+  .confetti-16 {
+    background-color: #2196f3;
+    animation-delay: -0.5s;
+  }
+  
+  .confetti-17 {
+    background-color: #ff5722;
+    animation-delay: -0.4s;
+  }
+  
+  .confetti-18 {
+    background-color: #607d8b;
+    animation-delay: -0.3s;
+  }
+  
+  .confetti-19 {
+    background-color: #795548;
+    animation-delay: -0.2s;
+  }
+  
+  .confetti-20 {
+    background-color: #e91e63;
+    animation-delay: -0.1s;
+  }
+
+  .confetti-21 {
+    background-color: #d13447;
+    animation-delay: -1s;
+  }
+  
+  .confetti-22 {
+    background-color: #ffbf00;
+    animation-delay: -0.9s;
+  }
+  
+  .confetti-23 {
+    background-color: #263672;
+    animation-delay: -0.8s;
+  }
+  
+  .confetti-24 {
+    background-color: #4caf50;
+    animation-delay: -0.7s;
+  }
+  
+  .confetti-25 {
+    background-color: #9c27b0;
+    animation-delay: -0.6s;
+  }
+  
+  .confetti-26 {
+    background-color: #2196f3;
+    animation-delay: -0.5s;
+  }
+  
+  .confetti-27 {
+    background-color: #ff5722;
+    animation-delay: -0.4s;
+  }
+  
+  .confetti-28 {
+    background-color: #607d8b;
+    animation-delay: -0.3s;
+  }
+  
+  .confetti-29 {
+    background-color: #795548;
+    animation-delay: -0.2s;
+  }
+  
+  .confetti-30 {
+    background-color: #e91e63;
+    animation-delay: -0.1s;
+  }
+  
+  .confetti-31 {
+    background-color: #d13447;
+    animation-delay: -1s;
+  }
+  
+  .confetti-32 {
+    background-color: #ffbf00;
+    animation-delay: -0.9s;
+  }
+  
+  .confetti-33 {
+    background-color: #263672;
+    animation-delay: -0.8s;
+  }
+  
+  .confetti-34 {
+    background-color: #4caf50;
+    animation-delay: -0.7s;
+  }
+  
+  .confetti-35 {
+    background-color: #9c27b0;
+    animation-delay: -0.6s;
+  }
+  
+  .confetti-36 {
+    background-color: #2196f3;
+    animation-delay: -0.5s;
+  }
+  
+  .confetti-37 {
+    background-color: #ff5722;
+    animation-delay: -0.4s;
+  }
+  
+  .confetti-38 {
+    background-color: #607d8b;
+    animation-delay: -0.3s;
+  }
+  
+  .confetti-39 {
+    background-color: #795548;
+    animation-delay: -0.2s;
+  }
+  
+  .confetti-40 {
+    background-color: #e91e63;
+    animation-delay: -0.1s;
+  }
+  /* Add more confetti styles with different colors and animation delays */
+  
+  @keyframes drop {
+    0% {
+      transform: translateY(0) rotate(0deg);
+    }
+    100% {
+      transform: translateY(100vh) rotate(720deg);
+    }
+  }
+  
+  
+  
+  
+  body {
+    margin: 0;
+    overflow: hidden;
+  }  
+
+
+  @media (min-width: 320px) and (max-width: 480px) {
+  }
+  
+  @media (min-width: 481px) and (max-width: 768px) {
+  }
+  
+  @media (min-width: 769px) and (max-width: 992px) {
+  }
+  
+  @media (min-width: 993px) and (max-width: 1200px) {
+  }
+  
+  @media (min-width: 1201px) and (max-width: 1400px) {
+  }
+  
+  @media (min-width: 1401px) and (max-width: 1600px) {
+  }
+  

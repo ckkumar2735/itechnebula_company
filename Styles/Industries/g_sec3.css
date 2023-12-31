@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,200;9..40,300&family=Space+Grotesk:wght@300;400;500;600&display=swap');
+
+
+.ind_head3{
+font-family: Space Grotesk;
+font-size: 35px;
+text-align: center;
+font-weight: 700;
+margin-top: 3rem;
+line-height: 42px;
+letter-spacing: 0em;
+
+
+}
+
+.g-para{
+    font-family: DM Sans;
+}
+
+
+
+.gd_text4{
+    font-family: Space Grotesk;
+    font-size: 30px;
+    color: #38484F;
+    line-height: 42px;
+    font-weight: 700;
+}
+.gd_text3{
+    font-family: DM Sans;
+font-size: 20px;
+font-weight: 400;
+
+line-height: 32px;
+letter-spacing: 0em;
+
+
+}
+.postman{
+    width: 500px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .ck_ind_bg1{
+        display:none;
+    } 
+
+    .ck_ind_bg3{
+        display:none;
+    } 
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .ck_ind_bg1{
+        display:none;
+    }
+
+    .ck_ind_bg3{
+        display:none;
+    } 
+  
+
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .ck_ind_bg1{
+        display:none;
+    }
+
+    .ck_ind_bg3{
+        display:none;
+    } 
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+    .ck_ind_bg1{
+        display:none;
+    }
+
+    .ck_ind_bg3{
+        display:none;
+    } 
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+    .ck_ind_bg2{
+        display:none;
+    }
+    .ck_ind_bg4{
+        display:none;
+    } 
+}
+
+@media (min-width: 1401px) and (max-width: 1600px) {
+
+    .ck_ind_bg2{
+        display:none;
+    }
+
+    .ck_ind_bg4{
+        display:none;
+    } 
+}
+
+@media  (min-width: 1601px) {
+
+    .ck_ind_bg2{
+        display:none;
+    }
+    .ck_ind_bg4{
+        display:none;
+    } 
+}

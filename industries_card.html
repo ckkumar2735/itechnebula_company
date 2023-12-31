@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="./Styles/gd_style.css">
+
+  <title>Document</title>
+</head>
+
+<body>
+
+  <section>
+    <div class="container ">
+      <div class="row">
+        <div class="col">
+          <div class="container mt-5">
+            <div class="row gx-3 gy-3 ">
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="card gd_card">
+                  <img src="./Assets/Rectangle 1.png" class="card-img-top img-fluid" alt="Placeholder Image 1">
+                  <div class="card-body">
+                    <h5 class="card-title mb-3">Prop-Tech Noob package</h5>
+                    <ul class="list-item ">
+                      <li>Virtual tour for one flat</li>
+                      <li>Generate high potential lead through Meta</li>
+                      <li>What’s app auto for troubleshoot your lead.</li>
+                    </ul>
+                    <div class="lists mt-4">
+                      <div>
+                        <a href="#" class="btn btn-primary gd_button">₹</a>
+                        <span class="GD_Amount mt-2">&nbsp; 49,999/-M</span>
+                      </div>
+                      <button type="button" class="btn btn-secondary gd_Btn ck_noob">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="card gd_card">
+                  <img src="./Assets/Rectangle 1 (1).png" class="card-img-top img-fluid" alt="Placeholder Image 2">
+                  <div class="card-body">
+                    <h5 class="card-title">Prop-Tech MID package</h5>
+                    <ul class="list-item2">
+                      <li>Virtual tour for apartment</li>
+                      <li>Generate high potential lead through Google </li>
+                      <li>In-build CRM that manage your workforce</li>
+                      <li> What’s app auto, for troubleshoot your lead</li>
+                    </ul>
+                    <div class="lists mt-4">
+                      <div>
+                        <a href="#" class="btn btn-primary gd_button">₹</a>
+                        <span class="GD_Amount mt-2">&nbsp; 89,999/-M</span>
+                      </div>
+                      <button type="button" class="btn btn-secondary gd_Btn ck_mid">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Third Card -->
+              <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="card gd_card">
+                  <img src="./Assets/Rectangle 1 (2).png" class="card-img-top img-fluid" alt="Placeholder Image 3">
+                  <div class="card-body">
+                    <h5 class="card-title">Prop-Tech PRO package</h5>
+                    <ul class="list-item3">
+                      <li> Virtual tour for apartment</li>
+                      <li> Generate high potential lead through Google</li>
+                      <li> 2 - 3 pages of website, capture your lead </li>
+                      <li> In-build CRM that manage your workforce</li>
+                      <li> What’s app auto, for troubleshoot your lead</li>
+                    </ul>
+                    <div class="lists mt-4">
+                      <div>
+                        <a href="#" class="btn btn-primary gd_button">₹</a>
+                        <span class="GD_Amount mt-2">&nbsp;1,49999/-M</span>
+                      </div>
+                      <button type="button" class="btn btn-secondary gd_Btn ck_pro">Buy Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Add this script section at the end of industries_card.html file -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      // Event listener for Buy Now buttons
+      document.querySelectorAll('.gd_Btn').forEach(function (button) {
+        button.addEventListener('click', function () {
+          // Get the package type from the button class
+          var packageType = button.classList[button.classList.length - 1];
+          // Navigate to the corresponding HTML page
+          window.location.href = packageType + '.html';
+        });
+      });
+    });
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

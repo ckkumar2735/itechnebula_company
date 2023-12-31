@@ -1,0 +1,254 @@
+.rjj-cus {
+  color: #808080;
+  font-family: Roboto;
+  font-size: 16.411px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 161.023%; /* 26.425px */
+}
+.rjj-cus1 {
+  color: #38484f;
+  font-family: Inter;
+  font-size: 34.645px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 0.693px;
+}
+.main-custm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.rjj-group {
+  position: relative;
+  display: block;
+  margin-bottom: 48px;
+}
+.form-rjj1 {
+  border: none;
+  border-bottom: 2px solid rgba(115, 123, 125, 1);
+  display: block;
+  width: 100%;
+  height: 43px;
+  font-size: 15px;
+  background: none;
+  font-family: "Montserrat-SemiBold";
+}
+.spn-rjj {
+  color: #8e8e8e;
+  font-family: Space Grotesk;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+  letter-spacing: 0.5px;
+  position: absolute;
+  top: 11px;
+  transition: all 0.2s ease;
+  transform-origin: 0 0;
+  cursor: text;
+}
+
+.form-group span.border {
+  height: 2px;
+  display: block;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 41px;
+  transform: scaleX(0);
+  transition: all 0.15s ease;
+  background: #fff;
+}
+.form-control:focus {
+  color: #212529;
+  /* background-color: #fff; */
+  border-color: none;
+  outline: 0;
+  box-shadow: none;
+}
+.rjj-get {
+  color: #38484f;
+  font-family: DM Sans;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 52.174% */
+  letter-spacing: 0.46px;
+}
+.rjj-enim {
+  color: #38484f;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.14px;
+}
+.rjj-form00 {
+  border-radius: 50px;
+  background: var(--white, #fff);
+  box-shadow: 0px 141px 200px -80px rgba(25, 58, 75, 0.3);
+}
+.video-frame-1 {
+  width: 100%;
+}
+.form-control:focus + span,
+.form-control:valid + span {
+  transform: translateY(-22px) scale(0.8);
+}
+/* .form-control:focus, .form-control:valid {
+    border-bottom: 2px solid #fff;
+} */
+.rjj-attach {
+  color: #8e8e8e;
+  font-family: Space Grotesk;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 20.8px */
+  letter-spacing: 0.5px;
+}
+.btn-get {
+  color: #38484f;
+
+  text-align: center;
+  font-family: Space Grotesk;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%; /* 24px */
+  letter-spacing: 0.1px;
+  border-radius: 100px;
+  background: #a4d5db;
+  box-shadow: 0px 46px 52px 0px rgba(96, 225, 203, 0.56);
+  height: 50px;
+}
+.rjj-icon {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.rjj-city {
+  color: #38484f;
+  font-family: Space Grotesk;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.rjj-add {
+  color: #38484f;
+  text-align: justify;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 152.2%; /* 30.44px */
+}
+.Upcoming-rjj {
+  color: #38484f;
+  font-family: Space Grotesk;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.rjj-newcity {
+  color: #38484f;
+  text-align: justify;
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 152.2%; /* 30.44px */
+}
+
+.video-container-1 {
+  position: relative;
+  height: 100%;
+}
+
+.video-frame-1 {
+  width: 100%;
+  height: 100%;
+}
+
+.controls {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.play-pause-btn {
+  background: none;
+  border: none;
+  font-size: 40px;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  border-radius: 50%;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.play-pause-btn:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.hidden {
+  display: none;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .main-custm {
+    gap: 59px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .star-rjj {
+    font-size: 232%;
+  }
+  .rjj-city {
+    font-size: 26px;
+  }
+  .Upcoming-rjj {
+    font-size: 27px;
+  }
+  .rjj-icon {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .rjj-cus {
+    font-size: 23.411px;
+  }
+  .rjj-get {
+    font-size: 32px;
+  }
+}
+
+
+@media (min-width: 481px) and (max-width: 768px) {
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+}
+
+@media (min-width: 1401px) and (max-width: 1600px) {
+}
