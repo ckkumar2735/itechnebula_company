@@ -264,6 +264,18 @@
     font-size: 49px;
     padding-bottom: 100px;
   }
+
+  .eyebrow__flashing-dot {
+    display: inline-block;
+    font-size: 0.8em; /* Adjust the font size as needed */
+    position: relative;
+    /* animation: heartbeat 1s infinite alternate; */
+    animation: 1s ease-out 1s normal none infinite running heartbeat; 
+    border: 1px solid #fd0000;
+    border-radius: 30px;
+    /* padding-top: -10px; */
+  
+  }
   .career_opportunity_section {
     height: 50rem;
   }
@@ -288,8 +300,8 @@
     width: 200px;
   }
   .hero {
-    font-size: 12px;
-    padding: 20px;
+    font-size: 15px;
+    /* padding: 20px; */
   }
 }
 
@@ -322,8 +334,8 @@
   }
 
   .hero {
-    font-size: 12px;
-    padding: 20px;
+    font-size: 15px;
+    /* padding: 20px; */
   }
 }
 
