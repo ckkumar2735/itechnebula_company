@@ -105,7 +105,7 @@
       <div class="row">
 
         <div class="main_content_div text_center">
-          <div class="g-center mx-auto" style="position: relative; z-index: 1;"> 
+          <div class="g-center mx-auto" style="position: relative; z-index: 1;">
             <p class="">
             <div class="d-flex hero">
               <div>
@@ -115,14 +115,14 @@
               <div>
                 &nbsp; BREAKING NEWS :
                 <span class="ck_indus_city"> </span>
-                &nbsp;  #1 FASTEST GROWING AGENCY REVELED FOR REAL ESTATE
+                &nbsp; #1 FASTEST GROWING AGENCY REVELED FOR REAL ESTATE
               </div>
             </div>
-          </p>
+            </p>
             <!-- <div class="g-center" style="position: relative; z-index: 1;">
             <p class="hero"><span class="eyebrow__flashing-dot">🔴</span> BRAKING NEWS : Muzaffarpur’S FASTEST GROWING
               ...</p> -->
-              <!-- <div class="notify"> <span class="heartbit"></span> <span class="point"></span> </div> -->
+            <!-- <div class="notify"> <span class="heartbit"></span> <span class="point"></span> </div> -->
           </div>
           <div class="text_center" style="position: relative;">
             <div class="top_left_line" style="position: absolute;   transform: translateY(-50%);">
@@ -139,39 +139,65 @@
     </div>
   </section>
 
-  <script>
-    const getLocation = () => {
-        if (navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition((position) => {
-                const { latitude, longitude } = position.coords;
-                fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${latitude}&lon=${longitude}`)
-                    .then((response) => response.json())
-                    .then((data) => {
-                        console.log(data);
-                        const city = (data.address.city || "Unknown").toUpperCase();
-                        updateCity(city);
-                    })
-                    .catch((error) => {
-                        console.error("Error fetching location:", error);
-                        // If there's an error, set a default city
-                        const defaultCity = "Default City";
-                        updateCity(defaultCity);
-                    });
-            });
+ <!-- Add SweetAlert library -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<!-- Your existing HTML and script -->
+
+<script>
+  const getLocation = () => {
+    if (navigator.permissions) {
+      navigator.permissions.query({ name: 'geolocation' }).then((result) => {
+        if (result.state === 'denied') {
+          // Geolocation is blocked by the user
+          showGeolocationBlockedAlert();
         } else {
-            // If geolocation is not available, set a default city
+          // Geolocation is allowed or prompt
+          if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition((position) => {
+              const { latitude, longitude } = position.coords;
+              fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${latitude}&lon=${longitude}`)
+                .then((response) => response.json())
+                .then((data) => {
+                  console.log(data);
+                  const city = (data.address.city || "Unknown").toUpperCase();
+                  updateCity(city);
+                })
+                .catch((error) => {
+                  console.error("Error fetching location:", error);
+                  const defaultCity = "Default City";
+                  updateCity(defaultCity);
+                });
+            });
+          } else {
             const defaultCity = "Default City";
             updateCity(defaultCity);
+          }
         }
+      });
+    } else {
+      const defaultCity = "Default City";
+      updateCity(defaultCity);
     }
+  }
 
-    const updateCity = (city) => {
-        const ckIndusCity = document.querySelector('.ck_indus_city');
-        ckIndusCity.textContent = city;
-    }
+  const showGeolocationBlockedAlert = () => {
+    Swal.fire({
+      icon: 'warning',
+      title: 'Geolocation Blocked',
+      text: 'Please unblock geolocation to get accurate location information.',
+      showConfirmButton: false,
+      timer: 3000, // Close alert after 3 seconds
+    });
+  }
 
-    // Call the getLocation function when the page loads
-    getLocation();
+  const updateCity = (city) => {
+    const ckIndusCity = document.querySelector('.ck_indus_city');
+    ckIndusCity.textContent = city;
+  }
+
+  // Call the getLocation function when the page loads
+  getLocation();
 </script>
 
 
@@ -349,6 +375,7 @@
 
             </div>
           </div>
+
         </div>
         <div class="Enq-btn text-center">
           <a href="https://wa.me/+916205104602?text=My+Test+Text!"><button class="ind_btn1">Enquiry Now</button></a>
