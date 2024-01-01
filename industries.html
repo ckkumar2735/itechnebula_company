@@ -137,19 +137,31 @@
                     .then((data) => {
                         console.log(data);
                         const city = (data.address.city || "Unknown").toUpperCase();
-                        const ckIndusCity = document.querySelector('.ck_indus_city');
-                        ckIndusCity.textContent = city;
+                        updateCity(city);
                     })
                     .catch((error) => {
                         console.error("Error fetching location:", error);
+                        // If there's an error, set a default city
+                        const defaultCity = "Default City";
+                        updateCity(defaultCity);
                     });
             });
+        } else {
+            // If geolocation is not available, set a default city
+            const defaultCity = "Default City";
+            updateCity(defaultCity);
         }
+    }
+
+    const updateCity = (city) => {
+        const ckIndusCity = document.querySelector('.ck_indus_city');
+        ckIndusCity.textContent = city;
     }
 
     // Call the getLocation function when the page loads
     getLocation();
 </script>
+
 
 
   <section>
