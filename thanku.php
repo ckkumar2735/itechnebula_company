@@ -527,7 +527,7 @@ $conn->close();
             var promoCode = 'MAKAR20';
 
             // Redirect the user to cart1.html with the promo code as a query parameter
-            window.location.href = 'cart1.php?promo=' + encodeURIComponent(promoCode);
+            window.location.href = 'cart1.html?promo=' + encodeURIComponent(promoCode);
         });
     </script>
 

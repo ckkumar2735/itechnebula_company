@@ -34,8 +34,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($conn->query($sql) === TRUE) {
         // echo "Main address inserted successfully";
-        // header('Location:https://www.instamojo.com/@itechnebula/');
-        header('Location:thankyou.html');
+        header('Location:https://www.instamojo.com/@itechnebula/');
+        // header('Location:thankyou.html');
 
 
     } else {
