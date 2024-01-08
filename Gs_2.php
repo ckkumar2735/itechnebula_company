@@ -71,7 +71,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div class="col-md-7 mt-5 text-center">
                 <form action="" method="post">
                     <input type="text" name="userName" placeholder="Enter your First name" class="ck_gs_2_input1 text-center" />
-                    <button type="submit" class="ck_gs_2_btn"> Continue  <img src="Assets/Images/gs_right_arrow.png" class="img-fluid" style="width: 75px; height: 25px;"> </button>
+                    <button type="submit" class="ck_gs_2_btn mt-5"> Continue  <img src="Assets/Images/gs_right_arrow.png" class="img-fluid" style="width: 75px; height: 25px;"> </button>
                 </form>
             </div>
         </div>

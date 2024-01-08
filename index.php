@@ -1433,15 +1433,15 @@ mysqli_stmt_close($stmt);
                     <img src="/Assets/Images/globe_with_meridians.png" class=""> Language
                   </button>
                   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonLight">
-                    <li><a class="dropdown-item active" href="#">English</a></li>
-                    <li><a class="dropdown-item" href="#">
+                    <li><a class="dropdown-item active" href="index.php">English</a></li>
+                    <li><a class="dropdown-item" href="bangla_index.html">
                         বাংলা</a></li>
-                    <li><a class="dropdown-item" href="#">हिंदी </a></li>
+                    <li><a class="dropdown-item" href="hindi_index.html">हिंदी </a></li>
                     <li><a class="dropdown-item" href="#"> ગુજરાતી </a></li>
                     <li><a class="dropdown-item" href="#"> ಕನ್ನಡ</a></li>
                     <li><a class="dropdown-item" href="#"> മലയാളം</a></li>
                     <li><a class="dropdown-item" href="#">मराठी </a></li>
-                    <li><a class="dropdown-item" href="#"> ਪੰਜਾਬੀ</a></li>
+                    <li><a class="dropdown-item" href="panjabi_index.html"> ਪੰਜਾਬੀ</a></li>
                     <li><a class="dropdown-item" href="#">தமிழ் </a></li>
                     <li><a class="dropdown-item" href="#"> తెలుగు</a></li>
                     <li>
