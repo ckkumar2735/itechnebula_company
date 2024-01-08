@@ -26,7 +26,7 @@
     rel="stylesheet">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="stylesheet" href="Styles/Gs/Gs_21.css" />
+    <link rel="stylesheet" href="Styles/Gs/Gs_6.css" />
     <link rel="stylesheet" href="style.css" />
 
     <title>Document</title>
@@ -34,93 +34,24 @@
 
 <body>
 
-    <section>
-        <div class="container-fluid">
-          <div class="row nev-main ">
-            <nav class="navbar navbar-expand-lg navbar-light">
-              <div class="container-fluid ms_mobilepading">
-                <img src="/Assets/Images/logo 1.png" alt="logo" class="img-fluid ms-logo" />
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto rjj-nev">
-                    <li class="nav-item mx-3">
-                      <a class="nav-link  home-rjj" aria-current="page" href="index.php">Home</a>
-                    </li>
-                    <!-- <li class="nav-item mx-3">
-                      <a class="nav-link  home-rjj" aria-current="page" href="index.html">Industries </a>
-                    </li> -->
-    
-                    <!-- Example single danger button -->
-                    <div class="">
-                      <a class="nav-link  home-rjj dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Industries
-                      </a>
-                      <div class="dropdown-menu">
-                        <a class="dropdown-item" href="industries.html">Real Estate</a>
-                        <a class="dropdown-item" href="#">Hotels, Banquet & Hospitality</a>
-                        <a class="dropdown-item" href="#">Health care and Doctors</a>
-    
-                      </div>
-                    </div>
-    
-    
-                    <li class="nav-item mx-3">
-                      <a class="nav-link home-rjj" href="Casestudies.html">Case studies</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li>
-                          <a class="dropdown-item" href="#">Another action</a>
-                        </li>
-                        <li>
-                          <hr class="dropdown-divider" />
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="#">Something else here</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="nav-item mx-3">
-                      <a class="nav-link home-rjj" href="iTechnebula_Specialists.html" tabindex="-1" aria-disabled="true">
-                        iTechNebula Specialists</a>
-                    </li>
-                  </ul>
-                  <div class="rjj-btn-mobile">
-                    <a class="rounded-pill request-rjj " href="form.php"> Request a quote</a>
-                    <a class="rounded-pill clint-rjj" href="https://codedelhiites.dev/team/authentication"> <img src="/Assets/Images/Search Client.png" alt="" class="img-fluid" />
-                      Client login</a>
-                  </div>
-    
-                </div>
-              </div>
-            </nav>
-          </div>
-        </div>
-      </section>
-
     <section class="py-5 text-center">
         <div class="container-fluid">
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-8">
-                    <h1 class="ck_gs_21_text1">Is scalability a consideration for this project?
-
-
+                    <h1 class="ck_gs_6_text1">Why do you think this IT solution is necessary for your organization?
                     </h1>
                 </div>
             </div>
     
             <div class="row justify-content-center align-items-center">
                 <div class="col-md-7 mt-5">
-                    <input type="text" placeholder="Enter the Name" alt="" class="ck_gs_21_input1 mx-2 text-center" />
+                    <input type="text" placeholder="MESSAGE" alt="" class="ck_gs_6_input1 mx-2 text-center" />
                 </div>
             </div>
 
             <div class="row">
                 <div class="mt-5 ">
-                    <a href="Gs_22.html"><button class="ck_gs_21_btn"> Continue  <img src="Assets/Images/gs_right_arrow.png" class="img-fluid" style="width: 75px; height: 25px;"> </button></a>
+                    <a href="Gs_7.html"><button class="ck_gs_6_btn"> Continue  <img src="Assets/Images/gs_right_arrow.png" class="img-fluid" style="width: 75px; height: 25px;"> </button></a>
                 </div>
             </div>
         </div>

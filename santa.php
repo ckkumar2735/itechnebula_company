@@ -91,9 +91,8 @@ include('location_santa.php');
     <div class="container-fluid">
       <div class="row justify-content-between">
         <div class="col-lg-6">
-          <h1 class="mt-4 ck_santa_text1 mx-5">🎄✨ Christmas Cheer Alert! Unlock Up to 40% Off on Your First Order!</h1>
-          <h2 class="mt-4 ck_santa_text2 mx-5"> 🎅 Place your first service with us this Christmas and enjoy an
-            exclusive offer of up to 40% off! 🎉</h2>
+          <h1 class="mt-4 ck_santa_text1 mx-5">🔥 Exclusive Lohri Celebration Offer: Enjoy a 20% Discount! 🔥</h1>
+          <h2 class="mt-4 ck_santa_text2 mx-5"> 🔥 Place your first service with us this Lohri, and enjoy an exclusive offer of up to 20% off! 🎉</h2>
           <!-- Example split danger button -->
           <!-- <form action="emoji.php" method="post"> -->
           <!-- <form id="claimForm" onsubmit="return validateForm()" action="send4_email.php" method="post"> -->
@@ -139,30 +138,49 @@ include('location_santa.php');
           </form> -->
 
           <form method="post" action="" enctype="multipart/form-data">
-
-
             <div class="mt-5">
-              <div class="d-flex position-relative">
-                <input type="text" class="form-control  justify-content-center" name="city" id="city" placeholder="Select your area * " aria-describedby="city" required />
-                <!-- <i class='fa fa-envelope-open position-absolute' style="right: 10px; top: 50%; transform: translateY(-50%);"></i> -->
-                <p></p> <button onclick="getlocation()"> <i class='fa-solid fa-location-dot position-absolute' style=" right: 02px; top: 30%; transform: translateY(-50%);"></i></button>
+              <div class="row d-flex justify-content-center">
+                <div class="col-md-10">
+                  <div class="d-flex position-relative">
+                    <input type="text" class="santa_ck_input22 form-control justify-content-center" name="city" id="city" placeholder="Select your area *" aria-describedby="city" required>
+                    <!-- <i class='fa fa-envelope-open position-absolute' style="right: 10px; top: 50%; transform: translateY(-50%);"></i> -->
+                    <p></p>
+                    <h5 onclick="getlocation()">
+                      <i class='fa-solid fa-location-dot position-absolute' style="right: 20px; top: 45%; transform: translateY(-50%);"></i>
+                    </h5>
+                  </div>
 
+                  <div class="d-flex justify-content-between  mt-5">
+                    <div class="mt-3"> <a class="ck_santa_btn2" href="/">No Thanks</a>
+                    </div>
+                    <div class=""> <button type="submit" id="claimButton" name="submit" class="btn btn-primary-claim btn-lg ck_santa_btn1" onclick="claimOffer()">
+                        Claim Offer
+                      </button></div>
+                  </div>
+
+                </div>
               </div>
             </div>
 
+            <!-- <div class="row">
+              <div class="col-md-10">
+                <div class="mt-5 main-btn-rj1 d-flex justify-content-between">
+                  <a class="ck_santa_btn2" href="/">No Thanks</a>
+                  <button type="submit" id="claimButton" name="submit" class="btn btn-primary-claim btn-lg ck_santa_btn1" onclick="claimOffer()">
+                    Claim Offer
+                  </button>
+                </div>
+              </div>
+            </div> -->
 
-            <div class="mt-5 main-btn-rj1 d-flex justify-content-between">
-              <a class="ck_santa_btn2" href="/">No Thanks</a>
-              <button type="submit" id="claimButton" name="submit" class="btn btn-primary-claim btn-lg ck_santa_btn1" onclick="claimOffer()">
-                Claim Offer</button>
-
-
-            </div>
           </form>
+
+
+
 
         </div>
         <div class="col-lg-6  ck_santa_img1">
-          <canvas id="canvas"></canvas>
+          <!-- <canvas id="canvas"></canvas> -->
 
 
 
@@ -200,30 +218,6 @@ include('location_santa.php');
   </section>
 
 
-  <!-- <script>
-    const getlocation = () => {
-      if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition((position) => {
-          const {
-            latitude,
-            longitude
-          } = position.coords;
-          fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${latitude}&lon=${longitude}`)
-            .then((response) => response.json())
-            .then((data) => {
-              console.log(data);
-              const city = data.address.city || "Unknown";
-              const des = document.querySelector("p");
-              des.innerHTML = `City: ${city}`;
-            })
-            .catch((error) => {
-              console.error("Error fetching city:", error);
-            });
-        });
-      }
-    }
-  </script> -->
-
   <script>
     const getlocation = () => {
       if (navigator.geolocation) {
@@ -235,91 +229,34 @@ include('location_santa.php');
           fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${latitude}&lon=${longitude}`)
             .then((response) => response.json())
             .then((data) => {
+
               console.log(data);
-              const location = data.display_name || "Unknown";
+              // const location = data.display_name || "Unknown";
+              const location = data.address.state_district || "Unknown";
+
+              const inputField = document.getElementById("city");
+              inputField.value = location;
               const des = document.querySelector("p");
-              des.innerHTML = `Location: ${location}`;
+              // des.innerHTML = `Location: ${location}`;
             })
             .catch((error) => {
               console.error("Error fetching location:", error);
             });
         });
       }
-    }
-  </script>
-
-
-
-  // <script>
-    //   const getlocation = () => {
-    //     fetch("https://ipapi.co/json")
-    //       .then((response) => response.json())
-    //       .then((data) => {
-    //         console.log(data);
-    //         const des = document.querySelector("p");
-    //         des.innerHTML = ` ${data.city}`;
-    //       });
-    //   };
-    // 
-  </script>
-
-
-  <script>
-    let canvas = document.getElementById("canvas");
-    let context = canvas.getContext("2d");
-    let width = window.innerWidth;
-    let height = window.innerHeight;
-    let snowflakes = [];
-
-    canvas.width = width;
-    canvas.height = height;
-
-    function createSnowflakes() {
-      for (let i = 0; i < 200; i++) {
-        let size = Math.random() * 3;
-        let x = Math.random() * width;
-        let y = Math.random() * height;
-        let speed = Math.random() * 3 + 1;
-
-        snowflakes.push({
-          x,
-          y,
-          size,
-          speed
-        });
-      }
-    }
-
-    function drawSnowflakes() {
-      context.clearRect(0, 0, width, height);
-      context.fillStyle = "#ffffff";
-
-      for (let flake of snowflakes) {
-        context.beginPath();
-        context.arc(flake.x, flake.y, flake.size, 0, Math.PI * 2);
-        context.fill();
-
-        flake.y += flake.speed;
-
-        // If the snowflake reaches the bottom, reset its position to the top
-        if (flake.y > height) {
-          flake.y = 0;
-          flake.x = Math.random() * width;
-        }
-      }
-
-      requestAnimationFrame(drawSnowflakes);
-    }
-
-    createSnowflakes();
-    drawSnowflakes();
+    };
   </script>
 
 
 
 
 
-// save entry for each page by ckk
+
+
+
+
+
+  // save entry for each page by ckk
   <script>
     // Record entry time when the page loads
     var entryTime = new Date().getTime();

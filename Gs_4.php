@@ -1,3 +1,9 @@
+<?php
+session_start();
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -26,129 +32,61 @@
     rel="stylesheet">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="stylesheet" href="Styles/Gs/Gs_22.css" />
+    <link rel="stylesheet" href="Styles/Gs/Gs_4.css" />
     <link rel="stylesheet" href="style.css" />
+
 
     <title>Document</title>
 </head>
 
 <body>
-    
-    <section>
-        <div class="container-fluid">
-          <div class="row nev-main ">
-            <nav class="navbar navbar-expand-lg navbar-light">
-              <div class="container-fluid ms_mobilepading">
-                <img src="/Assets/Images/logo 1.png" alt="logo" class="img-fluid ms-logo" />
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto rjj-nev">
-                    <li class="nav-item mx-3">
-                      <a class="nav-link  home-rjj" aria-current="page" href="index.php">Home</a>
-                    </li>
-                    <!-- <li class="nav-item mx-3">
-                      <a class="nav-link  home-rjj" aria-current="page" href="index.html">Industries </a>
-                    </li> -->
-    
-                    <!-- Example single danger button -->
-                    <div class="">
-                      <a class="nav-link  home-rjj dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Industries
-                      </a>
-                      <div class="dropdown-menu">
-                        <a class="dropdown-item" href="industries.html">Real Estate</a>
-                        <a class="dropdown-item" href="#">Hotels, Banquet & Hospitality</a>
-                        <a class="dropdown-item" href="#">Health care and Doctors</a>
-    
-                      </div>
-                    </div>
-    
-    
-                    <li class="nav-item mx-3">
-                      <a class="nav-link home-rjj" href="Casestudies.html">Case studies</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li>
-                          <a class="dropdown-item" href="#">Another action</a>
-                        </li>
-                        <li>
-                          <hr class="dropdown-divider" />
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="#">Something else here</a>
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="nav-item mx-3">
-                      <a class="nav-link home-rjj" href="iTechnebula_Specialists.html" tabindex="-1" aria-disabled="true">
-                        iTechNebula Specialists</a>
-                    </li>
-                  </ul>
-                  <div class="rjj-btn-mobile">
-                    <a class="rounded-pill request-rjj " href="form.php"> Request a quote</a>
-                    <a class="rounded-pill clint-rjj" href="https://codedelhiites.dev/team/authentication"> <img src="/Assets/Images/Search Client.png" alt="" class="img-fluid" />
-                      Client login</a>
-                  </div>
-    
-                </div>
+
+  <section class="py-5 text-center">
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-8">
+                <!-- <h1 class="ck_gs_4_text1">Yes, [_FirstName_]! We'd like to be sure iTechnebula is the right fit for your business. Can we ask you a few questions</h1> -->
+                <?php
+                // Check if the name is set in the session
+                if (isset($_SESSION["user_name"]) && !empty($_SESSION["user_name"])) {
+                    // Display personalized greeting with the user's name
+                    echo '<h1 class="ck_gs_4_text1">Yes, ' . $_SESSION["user_name"] . '! We\'d like to be sure iTechnebula is the right fit for your business. Can we ask you a few questions</h1>';
+                } else {
+                    // Fallback if the name is not set in the session
+                    echo '<h1 class="ck_gs_4_text1">Yes! We\'d like to be sure iTechnebula is the right fit for your business. Can we ask you a few questions</h1>';
+                }
+                ?>
               </div>
-            </nav>
-          </div>
         </div>
-      </section>
 
-    <section class="py-5 text-center">
-        <div class="container-fluid">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-md-8">
-                    <h1 class="ck_gs_22_text1">What is your current MONTHLY revenue?
-
-
-                    </h1>
-                </div>
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-7 mt-5">
+                <p class="ck_gs_4_text2">First, what do you sell?</p>
             </div>
-    
-            <div class="row justify-content-center align-items-center">
-                <div class="col-md-7 mt-5 mx-auto">
-                    <input type="text" placeholder="₹0" alt="" class="ck_gs_22_input1 text-center" readonly>
-                </div>
-            </div>
+        </div>
 
-            <div class="row justify-content-center align-items-center">
-                <div class="col-md-7">
-                    <div class="range-container mt-5">
-                        <input type="range" id="inrRange" name="inrRange" min="1000000" max="100000000" step="1" value="0"
-                            oninput="updateInputValue()">
-                        <output for="inrRange" id="rangeValue"></output>
-                    </div>
+        <div class="row">
+            <div class="d-flex justify-content-center align-items-center mt-5" style="gap: 60px;">
+                <div class="card">
+                    <a href="Gs_5.php">
+                        <div class="card-content">
+                            <img src="Assets/Images/ck_Gs_4_img1.png " class="img-fluid mt-5" alt="Image 1">
+                            <button class="ck_Gs_4_btn1 mt-5">Product</button>
+                        </div>
+                    </a>
                 </div>
-            </div>
-
-            <div class="row">
-                <div class="mt-5 ">
-                    <a href="thankyou.html"><button class="ck_gs_22_btn"> Continue  <img src="Assets/Images/gs_right_arrow.png" class="img-fluid" style="width: 75px; height: 25px;"> </button></a>
+                <div class="card">
+                    <a href="Gs_5.php">
+                        <div class="card-content">
+                            <img src="Assets/Images/ck_Gs_4_img2.png" class="img-fluid mt-5" alt="Image 2">
+                            <button class="ck_Gs_4_btn1 mt-5">Service</button>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
-    </section>
-    
-    <script>
-        // Function to update input value based on slider value
-        function updateInputValue() {
-            // Get the range slider element
-            var slider = document.getElementById("inrRange");
-
-            // Get the input element
-            var input = document.querySelector(".ck_gs_22_input1");
-
-            // Update the input value with the slider value
-            input.value = "₹" + slider.value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-        }
-    </script>
+    </div>
+</section>
 
 
 <footer style="background: #A4D5DB;">
@@ -316,7 +254,7 @@
   </script>
 
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 
 </html>

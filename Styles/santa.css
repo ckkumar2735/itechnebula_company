@@ -1,112 +1,132 @@
 .ck_santa_img1 {
-    background-image: url('/Assets/Images/circle_santa.png');
-    background-size: cover;
-    background-position: end;
-    background-repeat: no-repeat;
-    height: 100vh;
-    margin-top: 50px;
-    position: relative; /* Add this line to ensure z-index works */
+  background-image: url("/Assets/Images/circle_santa.png");
+  background-size: cover;
+  background-position: end;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin-top: 50px;
+  position: relative; /* Add this line to ensure z-index works */
 }
 
-.ck_santa_text1{
-    color: #38484F;
-font-family: Space Grotesk;
-/* font-size: 36px; */
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+.santa_ck_input22 {
+  /* display: flex; */
+  /* width: 390px; */
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  color: #7d7878;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
-.ck_santa_text2{
-    color: #38484F;
-font-family: DM Sans;
-/* font-size: 24px; */
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+.ck_santa_text1 {
+  color: #38484f;
+  font-family: Space Grotesk;
+  /* font-size: 36px; */
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
-.ck_santa_btn1{
-    display: flex;
-    width: 187px;
-    height: 57px;
-    padding: 20px 10px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    flex-shrink: 0;
-    border-radius: 10px;
-background: #A4D5DB;
-box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25); 
+.ck_santa_text2 {
+  color: #38484f;
+  font-family: DM Sans;
+  /* font-size: 24px; */
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
-.ck_santa_btn1:hover{
-    background: #0404FC;
-    color:#fff;
+.ck_santa_btn1 {
+  display: flex;
+  width: 187px;
+  height: 57px;
+  padding: 20px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #a4d5db;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+}
+.ck_santa_btn1:hover {
+  background: #0404fc;
+  color: #fff;
 }
 
-.ck_santa_btn2{
-    color: rgba(0, 0, 0, 0.70);
-font-family: Space Grotesk;
-font-size: 22px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-text-decoration-line: underline;
+.ck_santa_btn2 {
+  color: rgba(0, 0, 0, 0.7);
+  font-family: Space Grotesk;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: underline;
 }
 
-.ck_santa_text33{
-    color: #38484F;
-font-family: DM Sans;
-font-size: 10px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+.ck_santa_text33 {
+  color: #38484f;
+  font-family: DM Sans;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
-.ck_santa_gift{
-    margin-top:-200px;
+.ck_santa_gift {
+  margin-top: -200px;
 }
 
 .img-crcl1 {
-    display: none;
+  display: none;
 }
 
 .rotate {
-    animation: rotate 70s linear infinite;
+  animation: rotate 70s linear infinite;
 }
 
 @keyframes rotate {
-    0% {
-        transform: rotate(0deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 body {
-    margin: 0;
-    /* overflow: hidden; */
-    position: relative;
+  margin: 0;
+  /* overflow: hidden; */
+  position: relative;
 }
 
 canvas {
-    display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    pointer-events: none;
-    z-index: 1;
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 1;
 }
 
 .container {
-    position: relative;
-    z-index: 999; /* Set a higher z-index to bring it to the front */
+  position: relative;
+  z-index: 999; /* Set a higher z-index to bring it to the front */
 }
 
-
 @media (min-width: 320px) and (max-width: 480px) {
+  .ck_santa_btn2 {
+    font-size: 22px;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
+  .ck_santa_btn2 {
+    font-size: 22px;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
