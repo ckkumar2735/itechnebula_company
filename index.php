@@ -216,7 +216,7 @@ mysqli_stmt_close($stmt);
             your Local business soar to new heights. With इटेकनेब्यूला's expertise, every click becomes a step toward
             success. 💻 we're here to equip your business for the digital era. Let's amplify your local impact together!
           </p>
-          <button class="border-0 mx-auto find-rjj mb-4 rounded-pill">Let’s Start Now</button>
+         <a href="Gs_1.php"> <button class="border-0 mx-auto find-rjj mb-4 rounded-pill">Let’s Start Now</button></a>
           <img src="/Assets/Images/Group 56.png" alt="" class="img-fluid heroCircle imageTopD d-block" />
         </div>
         <div class="col-lg-6 mt-5">
@@ -1526,12 +1526,12 @@ mysqli_stmt_close($stmt);
     }, 2000);
   </script> -->
 
-  <!-- <script>
+  <script>
   setTimeout(function() {
     window.location.href = 'santa.html';
     <a href="page.php">Go to PHP Page</a>
   }, 2000);
-</script> -->
+</script>
 
   <script>
     document.addEventListener("DOMContentLoaded", function() {
@@ -1550,6 +1550,106 @@ mysqli_stmt_close($stmt);
     });
   </script>
 
+
+<!-- Language map -->
+
+<!-- <script>
+    var alreadyRedirected = false;  // Added this variable to track whether redirection has already occurred
+
+    // Function to get the current city using geolocation and OpenCage Geocoding API
+    function getCurrentCity() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(
+                function(position) {
+                    var latitude = position.coords.latitude;
+                    var longitude = position.coords.longitude;
+
+                    // Replace 'YOUR_OPENCAGE_API_KEY' with your actual OpenCage API key
+                    var apiKey = '9ce1eda527e2427cab59168d6b93eecd';
+                    var apiUrl = `https://api.opencagedata.com/geocode/v1/json?key=${apiKey}&q=${latitude}+${longitude}&pretty=1`;
+
+                    // Fetch city information from OpenCage Geocoding API
+                    fetch(apiUrl)
+                        .then(response => response.json())
+                        .then(data => {
+                            console.log('API Response:', data); // Log the entire response for debugging
+
+                            // Check if the city component is available in the response
+                            if (data.results && data.results.length > 0) {
+                                var cityName = data.results[0].components.city || data.results[0].components.state_district;
+
+                                // Load specific HTML page based on city
+                                loadCityPage(cityName);
+                            } else {
+                                console.error('City not found in the API response.');
+                                // If city is not found, load default page
+                                loadDefaultPage();
+                            }
+                        })
+                        .catch(error => {
+                            console.error('Error fetching city:', error);
+                            // If there is an error fetching city, load default page
+                            loadDefaultPage();
+                        });
+                },
+                function(error) {
+                    console.error('Error getting geolocation:', error);
+                    // If there is an error getting geolocation, load default page
+                    loadDefaultPage();
+                },
+                { timeout: 10000 }  // Set a timeout to stop watching for changes after 10 seconds
+            );
+        } else {
+            document.getElementById("liveCity").innerHTML = "Geolocation is not supported by this browser.";
+            // If geolocation is not supported, load default page
+            loadDefaultPage();
+        }
+    }
+
+    // Function to load specific HTML page based on city or state_district
+    function loadCityPage(locationName) {
+        var pageMapping = {
+            "Punjab": "punjabi_index.html",
+            "Haryana": "punjabi_index.html",
+            "West Bengal": "bangla_index.html",
+            "Bihar": "hindi_index.html",
+            "Jharkhand": "hindi_index.html",
+            "Uttar Pradesh": "hindi_index.html"
+            // Add more mappings as needed
+        };
+
+        // Check if the location is in the mapping
+        if (pageMapping.hasOwnProperty(locationName)) {
+            var selectedPage = pageMapping[locationName];
+            // Redirect to the selected HTML page only if not redirected before
+            if (!alreadyRedirected) {
+                window.location.href = selectedPage;
+                alreadyRedirected = true;  // Set the flag to true after redirecting
+            }
+        } else {
+            console.error('HTML page not mapped for the location:', locationName);
+            // If HTML page is not mapped, load default page
+            loadDefaultPage();
+        }
+    }
+
+    // Function to load default HTML page
+    function loadDefaultPage() {
+        // Redirect to the default HTML page (e.g., index.php) only if not redirected before
+        if (!alreadyRedirected) {
+            window.location.href = "index.php";
+            alreadyRedirected = true;  // Set the flag to true after redirecting
+        }
+    }
+
+    // Call the function to get the current city and load the appropriate HTML page
+    getCurrentCity();
+</script> -->
+
+
+
+
+<!-- Language map End -->
 
 
 

@@ -149,7 +149,7 @@ $conn->close();
                                         <!-- <p class="card-text ck_766"> -->
                                         <p class="card-text ck_766" id="orderNumber" name="orderNumber"></p>
                                         <p class="card-text ck_766" id="coupon_code" name="coupon_code" style="display: none;">
-                                            <input type="text" id="coupon_code_input" name="coupon_code" value="MAKAR20" />
+                                            <input type="text" id="coupon_code_input" name="coupon_code" value="HOLI20" />
                                         </p>
                                         <p class="card-text ck_766">Discount Code: MAKAR_SANKRANTI20 </p>
 
@@ -524,7 +524,7 @@ $conn->close();
             event.preventDefault();
 
             // Get the promo code from the button or any other source
-            var promoCode = 'MAKAR20';
+            var promoCode = 'HOLI20';
 
             // Redirect the user to cart1.html with the promo code as a query parameter
             window.location.href = 'cart1.html?promo=' + encodeURIComponent(promoCode);

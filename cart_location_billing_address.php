@@ -1,3 +1,9 @@
+
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -44,9 +50,9 @@
     <section>
         <div class="container">
             <div class="row d-flex justify-content-center">
-                <div class="col-md-11">
+                <div class="col-lg-11">
                     <div class="row d-flex justify-content-evenly">
-                        <div class="col-md-2">
+                        <div class="col-lg-2 ck_cart_location_shipping_address_sec1_hide">
                             <div class="ck_cart1_sec1">
                                 <div class="d-flex flex-column align-items-center">
                                     <div class="d-flex icon-container ck_cart1_sec1_cart justify-content-center align-items-center active"
@@ -65,25 +71,25 @@
                             </div>
                         </div>
 
-                        <div class="col-md-10 ">
+                        <div class="col-lg-10 ">
                             <div class="row mt-5 d-flex justify-content-evenly">
-                                <div class="col-md-10">
+                                <div class="col-lg-10">
                                     <div class="cart_location_shipping_address_row1 mt-4">
                                         <!-- <form id="shipping_order" method="post"
                                             action="cart_location_shipping_submit.php"  > -->
-                                        <form id="shipping_order" method="post" action="cart_location_shipping_submit.php"
-                                            onsubmit="return validateForm()">
+                                        <form id="shipping_order" method="post"
+                                            action="cart_location_shipping_submit.php" onsubmit="return validateForm()">
 
-                                            <p class="ck_location_shipping_address_text1">2. Shiping Address</p>
+                                            <p class="ck_location_shipping_address_text1"><h3>3. Billing Address </h3></p>
                                             <div class="row ">
-                                                <div class="col-md-6 flex-column">
+                                                <div class="col-lg-6 flex-column">
                                                     <div><label class="ck_location_shipping_address_text2">First
                                                             Name</label></div>
-                                                    <div><input type="text" placeholder="First Name"
+                                                    <div class=""><input type="text" placeholder="First Name"
                                                             style="text-align: start;" name="First_Name"
                                                             class="ck_location_shipping_address_input1"></div>
                                                 </div>
-                                                <div class="col-md-6 flex-column">
+                                                <div class="col-lg-6 flex-column">
                                                     <div><label class="ck_location_shipping_address_text3">Last
                                                             Name</label></div>
                                                     <div><input type="text" placeholder="Last Name"
@@ -103,10 +109,11 @@
                                                         placeholder="Country"
                                                         class="ck_location_shipping_address_input3">
                                                     <datalist id="Countries">
-                                                        <option value="Apple">
-                                                        <option value="Banana">
+                                                        <option value="India">
+
+                                                            <!-- <option value=" ">
                                                         <option value="Orange">
-                                                        <option value="Mango">
+                                                        <option value="Mango"> -->
                                                     </datalist>
                                                 </div>
 
@@ -146,14 +153,14 @@
 
 
                                             <div class="row ">
-                                                <div class="col-md-6 flex-column">
+                                                <div class="col-lg-6 flex-column">
                                                     <div><label class="ck_location_shipping_address_text8">State</label>
                                                     </div>
                                                     <div><input type="text" placeholder="State" name="State"
                                                             style="text-align: start;"
                                                             class="ck_location_shipping_address_input6"></div>
                                                 </div>
-                                                <div class="col-md-6 flex-column">
+                                                <div class="col-lg-6 flex-column">
                                                     <div><label class="ck_location_shipping_address_text9">Zip
                                                             Code</label></div>
                                                     <div><input type="text" placeholder="Zip Code" name="Zip_Code"
@@ -182,7 +189,7 @@
                                                 </div>
                                             </div>
                                             <div class=" d-flex justify-content-end">
-                                                <div class="">
+                                                <div class="mx-auto">
                                                     <button
                                                         class="ck_location_shipping_address_button1">Continue</button>
 
@@ -221,36 +228,36 @@
     <script>
         // Function to validate the form
         function validateForm() {
-    console.log("Validation function called");
+            console.log("Validation function called");
 
-    var phoneNumber = document.forms["shipping_order"]["Phone_Number"].value;
-    console.log("Phone_Number: " + phoneNumber);
+            var phoneNumber = document.forms["shipping_order"]["Phone_Number"].value;
+            console.log("Phone_Number: " + phoneNumber);
 
-    // Validate phone number
-    if (phoneNumber.length !== 10 || isNaN(phoneNumber)) {
-        alert("Please enter a valid 10-digit phone number");
-        return false;
-    }
+            // Validate phone number
+            if (phoneNumber.length !== 10 || isNaN(phoneNumber)) {
+                alert("Please enter a valid 10-digit phone number");
+                return false;
+            }
 
-    // Validate zip code
-    var zipCode = document.forms["shipping_order"]["Zip_Code"].value;
-    console.log("Zip Code: " + zipCode);
+            // Validate zip code
+            var zipCode = document.forms["shipping_order"]["Zip_Code"].value;
+            console.log("Zip Code: " + zipCode);
 
-    if (zipCode.length !== 6 || isNaN(zipCode)) {
-        alert("Please enter a valid 6-digit zip code");
-        return false;
-    }
+            if (zipCode.length !== 6 || isNaN(zipCode)) {
+                alert("Please enter a valid 6-digit zip code");
+                return false;
+            }
 
-    // Validate checkbox
-    var checkbox = document.getElementById("myCheckbox");
-    if (!checkbox.checked) {
-        alert("Please agree to save information for a future fast checkout");
-        return false;
-    }
+            // Validate checkbox
+            var checkbox = document.getElementById("myCheckbox");
+            if (!checkbox.checked) {
+                alert("Please agree to save information for a future fast checkout");
+                return false;
+            }
 
-    // If all validations pass, continue with the form submission
-    return true;
-}
+            // If all validations pass, continue with the form submission
+            return true;
+        }
 
     </script>
 

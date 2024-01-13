@@ -205,18 +205,175 @@ border:none;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
+    .ck_cart_location_shipping_address_sec1_hide{
+        display:none;
+    }
+
+    .ck_location_shipping_address_input1{
+    padding: 10px 60px 10px 10px;
+    }
+    .ck_location_shipping_address_input2{
+        padding: 10px 60px 10px 10px;
+        }
+        .ck_location_shipping_address_input3{
+            width: 274px;
+            padding: 10px 80px 10px 10px;
+            }
+            .ck_location_shipping_address_input4{
+                width: 274px;
+                padding: 10px 80px 10px 10px;
+                }
+                .ck_location_shipping_address_input5{
+                    width: 274px;
+                    padding: 10px 80px 10px 10px;
+                    }
+                    .ck_location_shipping_address_input6{
+                        padding: 10px 60px 10px 10px;
+                        }
+                        .ck_location_shipping_address_input7{
+                            padding: 10px 60px 10px 10px;
+                            }
+                            .ck_location_shipping_address_input8{
+                                width: 274px;
+                                padding: 10px 80px 10px 10px;
+                                }
+                                .ck_location_shipping_address_button1{
+                                    margin: 20px;
+                                    /* align-items:center; */
+                                }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
+    .ck_cart_location_shipping_address_sec1_hide{
+        display:none;
+    }
+    .ck_location_shipping_address_input1{
+        padding: 10px 220px 10px 10px;
+        }
+        .ck_location_shipping_address_input2{
+            padding: 10px 220px 10px 10px;
+            }
+            .ck_location_shipping_address_input3{
+                width: 435px;
+                padding: 10px 80px 10px 10px;
+                }
+                .ck_location_shipping_address_input4{
+                    width: 435px;
+                    padding: 10px 80px 10px 10px;
+                    }
+                    .ck_location_shipping_address_input5{
+                        width: 435px;
+                        padding: 10px 80px 10px 10px;
+                        }
+                        .ck_location_shipping_address_input6{
+                            padding: 10px 220px 10px 10px;
+                            }
+                            .ck_location_shipping_address_input7{
+                                padding: 10px 220px 10px 10px;
+                                }
+                                .ck_location_shipping_address_input8{     
+                                    width: 435px;
+                                    padding: 10px 80px 10px 10px;
+                                    }
+                                    .ck_location_shipping_address_button1{
+                                        margin: 40px;
+                                    }
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
+    .ck_cart_location_shipping_address_sec1_hide{
+        display:none;
+    }
+    .ck_location_shipping_address_input1{
+        padding: 10px 400px 10px 10px;
+        }
+        .ck_location_shipping_address_input2{
+            padding: 10px 400px 10px 10px;
+            }
+            .ck_location_shipping_address_input3{
+                width: 620px;
+                padding: 10px 400px 10px 10px;
+                }
+                .ck_location_shipping_address_input4{
+                    width: 620px;
+                    padding: 10px 80px 10px 10px;
+                    }
+                    .ck_location_shipping_address_input5{
+                        width: 620px;
+                        padding: 10px 80px 10px 10px;
+                        }
+                        .ck_location_shipping_address_input6{
+                            padding: 10px 400px 10px 10px;
+                            }
+                            .ck_location_shipping_address_input7{
+                                padding: 10px 400px 10px 10px;
+                                }
+                                .ck_location_shipping_address_input8{
+                                    width: 620px;
+                                    padding: 10px 80px 10px 10px;
+                                    }
 }
 
 @media (min-width: 993px) and (max-width: 1200px) {
+    .ck_location_shipping_address_input1{
+        padding: 10px 21px 10px 10px;
+        }
+        .ck_location_shipping_address_input2{
+            padding: 10px 30px 10px 10px;
+            }
+            .ck_location_shipping_address_input3{
+                width: 510px;
+                padding: 10px 400px 10px 10px;
+                }
+                .ck_location_shipping_address_input4{
+                    width: 510px;
+                    padding: 10px 80px 10px 10px;
+                    }
+                    .ck_location_shipping_address_input5{
+                        width: 510px;
+                        padding: 10px 80px 10px 10px;
+                        }
+                        .ck_location_shipping_address_input6{
+                            padding: 10px 21px 10px 10px;
+                            }
+                            .ck_location_shipping_address_input7{
+                                padding: 10px 30px 10px 10px;
+                                }
+                                .ck_location_shipping_address_input8{
+                                    width: 510px;
+                                    padding: 10px 80px 10px 10px;
+                                    }
 }
 
 @media (min-width: 1201px) and (max-width: 1400px) {
+    .ck_location_shipping_address_input1{
+        padding: 10px 70px 10px 10px;
+        }
+        .ck_location_shipping_address_input2{
+            padding: 10px 83px 10px 10px;
+            }
+            .ck_location_shipping_address_input3{
+                width: 620px;
+                padding: 10px 400px 10px 10px;
+                }
+                .ck_location_shipping_address_input4{
+                    width: 620px;
+                    padding: 10px 80px 10px 10px;
+                    }
+                    .ck_location_shipping_address_input5{
+                        width: 620px;
+                        padding: 10px 80px 10px 10px;
+                        }
+                        .ck_location_shipping_address_input6{
+                            padding: 10px 70px 10px 10px;
+                            }
+                            .ck_location_shipping_address_input7{
+                                padding: 10px 83px 10px 10px;
+                                }
+                                .ck_location_shipping_address_input8{
+                                    width: 620px;
+                                    padding: 10px 80px 10px 10px;
+                                    }
 }
 
 @media (min-width: 1401px) and (max-width: 1600px) {

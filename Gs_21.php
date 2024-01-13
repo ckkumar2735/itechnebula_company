@@ -21,7 +21,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-  <link rel="stylesheet" href="Styles/Gs/Gs_6.css" />
+  <link rel="stylesheet" href="Styles/Gs/Gs_21.css" />
   <link rel="stylesheet" href="style.css" />
 
   <title>Document</title>
@@ -108,15 +108,15 @@
               <div class="stepper-line"></div>
             </li>
             <li class="stepper-item">
-              <div class="stepper-circle stepper-active">2</div>
+              <div class="stepper-circle stepper-active_black">2</div>
               <div class="stepper-line"></div>
             </li>
             <li class="stepper-item">
-              <div class="stepper-circle">3</div>
+              <div class="stepper-circle stepper-active_black">3</div>
               <div class="stepper-line"></div>
             </li>
-            <li class="stepper-item">
-              <div class="stepper-circle">4</div>
+            <li class="stepper-item ">
+              <div class="stepper-circle stepper-active">4</div>
             </li>
           </ul>
         </div>
@@ -124,20 +124,22 @@
         <div class="col-lg-10">
           <div class="row justify-content-center align-items-center">
             <div class="col-md-8">
-              <h1 class="ck_gs_6_text1">Why do you think this IT solution is necessary for your organization?
+              <h1 class="ck_gs_21_text1">Is scalability a consideration for this project?
+
+
               </h1>
             </div>
           </div>
 
           <div class="row justify-content-center align-items-center">
             <div class="col-md-7 mt-5">
-              <input type="text" placeholder="MESSAGE" alt="" class="ck_gs_6_input1 mx-2 text-center" />
+              <input type="text" placeholder="Enter the Name" alt="" class="ck_gs_21_input1 mx-2 text-center" />
             </div>
           </div>
 
           <div class="row">
             <div class="mt-5 ">
-              <a href="Gs_7.php"><button class="ck_gs_6_btn"> Continue <img src="Assets/Images/gs_right_arrow.png" class="img-fluid" style="width: 75px; height: 25px;"> </button></a>
+              <a href="Gs_22.php"><button class="ck_gs_21_btn"> Continue <img src="Assets/Images/gs_right_arrow.png" class="img-fluid" style="width: 75px; height: 25px;"> </button></a>
             </div>
           </div>
         </div>

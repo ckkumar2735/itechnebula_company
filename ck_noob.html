@@ -36,9 +36,9 @@
     <section>
         <div class="container-fluid">
             <div class="row d-flex  justify-content-center">
-                <div class="col-md-10">
-                    <div class="row ">
-                        <div class="col-md-2">
+                <div class="col-lg-11">
+                    <div class="row">
+                        <div class="col-lg-2 col-sm-12 mb-3 cart1_ck_hide ">
                             <div class="ck_cart1_sec1">
                                 <div class="d-flex flex-column align-items-center">
                                     <div class="d-flex icon-container ck_cart1_sec1_cart justify-content-center align-items-center active"
@@ -57,7 +57,7 @@
                             </div>
                         </div>
 
-                        <div class="col-md-7">
+                        <div class="col-lg-7 col-sm-12 mb-3">
                             <div class="">
                                 <div class="d-flex justify-content-between ck_cart1_text3 ">
                                     <div class="ck_cart1_text10">
@@ -67,17 +67,21 @@
                                         <h2><u>Duration</u></h2>
                                     </div>
                                 </div>
-                                <div class="  ck_cart1_bg1 ">
+                                <div class="  ck_cart1_bg1 " style=" height: 150px;">
+                                    
                                     <div class="d-flex  justify-content-between" style="margin: 50px;" id="noobPackage">
-                                        <div class="mt-5">
+                                        <div class="mt-5 cart1_ck_radio ">
                                             <input type="radio" name="selectedPackage" class="ck_cart1_package_radio"
                                                 data-package-price="49999" data-months="3" checked>
                                         </div>
-                                        <div class="mt-4"><img src="/Assets/cart-1.png"></div>
+                                        <div class="mt-4"><img src="/Assets/cart-1.png" class="ck_cart1_radio1_image1">
+                                        </div>
                                         <div class="mt-4">
                                             <p class="ck_cart1_text4" name="package_name" id="packageNameNoob"> Noob
                                                 package</p>
-                                            <p id="packagePriceNoob"> 49,999/-M</p>
+                                            <!-- <p id="packagePriceNoob"> 49,999/-M</p> -->
+                                            <p id="packagePriceNoob">₹49,999</p>
+
                                         </div>
                                         <div class="">
                                             <p class="ck_cart1_text5 mx-4">Month</p>
@@ -97,9 +101,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-lg-3 col-sm-12 mb-3">
                             <div class="d-flex justify-content-center ">
-                                <i class="far fa-user fa-2xl  ck_cart1_icon1" style="width: 51px; height: 48px;"></i>
+                                <i class="far fa-user fa-2xl  ck_cart1_icon1  cart1_user_ck_hide"
+                                    style="width: 51px; height: 48px;"></i>
                             </div>
                             <div class="ck_cart1_bg2 ">
                                 <p class="text-center ck_cart1_text6 ">Your Subtotal</p>
@@ -131,7 +136,7 @@
                                         </div> -->
                                     </div>
                                     <div class="row d-flex justify-content-center">
-                                        <div class="col-md-10">
+                                        <div class="col-lg-10">
                                             <button type="submit" class="ck_cart1_button1" id="confirmOrderBtn">Confirm
                                                 Order</button>
                                         </div>
@@ -193,10 +198,10 @@
                     var quantityInput = selectedPackage.closest('.d-flex.justify-content-between').querySelector('.ck_cart1_input1');
                     var quantity = parseInt(quantityInput.value) || 1;
 
-                    total = (packagePrice / quantity);
+                    total = (packagePrice * quantity);
 
                     var promoCode = document.getElementById('promoCode').value;
-                    if (promoCode && promoCode.toUpperCase() === 'MAKAR20') {
+                    if (promoCode && promoCode.toUpperCase() === 'HOLI20') {
                         total *= 0.8;
                     }
 

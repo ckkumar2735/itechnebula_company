@@ -1,28 +1,16 @@
 <?php
 include('db.php');
-session_start();
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  // Get the entered name from the form
-  $enteredName = $_POST["userName"];
 
-  // Check if the name is not empty
-  if (trim($enteredName) !== "") {
-    // Store the name in a session
-    $_SESSION["user_name"] = $enteredName;
-
-    // Redirect to the next page
+  $entereduserName = $_POST["userName"];
+  if (trim($entereduserName) !== "") {
     header("Location: Gs_3.php");
     exit();
-  } else {
-    // Handle empty name case (you may want to show an alert or provide feedback)
-    // echo "Please enter your name.";
   }
 }
 
-
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -57,29 +45,55 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 <body>
 
-  
+
 
   <section class="py-5 text-center">
     <div class="container-fluid">
-        <div class="row justify-content-center align-items-center">
+      <div class="row">
+        <div class="col-lg-2 ck_Gs_hide">
+
+          <!-- Vertical Stepper -->
+          <ul class="stepper">
+            <li class="stepper-item">
+              <div class="stepper-circle stepper-active">1</div>
+              <div class="stepper-line"></div>
+            </li>
+            <li class="stepper-item">
+              <div class="stepper-circle">2</div>
+              <div class="stepper-line"></div>
+            </li>
+            <li class="stepper-item">
+              <div class="stepper-circle">3</div>
+              <div class="stepper-line"></div>
+            </li>
+            <li class="stepper-item">
+              <div class="stepper-circle">4</div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-10">
+          <div class="row justify-content-center align-items-center">
             <div class="col-md-8">
-                <h1 class="ck_gs_2_text1">Let's Keep It Snappy, Shall We? But First, Let's Be Polite <br> What's Your Name?</h1>
+              <h1 class="ck_gs_2_text1">Let's Keep It Snappy, Shall We? But First, Let's Be Polite <br> What's Your Name?</h1>
             </div>
-        </div>
+          </div>
 
-        <div class="row justify-content-center align-items-center">
+          <div class="row justify-content-center align-items-center">
             <div class="col-md-7 mt-5 text-center">
-                <form action="" method="post">
-                    <input type="text" name="userName" placeholder="Enter your First name" class="ck_gs_2_input1 text-center" />
-                    <button type="submit" class="ck_gs_2_btn mt-5"> Continue  <img src="Assets/Images/gs_right_arrow.png" class="img-fluid" style="width: 75px; height: 25px;"> </button>
-                </form>
+              <form method="post" action="" enctype="multipart/form-data">
+                <input type="text" name="userName" placeholder="Enter your First name" class="ck_gs_2_input1 text-center" />
+                <button type="submit" class="ck_gs_2_btn mt-5"> Continue <img src="Assets/Images/gs_right_arrow.png" class="img-fluid" style="width: 75px; height: 25px;"> </button>
+              </form>
             </div>
+          </div>
         </div>
+      </div>
     </div>
-</section>
+  </section>
 
 
-  
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>

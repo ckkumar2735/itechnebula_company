@@ -1,4 +1,7 @@
 <?php
+// Start the session
+session_start();
+
 // Check if the form is submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Retrieve form data
@@ -13,6 +16,25 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Additional addresses from dynamically added fields
     $additionalAddresses = isset($_POST["Add_Line_Address"]) ? $_POST["Add_Line_Address"] : [];
+
+    // Validate form data
+    if (empty($firstName) || empty($lastName) || empty($country) || empty($streetAddress) || empty($city) || empty($state) || empty($zipCode) || empty($phoneNumber)) {
+        // Set error message
+        $_SESSION["error"] = "Please fill in all required fields.";
+        header('Location: cart_location_shipping_address.php');
+        exit;
+    }
+
+    // Store data in sessions
+    $_SESSION["First_Name"] = $firstName;
+    $_SESSION["Last_Name"] = $lastName;
+    $_SESSION["Country"] = $country;
+    $_SESSION["street_address"] = $streetAddress;
+    $_SESSION["City"] = $city;
+    $_SESSION["State"] = $state;
+    $_SESSION["Zip_Code"] = $zipCode;
+    $_SESSION["Phone_Number"] = $phoneNumber;
+    $_SESSION["Add_Line_Address"] = $additionalAddresses;
 
     // Database connection parameters
     $servername = "localhost";
@@ -33,25 +55,26 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             VALUES ('$firstName', '$lastName', '$country', '$streetAddress', '$city', '$state', '$zipCode', '$phoneNumber')";
 
     if ($conn->query($sql) === TRUE) {
-        // echo "Main address inserted successfully";
-        header('Location:https://www.instamojo.com/@itechnebula/');
-        // header('Location:thankyou.html');
+        // Insert additional addresses into the 'shipping_address' table
+        foreach ($additionalAddresses as $address) {
+            $sql = "INSERT INTO `shiping address` (additional_address) VALUES ('$address')";
+            if ($conn->query($sql) !== TRUE) {
+                echo "Error: " . $sql . "<br>" . $conn->error;
+            }
+        }
 
+        // Close connection
+        $conn->close();
 
+        // Redirect to the next page
+        header('Location: cart_location_Preview Order.php');
+        exit;
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
-    }
-
-    // Insert additional addresses into the 'shipping_address' table
-    foreach ($additionalAddresses as $address) {
-        $sql = "INSERT INTO `shiping address` (additional_address) VALUES ('$address')";
-
-        if ($conn->query($sql) !== TRUE) {
-            echo "Error: " . $sql . "<br>" . $conn->error;
-        }
     }
 
     // Close connection
     $conn->close();
 }
 ?>
+
