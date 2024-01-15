@@ -57,22 +57,22 @@ mysqli_stmt_close($stmt);
 <head>
   <meta charset="utf-8">
   <meta name="title" content="Transforming Ideas into Digital Realities | Expert Web Development Services For Business - 
-  इटेकनेब्यूला  ">
+   ITECHNEBULA  ">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta property="og:title" content="
-  इटेकनेब्यूला - Website Development Agency">
+   ITECHNEBULA - Website Development Agency">
   <meta property="og:description" content="
-  इटेकनेब्यूला is a professional website development agency, offering expert solutions for web design and development. Visit us at 
-  इटेकनेब्यूला.com for top-notch web services.">
+   ITECHNEBULA is a professional website development agency, offering expert solutions for web design and development. Visit us at 
+   ITECHNEBULA.com for top-notch web services.">
   <meta property="og:image" content="URL_of_your_featured_image">
   <meta property="og:url" content="http://www.
-  इटेकनेब्यूला.com/">
+   ITECHNEBULA.com/">
   <meta property="og:url" content="http://www.
-  इटेकनेब्यूला.com/">
+   ITECHNEBULA.com/">
   <meta property="og:type" content="http://www.
-  इटेकनेब्यूला.com/">
+   ITECHNEBULA.com/">
   <meta property="og:site_name" content="http://www.
-  इटेकनेब्यूला.com/">
+   ITECHNEBULA.com/">
   <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
 
@@ -198,7 +198,7 @@ mysqli_stmt_close($stmt);
              ITECHNEBULA</span>
           </h1>
           <p class="text-app mx-auto">📈 Streamline your processes, connect with customers in innovative ways, and watch
-            your Local business soar to new heights. With इटेकनेब्यूला's expertise, every click becomes a step toward
+            your Local business soar to new heights. With  ITECHNEBULA expertise, every click becomes a step toward
             success. 💻 we're here to equip your business for the digital era. Let's amplify your local impact together!
           </p>
          <a href="Gs_1.php"> <button class="border-0 mx-auto find-rjj mb-4 rounded-pill">Let’s Start Now</button></a>
@@ -778,7 +778,7 @@ mysqli_stmt_close($stmt);
             <p class="rjj_web">
               Every web development project begins with a project manager from
               <span style="color: #040484">
-                इटेकनेब्यूला </span>interviewing you
+                 ITECHNEBULA </span>interviewing you
               about your goals. We need to do this so that we can come up with
               a solution for your Traditional business, estimate a timeline,
               and calculate a budget.
@@ -796,7 +796,7 @@ mysqli_stmt_close($stmt);
                     <h5 class="rjj_h">Your Idea</h5>
                     <p class="rjj_p">
                       When we at
-                      इटेकनेब्यूला are assessing whether we are a good
+                       ITECHNEBULA are assessing whether we are a good
                       fit for your project, we always begin by asking screening
                       questions to confirm that we are a good fit.
                     </p>
@@ -877,7 +877,7 @@ mysqli_stmt_close($stmt);
             <p class="rjj_web">
               Every web development project begins with a project manager from
               <span style="color: #040484">
-                इटेकनेब्यूला </span>interviewing you
+                 ITECHNEBULA </span>interviewing you
               about your goals. We need to do this so that we can come up with
               a solution for your Traditional business, estimate a timeline,
               and calculate a budget.
@@ -895,7 +895,7 @@ mysqli_stmt_close($stmt);
                     <h5 class="rjj_h">Your Idea</h5>
                     <p class="rjj_p">
                       When we at
-                      इटेकनेब्यूला are assessing whether we are a good
+                       ITECHNEBULA are assessing whether we are a good
                       fit for your project, we always begin by asking screening
                       questions to confirm that we are a good fit.
                     </p>
@@ -1182,7 +1182,7 @@ mysqli_stmt_close($stmt);
           <h2 class="madil-h">
            ITECHNEBULA Blog</h2>
           <p class="butm-p">On
-            <span class="ck_textsec8_12">इटेकनेब्यूला</span> blog, we will review the latest in web development for the
+            <span class="ck_textsec8_12"> ITECHNEBULA</span> blog, we will review the latest in web development for the
             <span class="ck_text_sec_121" style=" font-weight: bold;">लोकल</span> Business-
             our industry.
           </p>
@@ -1336,7 +1336,7 @@ mysqli_stmt_close($stmt);
                 <img src="/Assets/Images/Rectangle 179.png" alt="" class="img-fluid mb-4 " />
                 <h5 class="text-rjj">Empowering Your Digital Journey with
 
-                  <span class="ck_textsec8_122" style=" font-weight: bold;">इटेकनेब्यूला</span> Navigating the Future
+                  <span class="ck_textsec8_122" style=" font-weight: bold;"> ITECHNEBULA</span> Navigating the Future
                   with Confidence
                 </h5>
                 <p class="Copyright"> CODEDELHIITES TECH PVT LTD (CIN : U62013DL2023PTC418762)
@@ -1402,7 +1402,7 @@ mysqli_stmt_close($stmt);
                     <a href="Agency.html" class="text-inner">Agency</a>
                   </li>
                   <li>
-                    <a href="coming_soon.html" class="text-inner">Partnership </a>
+                    <a href="partnership.html" class="text-inner">Partnership </a>
                   </li>
                   <!-- <li>
               <a href="#!" class="text-white">Link 4</a>
@@ -1459,9 +1459,6 @@ mysqli_stmt_close($stmt);
               <a href=""><img src="Assets/Images/Facebook.png" class="img-fluid h-70 mss_iconFacebook" alt="icon"> </a>
               <a href=""> <img src="Assets/Images/LinkedIn.png" class="img-fluid mx-3 h-70 mss_iconFacebook" alt="icon"></a>
               <a href=""> <img src="Assets/Images/Instagram.png" class="img-fluid h-70 mss_iconFacebook" alt="icon"></a>
-  
-  
-  
             </div>
 
             <!-- <div class="col-lg-6 icon-rjj  ">

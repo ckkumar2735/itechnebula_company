@@ -133,10 +133,11 @@ a{
   font-weight: 1000;
 }
 .mss_inID {
-  padding: 10px 30px;
+  padding: 10px 35px;
   background-color: #5454ac;
   color: #d1ccc1;
   margin: 0 auto;
+  font-size:12px;
 }
 .mss_handDirectionDiv {
   position: absolute;

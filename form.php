@@ -472,12 +472,11 @@
                                 Disclaimer | Enjoy the
                                 rest of your <span class="span-day" id="current-day"></span>
                         </div>
-                        <div class="col-lg-6 icon-rjj  ">
-                            <a class="btn  btn-floating m-1" href="#!" role="button"><i
-                                    class="fa fa-facebook-f"></i></a>
-                            <a class="btn  btn-floating m-1" href="#!" role="button"><i class="fa fa-linkedin"></i></a>
-                            <a class="btn  btn-floating m-1" href="#!" role="button"><i class="fa fa-instagram"></i></a>
-                        </div>
+                        <div class="d-flex">
+              <a href=""><img src="Assets/Images/Facebook.png" class="img-fluid h-70 mss_iconFacebook" alt="icon"> </a>
+              <a href=""> <img src="Assets/Images/LinkedIn.png" class="img-fluid mx-3 h-70 mss_iconFacebook" alt="icon"></a>
+              <a href=""> <img src="Assets/Images/Instagram.png" class="img-fluid h-70 mss_iconFacebook" alt="icon"></a>
+            </div>
                     </div>
                     <!-- </section> -->
                     <!-- Section: CTA -->
