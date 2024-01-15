@@ -83,6 +83,8 @@ mysqli_stmt_close($stmt);
 
 
 
+<!-- Latest version of Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
   <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"> -->
 
@@ -1412,8 +1414,11 @@ mysqli_stmt_close($stmt);
               <!--Grid column-->
               <div class="col-lg-1 col-md-6 mb-4 mb-md-0">
                 <div class="dropdown" data-bs-theme="light">
-                  <button class="btn-rj btn-secondary-rj dropdown-toggle" type="button" id="dropdownMenuButtonLight" data-bs-toggle="dropdown" aria-expanded="false">
+                  <button class="btn-rj btn-secondary-rj dropdown-toggle ck_ln2_hide" type="button" id="dropdownMenuButtonLight" data-bs-toggle="dropdown" aria-expanded="false">
                     <img src="/Assets/Images/globe_with_meridians.png" class=""> Language
+                  </button>
+                  <button class="btn-rj btn-secondary-rj dropdown-toggle ck_ln_hide" type="button" id="dropdownMenuButtonLight" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="/Assets/Images/globe_with_meridians.png" class=""> Lang
                   </button>
                   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonLight">
                     <li><a class="dropdown-item active" href="index.php">English</a></li>
@@ -1444,16 +1449,19 @@ mysqli_stmt_close($stmt);
 
           <!-- Section: CTA -->
           <!-- <section class=""> -->
-          <div class="row">
+          <div class="row d-flex justify-content-between  ">
             <div class="col-lg-6">
               <p class="rjj_pr"> It is protected by all possible laws. You're gonna get your family in trouble if you
                 try to copy. In the style of Liam Neeson. Term & Conditions | Privacy & Policy Disclaimer | Enjoy the
                 rest of your <span class="span-day" id="current-day"></span>
             </div>
-            <div class="col-lg-6 icon-rjj  ">
-              <a class="btn  btn-floating m-1" href="#!" role="button"><i class="fa fa-facebook-f"></i></a>
-              <a class="btn  btn-floating m-1" href="#!" role="button"><i class="fa fa-linkedin"></i></a>
-              <a class="btn  btn-floating m-1" href="#!" role="button"><i class="fa fa-instagram"></i></a>
+            <div class="d-flex">
+              <a href=""><img src="Assets/Images/Facebook.png" class="img-fluid h-70 mss_iconFacebook" alt="icon"> </a>
+              <a href=""> <img src="Assets/Images/LinkedIn.png" class="img-fluid mx-3 h-70 mss_iconFacebook" alt="icon"></a>
+              <a href=""> <img src="Assets/Images/Instagram.png" class="img-fluid h-70 mss_iconFacebook" alt="icon"></a>
+  
+  
+  
             </div>
 
             <!-- <div class="col-lg-6 icon-rjj  ">
@@ -1502,6 +1510,8 @@ mysqli_stmt_close($stmt);
     </div>
     <!-- End of .container -->
   </footer>
+
+  
 
 
   <script>
