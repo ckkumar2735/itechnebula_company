@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400;9..40,500;9..40,600&family=Rubik:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400&family=Roboto:wght@300;400;500&family=Space+Grotesk:wght@400;500;600&family=Urbanist:wght@100;200;300;400;500;600&display=swap');
+.gd_rating{
+    display: flex;
+    justify-content: space-around;
+}
+
+.experience {
+    display: flex;
+    flex-direction: column;
+}
+.GD_title2{
+  color: #5454AC;
+
+}
+
+.GD_title1{
+    font-family: DM Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    
+}
+.GD_title3{
+    font-family: DM Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0.02em;
+text-align: center;
+
+}
+.gd-hlw{
+    color: #38484F;
+}
+.gd-hlw:hover{
+    color: white;
+}
+
+.gd_pr_img1{
+    width: 300px;
+    height: 60px;
+    border-radius: 30px;
+    margin-bottom: 22px;
+}
+
+/* .gd_pr_icon1 {
+    margin-left: 200px;
+    position: absolute;
+    left: 300px;
+    top: 50px;
+    z-index: -1;
+
+} */
+/* .gd_pr_icon1{
+    margin-left: 400px;
+} */
+
+.gd_pr_para{
+    font-family: DM Sans;
+font-size: 20px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: -0.015em;
+color: #344054;
+
+}
+
+.gd_pr_para2{
+    font-family: Urbanist;
+font-size: 47px;
+font-weight: 700;
+line-height: 47px;
+letter-spacing: -0.015em;
+color: #38484F;
+
+}
+
+
+.gd_pr_Exp{
+    font-family: DM Sans;
+  
+font-size: 20px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: -0.015em;
+text-align: end;
+margin-left: 40px;
+
+}
+
+
+
+/* Apply 3D effect to the button */
+.gd-button{
+    /* Add some depth and shadow */
+    box-shadow: 0px 8px 0px #5454AC;
+    transform: translateY(4px);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* On hover, give it a pressing effect */
+  .gd-button:hover {
+    transform: translateY(2px);
+    box-shadow: 0px 10px 0px #5454AC;
+  }
+  
+
+  .gd-starbtn1{
+    margin-left: 71px;
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+   .flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+/* .flip-card {
+    max-width: 100%; 
+    width: 100%;
+    height: auto;
+} */
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+   
+    .flip-card {
+        background-color: transparent;
+        width: 300px;
+        height: 300px;
+        perspective: 1000px;
+      }
+      
+      /* .flip-card {
+          max-width: 100%; 
+          width: 100%;
+          height: auto;
+      } */
+      
+      .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+      }
+      
+      .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+      }
+      
+      .flip-card-front, .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+      }
+      
+      .flip-card-front {
+        background-color: #bbb;
+        color: black;
+      }
+      
+      .flip-card-back {
+        background-color: #2980b9;
+        color: white;
+        transform: rotateY(180deg);
+      }
+
+}
+@media (min-width: 769px) and (max-width: 992px) {
+.section-5{
+    display:none;
+}
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    perspective: 1000px;
+  }
+  
+  /* .flip-card {
+      max-width: 100%; 
+      width: 100%;
+      height: auto;
+  } */
+  
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  }
+  
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-card-back {
+    background-color: #2980b9;
+    color: white;
+    transform: rotateY(180deg);
+  }
+}
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+

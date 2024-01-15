@@ -1,0 +1,119 @@
+@media (min-width: 320px) and (max-width: 480px) {
+    
+    .gd-col2{
+        display: none;
+    }
+  
+   
+
+    .gd-form-login-btn{
+        margin-left: -6rem;
+        margin-top: 2rem;
+    }
+    .gd-social-btn{
+         display: flex;
+         flex-direction: row;
+          margin-right: 90px;
+          gap: 8px;
+        }
+
+        
+       .gd-form-para1{
+        /* margin-left: -5rem;
+        margin-top: 2rem; */
+        display: none;
+
+       }
+       .gd-f{
+        margin-left: 3rem;
+        margin-top: 2rem;
+    }
+    .gd-form-p3{
+        text-align: center;
+    }
+        
+
+  }
+  
+  @media (min-width: 481px) and (max-width: 768px) {
+
+    .gd-f{
+        display: none;
+    }
+    .gd-col2{
+        display: none;
+    }
+    .gd-form-para1{
+        margin-left: 200rem;
+        margin-top: 2rem;
+
+       }
+       .gd-form-login-btn{
+        margin-left: -6rem;
+        margin-top: 2rem;
+    }
+    .gd-social-btn{
+         display: flex;
+         flex-direction: row;
+          margin-right: 90px;
+          gap: 8px;
+        }
+  }
+  
+  @media (min-width: 769px) and (max-width: 992px) {
+    .gd-col2{
+        display: none;
+    }
+    .gd-f{
+        display: none;
+    }
+    .gd-col2{
+        display: none;
+    }
+    .gd-form-para1{
+        margin-left: 200rem;
+        margin-top: 2rem;
+
+       }
+       .gd-form-login-btn{
+        margin-left: -6rem;
+        margin-top: 2rem;
+    }
+    .gd-social-btn{
+         display: flex;
+         flex-direction: row;
+          margin-right: 90px;
+          gap: 8px;
+        }
+
+    
+  }
+  
+  @media (min-width: 993px) and (max-width: 1200px) {
+    .gd-f{
+        display: none;
+    }
+    
+  }
+  
+  @media (min-width: 1201px) and (max-width: 1400px) {
+    .gd-f{
+        display: none;
+    }
+    
+  }
+  
+  @media (min-width: 1401px) and (max-width: 1600px) {
+    .gd-f{
+        display: none;
+    }
+
+    
+    
+  }
+  
+  @media only screen and (min-width: 1600px) {
+    .gd-f{
+        display: none;
+    }
+  }

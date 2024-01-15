@@ -1,3 +1,17 @@
+<?php
+include('db.php');
+session_start();
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  $enteredMessage = $_POST["message"];
+  if (trim($enteredMessage) !== "") {
+    $_SESSION["user_message3"] = $enteredMessage; // Storing the message in a session variable
+    header("Location: Gs_11.php");
+    exit();
+  }
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -132,17 +146,17 @@
             </div>
           </div>
 
-          <div class="row justify-content-center align-items-center">
-            <div class="col-md-7 mt-5">
-              <input type="text" placeholder="MESSAGE" alt="" class="ck_gs_10_input1 mx-2 text-center" />
-            </div>
-          </div>
+          <form method="post" action="" enctype="multipart/form-data">
 
-          <div class="row">
-            <div class="mt-5 ">
-              <a href="Gs_11.php"><button class="ck_gs_10_btn"> Continue <img src="Assets/Images/gs_right_arrow.png" class="img-fluid" style="width: 75px; height: 25px;"> </button></a>
+            <div class="row justify-content-center align-items-center">
+              <div class="col-md-7 mt-5">
+                <input type="text" placeholder="MESSAGE" name="message" alt="" class="ck_gs_10_input1 mx-2 text-center" />
+                <button class="ck_gs_10_btn mt-5"> Continue <img src="Assets/Images/gs_right_arrow.png" class="img-fluid" style="width: 75px; height: 25px;"> </button>
+              </div>
             </div>
-          </div>
+          </form>
+
+
         </div>
       </div>
     </div>

@@ -1,0 +1,450 @@
+.section-5{
+    background-color: #E9FBF8;
+
+}
+
+.gd-pr-finance{
+    padding-top: 9rem;
+}
+
+.gd-pr-card{
+    background: linear-gradient(180deg, rgba(4, 4, 132, 0.31) 0%, rgba(209, 204, 193, 0.31) 100%);
+    box-shadow: -6.236111164093018px 8.730555534362793px 27.43889045715332px -6.236111164093018px #00000085;
+   border: none;
+   border-radius: 0;
+   width: 100%;
+   height: 400px;
+   margin-bottom: 3rem;
+}
+
+.gd-container5{
+    margin-top: 10rem;
+}
+
+.gd-column2{
+    margin-top: 20rem;
+    
+}
+.gd-cardbody{
+    display: flex;
+    flex-direction: row;
+}
+
+.gd-pr-img2{
+    height: 30vh;
+    margin-left: 2rem;
+    margin-top: 5rem;
+}
+.gd-pr-img3{
+    height: 40vh;
+    margin-top: 1rem;
+
+}
+
+.gd-pr-img4{
+    height: 40vh;
+    margin-left: 2rem;
+    margin-top: 2rem;
+
+}
+.gd-pr-img5{
+    height: 40vh;
+    margin-top: 1rem;
+    
+}
+.gd-pr-img6{
+    height: 30vh;
+    margin-left: 2rem;
+}
+.gd-pr-img7{
+    height: 30vh;
+   
+}
+.gd-pr-img8{
+    height: 30vh;
+    margin-right: 2rem;
+    margin-top: 4rem;
+}
+
+.card-textg span{
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+
+}
+
+.card-text0 span{
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+
+}
+.card-text1 span{
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+
+
+}
+.card-text2 span{
+    font-family: DM Sans;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+
+}
+
+
+
+
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 30vh; 
+}
+
+.gd-pr-img6,
+.gd-pr-img7 {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    width: auto;
+}
+
+.gd-pr-img6 {
+    left: 10rem; 
+    margin-top: 8rem;
+    z-index: 1; 
+}
+.gd-pr-img1{
+    height: 36rem;
+    /* width: 100rem; */
+}
+
+
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .section-5{
+        display: none;
+    }
+
+    .ck_img_agency1 {
+        display: none;
+    }
+
+    .fimg1{
+        display: none;
+    }
+
+    .gd-starbtn1{
+        display: none;
+    }
+   
+    .gd_pr_icon1{
+        display: none;
+    }
+    .ck_text567{
+        text-align: center;
+        font-family: DM Sans;
+        font-size: 45px;
+
+    }
+
+
+    .gdcardall{
+        width: 20rem;
+       
+        margin-left: 10px;
+    }
+   
+   .f-img{
+    margin-left: 8px;
+   }
+
+    .gdimgnone{
+        display: none;
+    }
+    
+  
+    .gd-pr-img2 {
+        height: 40vh;
+        margin-top: 3rem;
+       
+    }
+    .gd-pr-img4 {
+        height: 40vh;
+        margin-top: 4rem;
+    }
+    .gd-pr-img5 {
+        /* height: 50vh;
+        margin-top: 5rem;
+        margin-left: -4rem; */
+        display: none;
+    }
+    .gd-pr-img6{
+        display: none;
+    }
+    .gd-pr-img7{
+        display: none;
+    }
+    
+    .section-5 {
+        height: 1879px;
+    }
+    .gd-pr-img8{
+        height: 40vh;
+        margin-top: 3rem;
+    }
+    .gd-pr-img1 {
+        height: 15rem;
+        margin-left: -3rem;
+        margin-top: -20rem;
+        /* width: 9rem; */
+    }
+   
+    .gd-pr-img12{
+        display: none;
+    }
+    */
+    .ck_img_agency1{
+        margin-top: -1rem;
+    }
+    .gd-pr-card {
+        margin-bottom: 3rem;
+    }
+    
+    .gd-moneyimg{
+     display: none;
+    }
+   
+    /* .gd-starbtn{
+        margin-left: 123px;
+    } */
+    /* .gd_pr_icon1{
+        margin-left: 22px;
+    } */
+    .gd_pr_card_sec4 {
+       margin-top: 1rem;
+      }
+      .gd-container5 {
+        margin-top: 4rem;
+    }
+    .gd-sirimg{
+        display: none;
+    }
+   
+
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+
+    .section-5{
+        display: none;
+    }
+
+    .f2{
+        margin-left: -22px;
+        height: 12rem;
+        box-shadow: 6px 6px 4px 0px #00000040;
+    
+    }
+    .gd-starbtn1 {
+        margin-left: 6px;
+    }
+
+    .ck_img_agency1 {
+        display: none;
+    }
+
+    
+   
+    .gd_pr_icon1{
+        display: none;
+    }
+    .ck_text567{
+        text-align: center;
+    }
+
+
+
+    .gdcardall{
+        width: 20rem;
+    }
+    /* .gd-pr-img3 {
+        height: 30vh;
+        margin-top: 4rem;
+        margin-left: -6rem;
+    }
+    .gd-pr-img2 {
+        height: 30vh;
+        margin-top: 3rem;
+       
+    }
+    .gd-pr-img4 {
+        height: 30vh;
+        margin-top: 6rem;
+    }
+    .gd-pr-img5 {
+        height: 30vh;
+        margin-top: 5rem;
+        margin-left: -4rem;
+    }
+    .gd-pr-img6{
+        display: none;
+    }
+    .gd-pr-img7{
+        display: none;
+    } */
+    .gd-pr-img8{
+        height: 30vh;
+        margin-left: 20px;
+        margin-top: 5rem;
+    }
+    .gd-sir2
+    {
+        display: none;
+    }
+    .gd-pr-img12{
+        display: none;
+    }
+    .gd-starbtn {
+        margin-left:8px;
+    }
+    .gd-sirimg{
+        margin-top: 10rem;
+    }
+
+
+    
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+
+    .f2{
+        margin-left: -22px;
+        height: 12rem;
+        box-shadow: 6px 6px 4px 0px #00000040;
+    
+    }
+
+    .ck_img_agency1 {
+        display: none;
+    }
+
+
+    .gd-img123{
+        display: none;
+    }
+
+    .ck_text567{
+        text-align: center;
+    }
+
+
+    
+    .gdcardall{
+        width: 20rem;
+    }
+    .gd-sir2
+    {
+        display: none;
+    }
+    .gd-pr-img12{
+        display: none;
+    }
+    .gd-sirimg{
+        margin-top: 10rem;
+    }
+    .gd-starbtn1 {
+        margin-left: 6px;
+    }
+
+}
+
+@media (min-width: 993px) and (max-width: 1200px) {
+
+    .ck_text567{
+        text-align: center;
+    }
+
+    .gd-img123{
+        display: none;
+    }
+
+
+    .gd-sirimg{
+        margin-top: 7rem;
+    }
+    .gd-sir2
+    {
+        display: none;
+    }
+    .gd-pr-img12{
+        display: none;
+    }
+}
+
+@media (min-width: 1201px) and (max-width: 1400px) {
+    .gd-sir2
+{
+    display: none;
+}
+.gd-pr-img12{
+    display: none;
+}
+.gd-img123{
+    display: none;
+}
+
+}
+
+@media (min-width: 1401px) and (max-width: 1600px) {
+    .gd-sir2
+{
+    display: none;
+}
+.gd-pr-img12{
+    display: none;
+}
+
+.gd-img123{
+    display: none;
+}
+
+}
+
+
+@media (min-width:1601px) {
+        .gd-sir2
+{
+    display: none;
+}
+.gd-pr-img12{
+    display: none;
+}
+
+.gd-img123{
+    display: none;
+}
+}
+
+
+
+
+
+

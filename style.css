@@ -5,6 +5,9 @@
     font-family: Space Grotesk;
   }
  
+  a {
+    text-decoration: none;
+  }
   /* -------------------------------navber------------------------------------ */
   .home-rjj {
     color: #040484 !important;

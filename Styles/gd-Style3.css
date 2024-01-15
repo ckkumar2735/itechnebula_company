@@ -1,0 +1,105 @@
+.section-4{
+    /* background-image: url(./Assets/img/looper.png); */
+    background-repeat: no-repeat;
+    margin-top: 2rem;
+    /* background-attachment: fixed; */
+
+}
+
+
+
+.glass-effect {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    overflow: hidden;
+  
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+
+
+  }
+  
+  .glass-effect:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+
+.points{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.gd_sec4_h5{
+  font-family: DM Sans;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: -0.015em;
+  
+  
+
+
+}
+
+
+
+
+
+
+.gd_pr_card_sec4 {
+    padding: 20px;
+    margin-top: 2rem;
+    margin-bottom: -3rem;
+    
+    
+  }
+
+  .gd-glass-column {
+    background-image: url('/Assets/img/looper.png');
+    background-repeat: no-repeat;
+    
+    background-position:  center; 
+    background-size:  84%; 
+    padding-bottom: 0rem;
+}
+
+
+  .gd_sec4_para{
+    font-family: DM Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: -0.015em;
+text-align: left;
+
+  }
+  
+.gd_div1_p{
+    font-family: Space Grotesk;
+font-size: 25px;
+font-weight: 500;
+line-height: 46px;
+letter-spacing: -0.015em;
+text-align: left;
+
+}
+
+.gd_div2_p{
+    font-family: DM Sans;
+font-size: 17px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: -0.015em;
+
+
+}
+
+
+.section-4 {
+    margin-top: -110px; 
+  }

@@ -1,15 +1,16 @@
 <?php
+session_start(); // Start the session
 include('db.php');
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  $enteredUserName = trim($_POST["userName"]);
 
-  $entereduserName = $_POST["userName"];
-  if (trim($entereduserName) !== "") {
+  if ($enteredUserName !== "") {
+    $_SESSION["userName"] = $enteredUserName; // Store the user name in a session variable
     header("Location: Gs_3.php");
     exit();
   }
 }
-
 ?>
 
 <!DOCTYPE html>

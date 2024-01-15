@@ -7,7 +7,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   if (trim($enteredEmail) !== "") {
     $_SESSION["user_email"] = $enteredEmail;
 
-    header("Location:Gs_4.php");
+    header("Location: Gs_4.php");
     exit();
   } else {
     echo "Please enter your email.";
@@ -144,15 +144,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <div class="col-md-8">
               <?php
               // Check if the name is set in the session
-              if (isset($_SESSION["user_name"]) && !empty($_SESSION["user_name"])) {
+              if (isset($_SESSION["userName"]) && !empty($_SESSION["userName"])) {
                 // Display personalized greeting with the user's name
-                echo '<h1 class="ck_gs_text3">Great! What\'s Your Email Address, ' . $_SESSION["user_name"] . '?</h1>';
+                echo '<h1 class="ck_gs_text3">Great! What\'s Your Email Address, ' . $_SESSION["userName"] . '?</h1>';
               } else {
                 // Fallback if the name is not set in the session
                 echo '<h1 class="ck_gs_text3">Great! What\'s Your Email Address?</h1>';
               }
               ?>
             </div>
+
           </div>
 
           <form action="" method="post">

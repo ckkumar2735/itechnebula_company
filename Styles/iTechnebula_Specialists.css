@@ -12,6 +12,9 @@
   font-weight: 500;
   font-family: "Space Grotesk", sans-serif;
 }
+a{
+  text-decoration: none !important;
+}
 .mss_client {
   border: 1px solid rebeccapurple;
   color: #a4d5db;

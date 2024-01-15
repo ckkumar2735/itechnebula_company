@@ -1,3 +1,19 @@
+<?php
+session_start();
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $rangeValue = $_POST["inrRange"];
+
+    $_SESSION["selectedRange"] = $rangeValue;
+
+
+    header("Location: Gs_13.php");
+    exit();
+}
+?>
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -138,35 +154,32 @@
             </div>
           </div>
 
+          <form id="rangeForm" action=" " method="post">
+
           <div class="row justify-content-center align-items-center">
             <div class="col-md-7">
               <div class="range-container mt-5">
                 <input type="range" id="inrRange" name="inrRange" min="100000" max="100000000" step="1" value="0" oninput="updateInputValue()">
                 <output for="inrRange" id="rangeValue"></output>
+
+                <button class="ck_gs_12_btn mt-5"> Continue <img src="Assets/Images/gs_right_arrow.png" class="img-fluid" style="width: 75px; height: 25px;"> </button>
+
               </div>
             </div>
           </div>
 
-          <div class="row">
-            <div class="mt-5 ">
-              <a href="Gs_13.php"><button class="ck_gs_12_btn"> Continue <img src="Assets/Images/gs_right_arrow.png" class="img-fluid" style="width: 75px; height: 25px;"> </button></a>
-            </div>
-          </div>
+          </form>
         </div>
       </div>
     </div>
   </section>
 
   <script>
-    // Function to update input value based on slider value
     function updateInputValue() {
-      // Get the range slider element
       var slider = document.getElementById("inrRange");
 
-      // Get the input element
       var input = document.querySelector(".ck_gs_12_input1");
 
-      // Update the input value with the slider value
       input.value = "₹" + slider.value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     }
   </script>

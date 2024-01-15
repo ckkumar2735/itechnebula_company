@@ -1,8 +1,14 @@
 <?php
 session_start();
 
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  if (isset($_POST["userChoice"])) {
+    $_SESSION["user_choice"] = $_POST["userChoice"];
+    header("Location: Gs_5.php");
+    exit();
+  }
+}
 ?>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -134,9 +140,9 @@ session_start();
               <!-- <h1 class="ck_gs_4_text1">Yes, [_FirstName_]! We'd like to be sure iTechnebula is the right fit for your business. Can we ask you a few questions</h1> -->
               <?php
               // Check if the name is set in the session
-              if (isset($_SESSION["user_name"]) && !empty($_SESSION["user_name"])) {
+              if (isset($_SESSION["userName"]) && !empty($_SESSION["userName"])) {
                 // Display personalized greeting with the user's name
-                echo '<h1 class="ck_gs_4_text1">Yes, ' . $_SESSION["user_name"] . '! We\'d like to be sure iTechnebula is the right fit for your business. Can we ask you a few questions</h1>';
+                echo '<h1 class="ck_gs_4_text1">Yes, ' . $_SESSION["userName"] . '! We\'d like to be sure iTechnebula is the right fit for your business. Can we ask you a few questions</h1>';
               } else {
                 // Fallback if the name is not set in the session
                 echo '<h1 class="ck_gs_4_text1">Yes! We\'d like to be sure iTechnebula is the right fit for your business. Can we ask you a few questions</h1>';
@@ -154,23 +160,24 @@ session_start();
           <div class="row">
             <div class="d-flex justify-content-center align-items-center mt-5" style="gap: 60px;">
               <div class="card">
-                <a href="Gs_5.php">
+                <form action="" method="post">
                   <div class="card-content">
                     <img src="Assets/Images/ck_Gs_4_img1.png " class="img-fluid mt-5" alt="Image 1">
-                    <button class="ck_Gs_4_btn1 mt-5">Product</button>
+                    <button type="submit" name="userChoice" value="Product" class="ck_Gs_4_btn1 mt-5">Product</button>
                   </div>
-                </a>
+                </form>
               </div>
               <div class="card">
-                <a href="Gs_5.php">
+                <form action="" method="post">
                   <div class="card-content">
                     <img src="Assets/Images/ck_Gs_4_img2.png" class="img-fluid mt-5" alt="Image 2">
-                    <button class="ck_Gs_4_btn1 mt-5">Service</button>
+                    <button type="submit" name="userChoice" value="Service" class="ck_Gs_4_btn1 mt-5">Service</button>
                   </div>
-                </a>
+                </form>
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </div>

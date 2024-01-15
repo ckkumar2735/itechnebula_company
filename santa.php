@@ -91,8 +91,8 @@ include('location_santa.php');
     <div class="container-fluid">
       <div class="row justify-content-between">
         <div class="col-lg-6">
-          <h1 class="mt-4 ck_santa_text1 mx-5">🔥 Exclusive Lohri Celebration Offer: Enjoy a 20% Discount! 🔥</h1>
-          <h2 class="mt-4 ck_santa_text2 mx-5"> 🔥 Place your first service with us this Lohri, and enjoy an exclusive offer of up to 20% off! 🎉</h2>
+          <h1 class="mt-4 ck_santa_text1 mx-5">🌟✨ First Splash of Savings - Holi Exclusive! 🌈🎉</h1>
+          <h2 class="mt-4 ck_santa_text2 mx-5"> Celebrate Holi with a burst of colors and savings! Enjoy a fantastic 20% discount on your very first order with us. 🎁💙</h2>
           <!-- Example split danger button -->
           <!-- <form action="emoji.php" method="post"> -->
           <!-- <form id="claimForm" onsubmit="return validateForm()" action="send4_email.php" method="post"> -->
@@ -179,7 +179,7 @@ include('location_santa.php');
 
 
         </div>
-        <div class="col-lg-6  ck_santa_img1">
+        <div class="col-lg-6  ck_santa_img1 ck_santa_bg8">
           <!-- <canvas id="canvas"></canvas> -->
 
 
@@ -187,30 +187,55 @@ include('location_santa.php');
           <div class="d-flex justify-content-center mt-5">
             <img src="/Assets/Images/Mask Group.png" class="img-fluid rotate " alt="...">
           </div>
-          <div class="d-flex justify-content-end">
+          <!-- <div class="d-flex justify-content-end">
             <img src="/Assets/Images/Bell 1.png" class="img-fluid " alt="...">
 
-          </div>
-          <div class="d-flex ">
+          </div> -->
+          <div class="d-flex  justify-content-between mt-5">
             <div>
-              <img src="/Assets/Images/santa.png" class="img-fluid " style="width: 1500px;
-              height: 300px;" alt="...">
+              <img src="/Assets/Images/Boy.png" class="img-fluid" ;
+             style="height: 200px;"  alt="...">
+             <img src="/Assets/Images/Blue_Color_Plateyellow_color_powder.png" class="img-fluid" ;
+               alt="...">
+            </div>
+            
+
+            <div>
+              <img src="/Assets/Images/Color_Water_TubWater_Tub.png" class="img-fluid " style=
+              "height: 200px;" alt="...">
+             
+            </div>
+            <div>
+            <img src="/Assets/Images/Water-baloongreen_ballon.png" class="img-fluid " 
+               alt="...">
+             
+            </div>
+
+
+            <div>
+            <img src="/Assets/Images/Polygon 5.png" class="img-fluid "  style="height: 50px;"
+               alt="...">
+             
             </div>
 
             <div>
-              <img src="/Assets/Images/Tree.png" class="img-fluid " style="width: 1500px;
-              height: 300px;" alt="...">
-              <img src="/Assets/Images/Gift Box 2.png" class="img-fluid ck_santa_gift " style="width: 500px;
-      " alt="...">
+              <img src="/Assets/Images/GirlHoli_Girl.png" class="img-fluid " style=
+              "height: 200px;" alt="...">
+              <div class="">
+              <img src="/Assets/Images/blue-color-powder.png" class="img-fluid " 
+              alt="...">
+              <img src="/Assets/Images/blue-color-powder (1).png" class="img-fluid " 
+              alt="...">
+              <img src="/Assets/Images/blue-color-powder (2).png" class="img-fluid " 
+              alt="...">
+              </div>
             </div>
-            <div>
+           
 
-            </div>
-
-            <div>
-              <img src="/Assets/Images/Santa's hand holding a gift box.png" class="img-fluid " style="width: 500px;
+            <!-- <div>
+              <img src="/Assets/Images/holi_img.png" class="img-fluid " style="width: 500px;
               height: 100px;" alt="...">
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -256,7 +281,6 @@ include('location_santa.php');
 
 
 
-  // save entry for each page by ckk
   <script>
     // Record entry time when the page loads
     var entryTime = new Date().getTime();

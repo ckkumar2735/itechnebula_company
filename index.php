@@ -122,6 +122,7 @@ mysqli_stmt_close($stmt);
   <link rel="stylesheet" href="Styles/carousel2.css" />
   <link rel="stylesheet" href="Styles/carousel4.css" />
   <link rel="stylesheet" href="Styles/carousel3.css" />
+  <link rel="stylesheet" href="Styles/iTechnebula_Specialists.css" />
   <style>
 
   </style>
@@ -136,72 +137,54 @@ mysqli_stmt_close($stmt);
 
 
 
-  <section>
-    <div class="container-fluid">
-      <div class="row nev-main ">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="container-fluid ms_mobilepading">
-            <img src="/Assets/Images/logo 1.png" alt="logo" class="img-fluid ms-logo" />
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto rjj-nev">
-                <li class="nav-item mx-3">
-                  <a class="nav-link  home-rjj" aria-current="page" href="index.php">Home</a>
-                </li>
-                <!-- <li class="nav-item mx-3">
-                  <a class="nav-link  home-rjj" aria-current="page" href="index.html">Industries </a>
-                </li> -->
-
-                <!-- Example single danger button -->
-                <div class="">
-                  <a class="nav-link  home-rjj dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Industries
-                  </a>
-                  <div class="dropdown-menu">
-                    <a class="dropdown-item" href="industries.html">Real Estate</a>
-                    <a class="dropdown-item" href="#">Hotels, Banquet & Hospitality</a>
-                    <a class="dropdown-item" href="#">Health care and Doctors</a>
-
-                  </div>
-                </div>
-
-
-                <li class="nav-item mx-3">
-                  <a class="nav-link home-rjj" href="Casestudies.html">Case studies</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li>
-                      <a class="dropdown-item" href="#">Another action</a>
-                    </li>
-                    <li>
-                      <hr class="dropdown-divider" />
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="#">Something else here</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item mx-3">
-                  <a class="nav-link home-rjj" href="iTechnebula_Specialists.html" tabindex="-1" aria-disabled="true">
-                    iTechNebula Specialists</a>
-                </li>
-              </ul>
-              <div class="rjj-btn-mobile">
-                <a class="rounded-pill request-rjj " href="form.php"> Request a quote</a>
-                <a class="rounded-pill clint-rjj" href="https://codedelhiites.dev/team/authentication"> <img src="/Assets/Images/Search Client.png" alt="" class="img-fluid" />
-                  Client login</a>
-              </div>
-
-            </div>
+<section>
+      <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./Assets/Images/mssLogo.png" class="img-fluid" alt="logo"></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto mss_nav_ul ">
+              <li class="nav-item">
+                <a class="nav-link active mss_home" aria-current="page" href="#" style="color: #040484;">Home</a>
+              </li>
+              <li class="nav-item mx-4 mss_cast">
+                <a class="nav-link mss_home1" href="#" style="color: #040484;">Casestudies</a>
+              </li>
+             
+              <li class="nav-item  ">
+                <a
+                  class="nav-link mss_home2"
+                  href="#"
+                  tabindex="-1"
+                  aria-disabled="true"style="color: #040484;"
+                  >itechnebula Specialists</a
+                >
+              </li>
+            </ul>
+            <form class="d-flex mss_forms">
+            <a href="form.php"class="btn rounded-pill mss_request" type="submit" >  
+                Request a quote
+                </a> 
+                <a href="https://codedelhiites.dev/team/authentication" class="btn mss_client rounded-pill" type="submit">
+               
+                <img src="Assets/Images/mssButtonIcon.png" alt="icon" class="img-fluid">
+                Client Login</a>
+              
+            </form>
           </div>
-        </nav>
-      </div>
-    </div>
-  </section>
+        </div>
+      </nav>
+    </section>
 
   <section class="rjj_bg">
     <div class="container ">
@@ -210,7 +193,7 @@ mysqli_stmt_close($stmt);
           <p class="onlylne"></p>
           <h1 class="text-tech mx-auto " style=" font-weight: bold;"> Revolutionize Your
             <span class="ck_text_sec_12" style=" font-weight: bold;"> लोकल</span> Business with Tech- <span class="sp-rjj" style=" font-weight: bold;">
-              इटेकनेब्यूला</span>
+             ITECHNEBULA</span>
           </h1>
           <p class="text-app mx-auto">📈 Streamline your processes, connect with customers in innovative ways, and watch
             your Local business soar to new heights. With इटेकनेब्यूला's expertise, every click becomes a step toward
@@ -1195,7 +1178,7 @@ mysqli_stmt_close($stmt);
         <div class="col-lg-6 main-p">
           <h3 class="top-h">News & Articles<img src="/Assets/Images/newspaper.png" class="img-fluid"></h3>
           <h2 class="madil-h">
-            इटेकनेब्यूला Blog</h2>
+           ITECHNEBULA Blog</h2>
           <p class="butm-p">On
             <span class="ck_textsec8_12">इटेकनेब्यूला</span> blog, we will review the latest in web development for the
             <span class="ck_text_sec_121" style=" font-weight: bold;">लोकल</span> Business-
@@ -1472,6 +1455,27 @@ mysqli_stmt_close($stmt);
               <a class="btn  btn-floating m-1" href="#!" role="button"><i class="fa fa-linkedin"></i></a>
               <a class="btn  btn-floating m-1" href="#!" role="button"><i class="fa fa-instagram"></i></a>
             </div>
+
+            <!-- <div class="col-lg-6 icon-rjj  ">
+              <a
+               class="btn  btn-floating m-1"
+               href="#!"
+               role="button"
+               ><i class="fa fa-facebook-f"></i
+              ></a>
+              <a
+              class="btn  btn-floating m-1"
+              href="#!"
+              role="button"
+              ><i class="fa fa-linkedin"></i
+             ></a>
+              <a
+              class="btn  btn-floating m-1"
+              href="#!"
+              role="button"
+              ><i class="fa fa-instagram"></i
+             ></a>
+            </div> -->
           </div>
           <!-- </section> -->
           <!-- Section: CTA -->

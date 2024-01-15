@@ -1,15 +1,15 @@
 <?php
 include('db.php');
+session_start();
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-
   $enteredCity = $_POST["city"];
   if (trim($enteredCity) !== "") {
+    $_SESSION["user_city"] = $enteredCity; // Storing the city in a session variable
     header("Location: Gs_6.php");
     exit();
   }
 }
-
 ?>
 
 <!DOCTYPE html>

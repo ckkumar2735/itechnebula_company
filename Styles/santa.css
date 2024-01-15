@@ -121,21 +121,32 @@ canvas {
   .ck_santa_btn2 {
     font-size: 22px;
   }
+  .ck_santa_bg8{
+    display:none;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
   .ck_santa_btn2 {
     font-size: 22px;
   }
+  .ck_santa_bg8{
+    display:none;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
+  .ck_santa_bg8{
+    display:none;
+  }
 }
 
 @media (min-width: 993px) and (max-width: 1200px) {
+ 
 }
 
 @media (min-width: 1201px) and (max-width: 1400px) {
+
 }
 
 @media (min-width: 1401px) and (max-width: 1600px) {

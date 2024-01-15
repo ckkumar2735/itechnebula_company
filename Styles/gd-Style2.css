@@ -1,0 +1,83 @@
+.gd_pr_container{
+    background-color: #A4D5DB;
+    
+
+}
+
+
+.gd_pr_h2{
+    font-family: Space Grotesk;
+font-size: 45px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: center;
+margin-top: 6rem;
+
+}
+
+
+#gd_pr_p{
+    font-family: DM Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 25px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.gd_pr_cards{
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: row;
+
+
+    margin-bottom: 1rem;
+
+}
+
+.gd_pr_container{
+padding-bottom: 5rem;
+}
+
+
+.gd_pr_card{
+    border: none; 
+    border-top: 7px solid #5454AC; 
+    box-shadow: 0px 97px 90px 0px #07003B1F;
+
+    padding: 20px;
+    width: 300px;
+  }
+
+
+  .gd_pr_agree_img{
+    background-color:#A4D5DB ;
+    border-radius: 50%;
+  }
+
+
+  .gd_pr_title{
+    font-family: Space Grotesk;
+font-size: 20px;
+font-weight: 700;
+line-height: 26px;
+letter-spacing: 0em;
+/* text-align: left; */
+
+  }
+
+  .gd_pr_card{
+    width: 500px;
+    
+    
+    
+  }
+
+
+
+  .gd-purple{
+    color: #5454AC;
+    /* font-size: 45px; */
+  }

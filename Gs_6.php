@@ -1,3 +1,21 @@
+<?php
+include('db.php');
+session_start();
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+  $enteredMessage = $_POST["message"];
+  if (trim($enteredMessage) !== "") {
+    $_SESSION["user_message"] = $enteredMessage; // Storing the message in a session variable
+    header("Location: Gs_7.php");
+    exit();
+  }
+}
+?>
+
+<!-- Rest of your HTML code -->
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -128,20 +146,21 @@
               </h1>
             </div>
           </div>
+          <form method="post" action="" enctype="multipart/form-data">
 
-          <div class="row justify-content-center align-items-center">
-            <div class="col-md-7 mt-5">
-              <input type="text" placeholder="MESSAGE" alt="" class="ck_gs_6_input1 mx-2 text-center" />
+            <div class="row justify-content-center align-items-center">
+              <div class="col-md-7 mt-5">
+                <input type="text" placeholder="MESSAGE" name="message" class="ck_gs_6_input1 mx-2 text-center" />
+                <button type="submit" class="ck_gs_6_btn mt-5"> Continue <img src="Assets/Images/gs_right_arrow.png" class="img-fluid" style="width: 75px; height: 25px;"> </button>
+              </div>
             </div>
-          </div>
 
-          <div class="row">
-            <div class="mt-5 ">
-              <a href="Gs_7.php"><button class="ck_gs_6_btn"> Continue <img src="Assets/Images/gs_right_arrow.png" class="img-fluid" style="width: 75px; height: 25px;"> </button></a>
-            </div>
-          </div>
         </div>
+
+        
+        </form>
       </div>
+    </div>
     </div>
   </section>
 
