@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,8 +26,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet" type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
 
 
@@ -50,32 +46,28 @@
     <script src="script.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Varela+Round">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"> -->
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <!-- -------------css----------- -->
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="Styles/form.css" />
+    <link rel="stylesheet" href="Styles/Request_investment.css" />
+
     <style>
 
     </style>
@@ -93,9 +85,7 @@
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <div class="container-fluid ms_mobilepading">
                         <img src="/Assets/Images/logo 1.png" alt="logo" class="img-fluid ms-logo" />
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -127,8 +117,7 @@
                             </ul>
                             <div class="rjj-btn-mobile">
                                 <a class="rounded-pill request-rjj " href=""> Request a quote</a>
-                                <a class="rounded-pill clint-rjj" href=""> <img src="/Assets/Images/Search Client.png"
-                                        alt="" class="img-fluid" />
+                                <a class="rounded-pill clint-rjj" href=""> <img src="/Assets/Images/Search Client.png" alt="" class="img-fluid" />
                                     Client login</a>
                             </div>
 
@@ -145,8 +134,8 @@
                 <div class="col-md-5 ck_form_card1 mt-5">
                     <div class=" d-flex justify-content-center align-items-center  mt-4">
                         <div class="">
-                            <span class="text-center ck_form_text1"> Get a <span>Quote now</span></span>
-                           
+                            <span class="text-center ck_form_text1"> Get a <span class="ck_form_text991"> pitch Deck </span>now</span>
+
                         </div>
                         <div>
                             <button class="border-0 justify-content-end" style="background-color: rgb(255, 255, 255)">
@@ -156,25 +145,21 @@
                     </div>
 
                     <!-- <form action="send_email1.php" class="row g-3" id="logfrm" method="POST" enctype="multipart/form-data"> -->
-                        <!-- <form method="post" action="" enctype="multipart/form-data"> -->
-                        <form action="get_a_quote_now.php" method="post" >
+                    <!-- <form method="post" action="" enctype="multipart/form-data"> -->
+                    <form action="get_a_request_investment.php" method="post">
                         <div class="row mt-5 d-flex justify-content-between ">
                             <div class="col-md-6  col-sm-12">
-                                <label for="validationServer01" class="form-label fw-bold"
-                                    style="font-family: 'Space Grotesk', sans-serif">Name</label>
+                                <label for="validationServer01" class="form-label fw-bold" style="font-family: 'Space Grotesk', sans-serif">Name</label>
                                 <span><img src="Assets/Images/star.png" alt=" start" class="img-fluid star1" /></span>
-                                <input type="text" class="form-control mb-3" id="validationServer01" name="Name"
-                                    placeholder="Your Name" required />
+                                <input type="text" class="form-control mb-3" id="validationServer01" name="Name" placeholder="Your Name" required />
                                 <p class="error" id="name-error" style="color: red; display: none;">Name must be at
                                     least 4
                                     characters long.</p>
                             </div>
                             <div class="col-md-6 col-sm-12">
-                                <label for="validationServer02" class="form-label fw-bold"
-                                    style="font-family: 'Space Grotesk', sans-serif">Email</label>
+                                <label for="validationServer02" class="form-label fw-bold" style="font-family: 'Space Grotesk', sans-serif">Email</label>
                                 <span><img src="Assets/Images/star.png" alt=" start" class="img-fluid star1" /></span>
-                                <input type="text" class="form-control mb-3" id="validationServer02" name="Email"
-                                    placeholder="Enter Your Email" required />
+                                <input type="text" class="form-control mb-3" id="validationServer02" name="Email" placeholder="Enter Your Email" required />
                                 <p class="error" id="email-error" style="color: red; display: none;">Please enter a
                                     valid
                                     Gmail address.</p>
@@ -183,50 +168,25 @@
 
                         <div class="row d-flex justify-content-between">
                             <div class="col-md-6 col-sm-12 ">
-                                <label for="validationServer03" class="form-label fw-bold"
-                                    style="font-family: 'Space Grotesk', sans-serif">Number</label>
+                                <label for="validationServer03" class="form-label fw-bold" style="font-family: 'Space Grotesk', sans-serif">Number</label>
                                 <span><img src="Assets/Images/star.png" alt=" start" class="img-fluid star1" /></span>
-                                <input type="text" class="form-control mb-3" id="validationServer03" name="Number"
-                                    placeholder="Enter Mobile Number" required />
+                                <input type="text" class="form-control mb-3" id="validationServer03" name="Number" placeholder="Enter Mobile Number" required />
                                 <p class="error" id="number-error" style="color: red; display: none;">Please enter a
                                     10-digit mobile number.</p>
                             </div>
                             <div class="col-md-6 col-sm-12 ">
-                                <label for="validationServer04" class="form-label fw-bold"
-                                    style="font-family: 'Space Grotesk', sans-serif">Nature of Business</label>
+                                <label for="validationServer01" class="form-label fw-bold" style="font-family: 'Space Grotesk', sans-serif">Company Name(optional)</label>
                                 <span><img src="Assets/Images/star.png" alt=" start" class="img-fluid star1" /></span>
-                                <select class="form-select onlyback mb-3" id="validationServer04" name="Nature_of_Business"
-                                    aria-describedby="validationServer04Feedback" required>
-                                    <option selected disabled value="">Select your Business type</option>
-                                    <option selected disabled value="">Select Business type</option>
-
-
-                                    <option value="Real estate">Real estate</option>
-                                    <option value="Pharma">Pharma</option>
-                                    <option value="Chemical">Chemical</option>
-                                    <option value="Education">Education</option>
-                                    <option value=" Security"> Security</option>
-                                    <option value=" Infrastructure"> Infrastructure</option>
-                                    <option value="Hotel &  Fisheries ">Hotel & Fisheries </option>
-                                    <option>Restaurants</option>
-                                    <option>Beauty Salon</option>
-                                    <option>Gym/Spa</option>
-                                    <option>Startups</option>
-                                    <option>Dentist</option>
-                                    <option>Others</option>
-                                </select>
-                                <p class=" error" id="business-error" style="color: red; display: none;">Please select a
-                                    business type.</p>
+                                <input type="text" class="form-control mb-3" id="validationServer01" name="Company_Name" placeholder="Name of company" required />
+                                <p class="error" id="name-error" style="color: red; display: none;">Company Name(optional)</p>
                             </div>
                         </div>
 
                         <div class="row d-flex justify-content-between">
                             <div class="col-md-6 col-sm-12">
-                                <label for="validationServer05" class="form-label fw-bold"
-                                    style="font-family: 'Space Grotesk', sans-serif">City</label>
+                                <label for="validationServer05" class="form-label fw-bold" style="font-family: 'Space Grotesk', sans-serif">City</label>
                                 <span><img src="Assets/Images/star.png" alt=" start" class="img-fluid star1" /></span>
-                                <select class="form-select onlyback mb-3" id="validationServer05" name="City"
-                                    aria-describedby="validationServer05Feedback" required>
+                                <select class="form-select onlyback mb-3" id="validationServer05" name="City" aria-describedby="validationServer05Feedback" required>
                                     <option selected disabled value="">Select city</option>
                                     <option value="Delhi">Delhi </option>
                                     <option value="Mumbai"> Mumbai</option>
@@ -273,59 +233,38 @@
                                     city.
                                 </p>
                             </div>
-                            <div class="col-md-6 col-sm-12">
-                                <label for="validationServer06" class="form-label fw-bold"
-                                    style="font-family: 'Space Grotesk', sans-serif">Service</label>
+                            <div class="col-md-6 col-sm-12 ">
+                                <label for="validationServer01" class="form-label fw-bold" style="font-family: 'Space Grotesk', sans-serif">Company Website(optional)
+                                </label>
                                 <span><img src="Assets/Images/star.png" alt=" start" class="img-fluid star1" /></span>
-                                <select class="form-select onlyback mb-3" id="validationServer06" name="Service"
-                                    aria-describedby="validationServer06Feedback" required>
-                                    <option selected disabled value="">Select Services</option>
-                                    <option value="Web_Development">Web Development </option>
-                                    <option value="SEO_&_Performance Marketing"> SEO & Performance Marketing</option>
-                                    <option value="Website Redesign"> Website Redesign</option>
-                                    <option value="Mobile_app_Development">Mobile app Development </option>
-                                    <option value="Cross Platform Mobile App">Cross Platform Mobile App</option>
-                                    <option value=" Landing Pages Development"> Landing Pages Development</option>
-
-                                    <option value=" Static Development"> Static Development</option>
-                                    <option value="Dynamic Development ">Dynamic Development </option>
-                                    <option value="E-commerce Development">E-commerce Development</option>
-
-                                    <option value="Community Development"> Community Development</option>
-                                    <option value="Education Development ">Education Development </option>
-                                    <option value="Social Platforms Development">Social Platforms Development</option>
-                                    <option value="service2"> Blogs & Portfolio Development</option>
-
-                                </select>
-                                <p class="error" id="service-error" style="color: red; display: none;">Please select a
-                                    service.</p>
+                                <input type="text" class="form-control mb-3" id="validationServer01" name="Company_Website" placeholder="http:// or https://" required />
+                                <p class="error" id="name-error" style="color: red; display: none;">Company Website(optional)</p>
                             </div>
                         </div>
 
                         <div class="row justify-content-between">
                             <div class="col-md-7 col-sm-12 ">
-                                <label for="validationServer07" class="form-label fw-bold ck_form_share"
-                                    style="font-family: 'Space Grotesk', sans-serif">Share your idea, if any</label>
-                                <span class="ck_form_not">(Not Required)</span>
-                                <!-- <input type="file" class="form-control" id="validationServer07" name="file" aria-describedby="validationServer07Feedback" required accept=".pdf, .docx" /> -->
-                                <input type="file" class="form-control mb-3" id="validationServer07" name="Share_your_idea"
-                                    accept=".pdf, .docx" />
 
-                                <p class="error" id="file-error" style="color: red; display: none;">Please upload a
-                                    valid PDF or DOCX file.</p>
+                                <label for="validationServer04" class="form-label fw-bold" style="font-family: 'Space Grotesk', sans-serif">How did you hear about us </label>
+                                <span><img src="Assets/Images/star.png" alt=" start" class="img-fluid star1" /></span>
+                                <select class="form-select onlyback mb-3" id="validationServer04" name="Source_Category" aria-describedby="validationServer04Feedback" required>
+                                    <option selected disabled value="">Select Source category</option>
+
+
+                                    <option value="Linkdin">Linkdin</option>
+                                    <option value="Instagram">Instagram</option>
+                                    <option value="Instagram">Instagram</option>
+                                    <option value="Facebook">Facebook</option>
+
+                                </select>
+                                <p class=" error" id="business-error" style="color: red; display: none;">Please select a
+                                    business type.</p>
+
                             </div>
                         </div>
-                        <div class="row">
-                            <div class="col-md-12 col-sm-12">
-                                <label for="validationServer08" class="form-label fw-bold ck_form_msg"
-                                    style="font-family: 'Space Grotesk', sans-serif">Message (Optional)</label>
-                                <textarea name="Message" id="validationServer08" name="Message" cols="50" rows="10"
-                                    placeholder="Write your message here..."   class="mb-3 "></textarea>
-                            </div>
-                        </div>
+
                         <div class="col-12 col-sm-12 my-4 d-flex justify-content-center">
-                            <button class="btn fw-bold btnonly rounded-pill text-center mb-3" type="submit" name="submit">Submit
-                                Now</button>
+                            <button class="btn fw-bold btnonly rounded-pill text-center mb-3" type="submit" name="submit"> Get a request Now</button>
                         </div>
                     </form>
                 </div>
@@ -431,8 +370,7 @@
                             <!--Grid column-->
                             <div class="col-lg-1 col-md-6 mb-4 mb-md-0">
                                 <div class="dropdown" data-bs-theme="light">
-                                    <button class="btn-rj btn-secondary-rj dropdown-toggle" type="button"
-                                        id="dropdownMenuButtonLight" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <button class="btn-rj btn-secondary-rj dropdown-toggle" type="button" id="dropdownMenuButtonLight" data-bs-toggle="dropdown" aria-expanded="false">
                                         <img src="/Assets/Images/globe_with_meridians.png" class=""> Language
                                     </button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonLight">
@@ -473,10 +411,10 @@
                                 rest of your <span class="span-day" id="current-day"></span>
                         </div>
                         <div class="d-flex">
-              <a href=""><img src="Assets/Images/Facebook.png" class="img-fluid h-70 mss_iconFacebook" alt="icon"> </a>
-              <a href=""> <img src="Assets/Images/LinkedIn.png" class="img-fluid mx-3 h-70 mss_iconFacebook" alt="icon"></a>
-              <a href=""> <img src="Assets/Images/Instagram.png" class="img-fluid h-70 mss_iconFacebook" alt="icon"></a>
-            </div>
+                            <a href=""><img src="Assets/Images/Facebook.png" class="img-fluid h-70 mss_iconFacebook" alt="icon"> </a>
+                            <a href=""> <img src="Assets/Images/LinkedIn.png" class="img-fluid mx-3 h-70 mss_iconFacebook" alt="icon"></a>
+                            <a href=""> <img src="Assets/Images/Instagram.png" class="img-fluid h-70 mss_iconFacebook" alt="icon"></a>
+                        </div>
                     </div>
                     <!-- </section> -->
                     <!-- Section: CTA -->
@@ -515,16 +453,13 @@
         const currentDayIndex = currentDate.getDay();
 
         currentDayElement.textContent = days[currentDayIndex];
-
     </script>
 
     <!--carousel1  -->
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>

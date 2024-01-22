@@ -208,7 +208,7 @@ mysqli_stmt_close($stmt);
           <div title="Play video" class="play-gif mt-5" id="circle-play-b">
             <div class="video-container mx-auto mx-sm-0">
               <video autoplay muted loop class="video-frame">
-                <source src="/Assets/Images/video/finsl website promo.mp4" type="video/mp4">
+                <source src="https://ik.imagekit.io/ujxwdmvj7k/finsl%20website%20promo.mp4?updatedAt=1705316597583" type="video/mp4">
               </video>
               <h1 class="our-h mt-2 ck_carousel1_text1"> Our Clients</h1>
               <div id="image-carousel" class="owl-carousel owl-theme ck_carousel1_img">
