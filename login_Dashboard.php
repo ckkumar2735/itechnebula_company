@@ -53,13 +53,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     <section>
         <div class="container gd-form-container">
+        <!-- <div class="container "> -->
+
             <div class="myCard">
                 <div class="row">
-                    <div class="col-lg-7 col-md-6 mx-auto">
-                        <div class="myLeftCtn">
-                            <!-- <form class="myForm" action="login_Dashboard_submit.php" method="post"> PHP code for fetching data from database -->
-                            <form class="myForm" action="login_Dashboard.php" method="post">
-                                <!-- End of PHP code for fetching data -->
+
+                        <div class="col-lg-7 col-md-6 ">
+                            <div class="myLeftCtn">
+                                <!-- <form class="myForm" action="login_Dashboard_submit.php" method="post"> PHP code for fetching data from database -->
+                                <form class="myForm" action="login_Dashboard.php" method="post">
+
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-lg-12">
@@ -67,59 +70,57 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                                             <p class="gd-form-p mt-3">Welcome back Partner !!!</p>
                                             <h2 class="gd-form-h2">Log In</h2>
                                             <div class="form-group row">
-                                                <label class="col-lg-2 col-md-4 col-sm-12 gd-label" for="emailInput">Email</label>
-                                                <div class="col-lg-9 col-md-8 col-sm-12">
+                                                <label class="col-lg-2 col-md-4 col-sm-12   gd-label" for="emailInput">Email</label>
+                                                <div class="col-lg-9 col-md-8 col-sm-12  ">
                                                     <input id="emailInput" type="email" name="email" class="form-control gd-input-form" placeholder="login@gmail.com">
-                                                <!-- Display email error message -->
-                                                <span style="color: red;"><?php echo $email_error; ?></span>
+                                                    <!-- Display email error message -->
+                                                    <span style="color: red;"><?php echo $email_error; ?></span>
                                                 </div>
-                                            </div>
-                                                </div>
-                                            </div>
-                                            <div class="form-group row mt-5 position-relative">
-                                                <label class="col-lg-2 col-md-10 col-sm-12 gd-label" for="passwordInput">Password</label>
-                                                <div class="col-lg-9 col-md-10 col-sm-12">
-                                                    <div class="input-group">
-                                                        <input id="passwordInput" type="password" name="password" class="form-control gd-input-form" placeholder="**************" aria-describedby="togglePassword">
-                                                        <button type="button" class="btn btn-outline-secondary gd-eye-btn toggle-password" id="togglePassword">
-                                                            <i class="bi bi-eye"></i>
-                                                        </button>
-                                                    </div>
-                                                    <!-- Display password error message -->
-                                                    <span style="color: red;"><?php echo $password_error; ?></span>
-                                                </div>
-                                            </div>
-                                            <div class="gd-login-btn mt-3">
-                                                <div class="row gd-form-login-btn">
-                                                    <div class="col-lg-9 col-md-10 col-sm-12 ">
-                                                        <button type="submit" class="btn btn-primary">Login <i class="bi bi-arrow-right"></i></button>
-                                                        <p class="gd-f mt-3">or continue with</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="row gd-form-para1">
-                                                <div class="col-lg-9 col-md-10 col-sm-12">
-                                                    <p class=" mt-3">or continue with</p>
-                                                </div>
-                                            </div>
-                                            <div class="mt-3 gd-social-btn col-md-11 ">
-                                                <button type="button" class="btn btn-outline-primary"><img src="./images/Google.png" alt=""></button>
-                                                <button type="button" class="btn btn-outline-primary"><img src="./images/Facebook.jpg" alt=""></button>
-
-                                                <button type="button" class="btn btn-outline-primary"><img src="./images/Linked.png" alt=""></button>
-
-
-                                            </div>
-                                            <div class="mt-4 col-lg- col-md-9 col-sm-12 text-center ">
-                                                <span class="gd-form-p3 ">Don’t have an account yet?</span>&nbsp;<span class="gd-form-span ">Mail at partner@itechnebula.com</span>
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="form-group row mt-5 position-relative">
+                                        <label class="col-lg-2 col-md-10 col-sm-12  " for="passwordInput">Password</label>
+                                        <div class="col-lg-9 col-md-10 col-sm-12 ">
+                                            <div class="input-group">
+                                                <input id="passwordInput" type="password" name="password" class="form-control gd-input-form" placeholder="**************" aria-describedby="togglePassword">
+                                                <button type="button" class="btn btn-outline-secondary gd-eye-btn toggle-password" id="togglePassword">
+                                                    <i class="bi bi-eye"></i>
+                                                </button>
+                                            </div>
+                                            <!-- Display password error message -->
+                                            <span style="color: red;"><?php echo $password_error; ?></span>
+                                        </div>
+                                    </div>
+                                    <div class="gd-login-btn mt-3">
+                                        <div class="row gd-form-login-btn">
+                                            <div class="col-lg-9  col-md-10 col-sm-12 ">
+                                                <button type="submit" class="btn btn-primary">Login <i class="bi bi-arrow-right"></i></button>
+                                                <p class="gd-f mt-3">or continue with</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row gd-form-para1">
+                                        <div class="col-lg-9 col-md-10 col-sm-12">
+                                            <p class=" mt-3">or continue with</p>
+                                        </div>
+                                    </div>
+                                    <div class="mt-3 gd-social-btn col-md-11 ">
+                                        <button type="button" class="btn btn-outline-primary"><img src="./images/Google.png" alt=""></button>
+                                        <button type="button" class="btn btn-outline-primary"><img src="./images/Facebook.jpg" alt=""></button>
+
+                                        <button type="button" class="btn btn-outline-primary"><img src="./images/Linked.png" alt=""></button>
+
+
+                                    </div>
+                                    <div class="mt-4 col-lg- col-md-9 col-sm-12 text-center ">
+                                        <span class="gd-form-p3 ">Don’t have an account yet?</span>&nbsp;<span class="gd-form-span ">Mail at partner@itechnebula.com</span>
+                                    </div>
                                 </div>
-                            </form>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-5 gd-col2 mx-auto">
+                    </form>
+                    <div class="col-lg-5  gd-col2 ">
                         <div class="myRightCtn">
                             <div class="box">
                                 <img class="gd_girl img-fluid" src="./images/Character-working-laptop-while-sitting-chair.jpg" style="width: 800px;" alt="">
@@ -129,6 +130,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     </div>
                 </div>
             </div>
+
+        </div>
+        </div>
         </div>
     </section>
 
