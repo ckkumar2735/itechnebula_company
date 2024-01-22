@@ -1,3 +1,9 @@
+.ck_agency_table_img{
+	width: 50px;
+	 height: 50px;
+}
+
+
 table{
 	border-top: 1px solid #000;
 border-right: 1px solid #000;
@@ -23,7 +29,7 @@ align-items: center; */
 .agency_ck_body{
 	color: #38484F;
 font-family: DM Sans;
-font-size: 32px;
+font-size: 25px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
@@ -154,11 +160,53 @@ align-self: stretch;
 	height:600px;
   	width: -webkit-fill-available;
 }
+.ck_agency_text1{
+	color: #38484F;
+	text-align: center;
+	font-family: "Space Grotesk";
+	font-size: 58px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 112.5%; 
+	letter-spacing: -0.87px;
+}
+
+.ck_agency_text2{
+	color: #38484F;
+text-align: center;
+font-family: "DM Sans";
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 157.2%; 
+}
+
 
 @media (min-width: 320px) and (max-width: 480px) {
+	.agency_ck_body{
+	font-size: 11px;
+	}
+	.ck_agency_table_img{
+		width: 30px;
+		 height: 30px;
+	}
+	.table>:not(caption)>*>* {
+		padding: 0.1rem 0.1rem;
+	}
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
+	.agency_ck_body{
+		font-size: 11px;
+		}
+
+		.table>:not(caption)>*>* {
+			padding: 0.1rem 0.1rem;
+		}
+		.ck_agency_table_img{
+			width: 30px;
+			 height: 30px;
+		}
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
