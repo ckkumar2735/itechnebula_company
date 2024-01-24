@@ -137,24 +137,38 @@ mysqli_stmt_close($stmt);
 
 <body>
 
-  <section>
+<section>
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="./Assets/Images/mssLogo.png" class="img-fluid" alt="logo"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="index.php"><img src="./Assets/Images/mssLogo.png" class="img-fluid"
+            alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto mss_nav_ul ">
             <li class="nav-item">
-              <a class="nav-link active mss_home" aria-current="page" href="#" style="color: #040484;">Home</a>
+              <a class="nav-link active mss_home" aria-current="page" href="index.php" style="color: #040484;">Home</a>
+            </li>
+            <li class="nav-item mx-4 dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Industries
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="industries.html">Real Estate</a></li>
+                <li><a class="dropdown-item" href="#">Hotels, Banquet &  Hospitality</a></li>
+                <li><a class="dropdown-item" href="#">Health care and  Doctors</a></li>
+              </ul>
             </li>
             <li class="nav-item mx-4 mss_cast">
-              <a class="nav-link mss_home1" href="#" style="color: #040484;">Casestudies</a>
+              <a class="nav-link mss_home1" href="Casestudies.html" style="color: #040484;">Casestudies</a>
             </li>
 
             <li class="nav-item  ">
-              <a class="nav-link mss_home2" href="#" tabindex="-1" aria-disabled="true" style="color: #040484;">itechnebula Specialists</a>
+              <a class="nav-link mss_home2" href="iTechnebula_Specialists.html" tabindex="-1" aria-disabled="true"
+                style="color: #040484;">itechnebula Specialists</a>
             </li>
           </ul>
           <form class="d-flex mss_forms">

@@ -36,7 +36,8 @@
   <section>
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"><img src="./Assets/Images/mssLogo.png" class="img-fluid" alt="logo"></a>
+        <a class="navbar-brand" href="index.php"><img src="./Assets/Images/mssLogo.png" class="img-fluid"
+            alt="logo"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -44,25 +45,37 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto mss_nav_ul ">
             <li class="nav-item">
-              <a class="nav-link active mss_home" aria-current="page" href="#" style="color: #040484;">Home</a>
+              <a class="nav-link active mss_home" aria-current="page" href="index.php" style="color: #040484;">Home</a>
+            </li>
+            <li class="nav-item mx-4 dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Industries
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="industries.html">Real Estate</a></li>
+                <li><a class="dropdown-item" href="#">Hotels, Banquet &  Hospitality</a></li>
+                <li><a class="dropdown-item" href="#">Health care and  Doctors</a></li>
+              </ul>
             </li>
             <li class="nav-item mx-4 mss_cast">
-              <a class="nav-link mss_home1" href="#" style="color: #040484;">Casestudies</a>
+              <a class="nav-link mss_home1" href="Casestudies.html" style="color: #040484;">Casestudies</a>
             </li>
 
             <li class="nav-item  ">
-              <a class="nav-link mss_home2" href="#" tabindex="-1" aria-disabled="true"
+              <a class="nav-link mss_home2" href="iTechnebula_Specialists.html" tabindex="-1" aria-disabled="true"
                 style="color: #040484;">itechnebula Specialists</a>
             </li>
           </ul>
           <form class="d-flex mss_forms">
-            <button class="btn rounded-pill mss_request" type="submit">
+            <a href="form.php" class="btn rounded-pill mss_request" type="submit">
               Request a quote
-            </button>
-            <button class="btn mss_client rounded-pill" type="submit">
+            </a>
+            <a href="https://codedelhiites.dev/team/authentication" class="btn mss_client rounded-pill" type="submit">
+
               <img src="Assets/Images/mssButtonIcon.png" alt="icon" class="img-fluid">
-              Client Login
-            </button>
+              Client Login</a>
+
           </form>
         </div>
       </div>
@@ -133,7 +146,7 @@
             </div>
           </div>
         </div>
-       
+
 
 
         <div class="card mss_cardSection  border-0 mx-3 flip-card ">
@@ -151,7 +164,7 @@
             </div>
           </div>
         </div>
-       
+
 
         <div class="card mss_cardSection  border-0 mx-3 flip-card ">
           <div class="flip-card-inner  d-flex flex-column ">
@@ -168,7 +181,7 @@
             </div>
           </div>
         </div>
-        
+
 
 
         <div class="card mss_cardSection  border-0 mx-3 flip-card ">
@@ -213,13 +226,14 @@
             </div>
           </div>
         </div>
-       
+
         <div class="card mss_cardSection  border-0 mx-3 flip-card ">
           <div class="flip-card-inner  d-flex flex-column ">
             <div class="flip-card-front">
-              <img src="Assets/Images/izaz.jpg" class="card-img-top ms_circleImgage " style="border-radius: 80px;"  alt="...">
+              <img src="Assets/Images/izaz.jpg" class="card-img-top ms_circleImgage " style="border-radius: 80px;"
+                alt="...">
               <div class="card-body text-center">
-             
+
                 <h3 class="card-text mt-4 mss_name">IZAZUAL HAQUE</h3>
                 <h3 class="card-text mt-2 mss_name_position">Web Project Manager</h3>
                 <button class="btn mss_inID d-block mt-3   rounded-pill">izaz@codedelhiites.dev</button>
@@ -231,12 +245,13 @@
             </div>
           </div>
         </div>
-      
+
 
         <div class="card mss_cardSection  border-0 mx-3 flip-card ">
           <div class="flip-card-inner  d-flex flex-column ">
             <div class="flip-card-front">
-              <img src="Assets/Images/sagar.jpeg" class="card-img-top ms_circleImgage  " style="border-radius: 80px;" alt="...">
+              <img src="Assets/Images/sagar.jpeg" class="card-img-top ms_circleImgage  " style="border-radius: 80px;"
+                alt="...">
               <div class="card-body text-center">
                 <h3 class="card-text mt-4 mss_name">Sagar Yadav</h3>
                 <h3 class="card-text mt-2 mss_name_position">BackEnd Developer</h3>
@@ -500,6 +515,9 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script> -->
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"></script>
 </body>
 
 </html>
