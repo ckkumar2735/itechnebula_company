@@ -26,8 +26,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet" type="text/css"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
 
 
@@ -47,28 +46,22 @@
     <script src="script.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100;0,9..40,200;0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;0,9..40,800;0,9..40,900;0,9..40,1000;1,9..40,200;1,9..40,300;1,9..40,400;1,9..40,500;1,9..40,600;1,9..40,700;1,9..40,800;1,9..40,900;1,9..40,1000&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Varela+Round">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"> -->
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
     <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <!-- -------------css----------- -->
     <link rel="stylesheet" href="style.css" />
@@ -93,15 +86,13 @@
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <div class="container-fluid ms_mobilepading">
                         <img src="/Assets/Images/logo 1.png" alt="logo" class="img-fluid ms-logo" />
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto rjj-nev">
                                 <li class="nav-item mx-3">
-                                    <a class="nav-link  home-rjj" aria-current="page" href="index.html">হোম</a>
+                                    <a class="nav-link  home-rjj" aria-current="page" href="index.html">ਹੋਮ</a>
                                 </li>
                                 <!-- <li class="nav-item mx-3">
                   <a class="nav-link  home-rjj" aria-current="page" href="index.html">Industries </a>
@@ -109,52 +100,49 @@
 
                                 <!-- Example single danger button -->
                                 <div class="">
-                                    <a class="nav-link  home-rjj dropdown-toggle" data-toggle="dropdown"
-                                        aria-haspopup="true" aria-expanded="false">
+                                    <a class="nav-link  home-rjj dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 
-                                        শিল্প
+                                        ਉਦਯੋਗ
                                     </a>
                                     <div class="dropdown-menu">
-                                        <a class="dropdown-item" href="bangla_industries.html">আবাসন</a>
-                                        <a class="dropdown-item" href="#">
-                                            হোটেল, ভোজ এবং আতিথেয়তা</a>
-                                        <a class="dropdown-item" href="#">
-                                            স্বাস্থ্যসেবা এবং ডাক্তার</a>
+                                        <a class="dropdown-item" href="panjabi_industries.html">ਅਚਲ ਜਾਇਦਾਦ</a>
+                                        <a class="dropdown-item" href="#">ਹੋਟਲ, ਦਾਅਵਤ ਅਤੇ ਪਰਾਹੁਣਚਾਰੀ</a>
+                                        <a class="dropdown-item" href="#">ਸਿਹਤ ਸੰਭਾਲ ਅਤੇ ਡਾਕਟਰ</a>
 
                                     </div>
                                 </div>
 
 
                                 <li class="nav-item mx-3">
-                                    <a class="nav-link home-rjj" href="bangla_Casestudies.html">কেস স্টাডিজ</a>
+                                    <a class="nav-link home-rjj" href="panjabi_Casestudies.html">ਕੇਸ ਅਧਿਐਨ</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="#">কর্ম</a></li>
+                                        <li><a class="dropdown-item" href="#">
+                                                ਕਾਰਵਾਈ</a></li>
                                         <li>
-                                            <a class="dropdown-item" href="#">আরেকটি কর্ম</a>
+                                            <a class="dropdown-item" href="#">ਇੱਕ ਹੋਰ ਕਾਰਵਾਈ</a>
                                         </li>
                                         <li>
                                             <hr class="dropdown-divider" />
                                         </li>
                                         <li>
-                                            <a class="dropdown-item" href="#">
-                                                এখানে অন্য কিছু</a>
+                                            <a class="dropdown-item" href="#">ਇੱਥੇ ਕੁਝ ਹੋਰ</a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li class="nav-item mx-3">
-                                    <a class="nav-link home-rjj" href="bangla_iTechnebula_Specialists.html" tabindex="-1"
-                                        aria-disabled="true">
-
-                                        ইটেকনিবুলা বিশেষজ্ঞ</a>
+                                    <a class="nav-link home-rjj" href="panjabai_iTechnebula_Specialists.html" tabindex="-1" aria-disabled="true">
+                                        ਇਟੇਨੇਬਿਊਲਾ ਮਾਹਰ</a>
                                 </li>
                             </ul>
                             <div class="rjj-btn-mobile">
-                                <a class="rounded-pill request-rjj " href="form.php">উদ্ধৃতির জন্য আবেদন</a>
+                                <a class="rounded-pill request-rjj " href="form.php">
+                                    ਇੱਕ ਹਵਾਲੇ ਲਈ ਬੇਨਤੀ ਕਰੋ</a>
                                 <a class="rounded-pill clint-rjj" href="https://codedelhiites.dev/team/authentication">
                                     <img src="/Assets/Images/Search Client.png" alt="" class="img-fluid" />
-                                    ক্লায়েন্ট লগইন</a>
+
+                                    ਕਲਾਇੰਟ ਲੌਗਇਨ</a>
                             </div>
 
                         </div>
@@ -169,22 +157,21 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <p class="onlylne"></p>
-                    <h1 class="text-tech mx-auto " style=" font-weight: bold;"> আপনার বিপ্লব
-                        <span class="ck_text_sec_12" style=" font-weight: bold;">স্থানীয়</span> প্রযুক্তির সাথে
-                        ব্যবসা-<span class="sp-rjj" style=" font-weight: bold;">
-
-                            ইটেকনিবুলা</span>
+                    <h1 class="text-tech mx-auto " style=" font-weight: bold;">ਤੁਹਾਡੀ ਕ੍ਰਾਂਤੀਕਾਰੀ
+                        <span class="ck_text_sec_12" style=" font-weight: bold;">ਲੋਕਲ</span> ਟੈਕ ਨਾਲ ਵਪਾਰ- <span class="sp-rjj" style=" font-weight: bold;">
+                            ਇਟੇਨੇਬਿਊਲਾ</span>
                     </h1>
-                    <p class="text-app mx-auto">📈 আপনার প্রক্রিয়াগুলিকে স্ট্রীমলাইন করুন, গ্রাহকদের সাথে উদ্ভাবনী
-                        উপায়ে সংযোগ করুন,
-                        এবং দেখ
-                        আপনার স্থানীয় ব্যবসা নতুন উচ্চতায় উঠবে। ইটেকনেবুলার দক্ষতার সাথে, প্রতিটি ক্লিক একটি হয়ে যায়
-                        দিকে পদক্ষেপ
-                        সাফল্য 💻 আমরা এখানে আছি আপনার ব্যবসাকে ডিজিটাল যুগের জন্য সজ্জিত করতে। আপনার স্থানীয় প্রসারিত
-                        করা যাক
-                        একসাথে প্রভাব!
+                    <p class="text-app mx-auto">📈 ਆਪਣੀਆਂ ਪ੍ਰਕਿਰਿਆਵਾਂ ਨੂੰ ਸੁਚਾਰੂ ਬਣਾਓ, ਨਵੀਨਤਾਕਾਰੀ ਤਰੀਕਿਆਂ ਨਾਲ ਗਾਹਕਾਂ ਨਾਲ
+                        ਜੁੜੋ,
+                        ਅਤੇ ਦੇਖੋ
+                        ਤੁਹਾਡਾ ਸਥਾਨਕ ਕਾਰੋਬਾਰ ਨਵੀਆਂ ਉਚਾਈਆਂ 'ਤੇ ਚੜ੍ਹਦਾ ਹੈ। ਇਟੈਕਨੇਬਿਊਲਾ ਦੀ ਮੁਹਾਰਤ ਨਾਲ, ਹਰ ਕਲਿੱਕ ਇੱਕ ਬਣ
+                        ਜਾਂਦਾ ਹੈ
+                        ਵੱਲ ਕਦਮ
+                        ਸਫਲਤਾ 💻 ਅਸੀਂ ਤੁਹਾਡੇ ਕਾਰੋਬਾਰ ਨੂੰ ਡਿਜੀਟਲ ਯੁੱਗ ਲਈ ਤਿਆਰ ਕਰਨ ਲਈ ਇੱਥੇ ਹਾਂ। ਚਲੋ ਤੁਹਾਡੇ ਸਥਾਨਕ ਨੂੰ
+                        ਵਧਾਉਂਦੇ ਹਾਂ
+                        ਇਕੱਠੇ ਪ੍ਰਭਾਵ!
                     </p>
-                    <button class="border-0 mx-auto find-rjj mb-4 rounded-pill">এখন শুরু করা যাক</button>
+                    <button class="border-0 mx-auto find-rjj mb-4 rounded-pill">ਚਲੋ ਹੁਣੇ ਸ਼ੁਰੂ ਕਰੀਏ</button>
                     <img src="/Assets/Images/Group 56.png" alt="" class="img-fluid heroCircle imageTopD d-block" />
                 </div>
                 <div class="col-lg-6 mt-5">
@@ -193,23 +180,17 @@
                             <video autoplay muted loop class="video-frame">
                                 <source src="/Assets/Images/video/finsl website promo.mp4" type="video/mp4">
                             </video>
-                            <h1 class="our-h mt-2 ck_carousel1_text1"> আপনি উত্তর দিবেন না</h1>
+                            <h1 class="our-h mt-2 ck_carousel1_text1"> ਸਾਡੇ ਗਾਹਕ</h1>
                             <div id="image-carousel" class="owl-carousel owl-theme ck_carousel1_img">
-                                <div class="item"> <img src="Assets/Images/Logo1.png" class="img-fluid center-rj"
-                                        alt="Image 1" /></div>
-                                <div class="item"> <img src="Assets/Images/Logo2.png" class="img-fluid center-rj "
-                                        alt="Image 2" />
+                                <div class="item"> <img src="Assets/Images/Logo1.png" class="img-fluid center-rj" alt="Image 1" /></div>
+                                <div class="item"> <img src="Assets/Images/Logo2.png" class="img-fluid center-rj " alt="Image 2" />
                                 </div>
-                                <div class="item"> <img src="Assets/Images/Logo3.png" class="img-fluid center-rj "
-                                        alt="Image 3" />
+                                <div class="item"> <img src="Assets/Images/Logo3.png" class="img-fluid center-rj " alt="Image 3" />
                                 </div>
-                                <div class="item"> <img src="Assets/Images/Logo4.png" class="img-fluid center-rj"
-                                        alt="Image 4" /></div>
-                                <div class="item"> <img src="Assets/Images/Logo5.png" class="img-fluid center-rj"
-                                        alt="Image 5" />
+                                <div class="item"> <img src="Assets/Images/Logo4.png" class="img-fluid center-rj" alt="Image 4" /></div>
+                                <div class="item"> <img src="Assets/Images/Logo5.png" class="img-fluid center-rj" alt="Image 5" />
                                 </div>
-                                <div class="item"> <img src="Assets/Images/Logo6.png" class="img-fluid center-rj"
-                                        alt="Image 6" />
+                                <div class="item"> <img src="Assets/Images/Logo6.png" class="img-fluid center-rj" alt="Image 6" />
                                 </div>
                             </div>
                         </div>
@@ -232,7 +213,7 @@
 
         // Event listener to detect scroll direction
         let lastScrollTop = 0;
-        window.addEventListener('scroll', function () {
+        window.addEventListener('scroll', function() {
             const st = window.scrollY;
             if (st > lastScrollTop) {
                 // Scrolling down, make the video smaller
@@ -257,12 +238,12 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-7 mt-5">
-                    <h2 style="text-align: center;" class="">আমাদের সেবাসমূহ<img src="/Assets/Images/office.png"
-                            class="img-fluid ">
+                    <h2 style="text-align: center;" class="">ਸਾਡੀ ਸੇਵਾਵਾਂ <img src="/Assets/Images/office.png" class="img-fluid ">
                     </h2>
-                    <p class=" text-center mt-3">আপনার ব্যবসার লক্ষ্য অর্জনে আপনাকে সাহায্য করার জন্য, আমরা অফার করি
-                        ব্যাপক<br>
-                        আইটি পরিষেবা যা আপনার প্রয়োজন অনুসারে তৈরি।</p>
+                    <p class=" text-center mt-3">ਤੁਹਾਡੇ ਕਾਰੋਬਾਰੀ ਟੀਚਿਆਂ ਨੂੰ ਪ੍ਰਾਪਤ ਕਰਨ ਵਿੱਚ ਤੁਹਾਡੀ ਮਦਦ ਕਰਨ ਲਈ, ਅਸੀਂ
+                        ਪੇਸ਼ਕਸ਼ ਕਰਦੇ ਹਾਂ
+                        ਵਿਆਪਕ<br>
+                        IT ਸੇਵਾਵਾਂ ਜੋ ਤੁਹਾਡੀਆਂ ਲੋੜਾਂ ਮੁਤਾਬਕ ਤਿਆਰ ਕੀਤੀਆਂ ਗਈਆਂ ਹਨ।</p>
                 </div>
             </div>
         </div>
@@ -273,14 +254,13 @@
                         <div class="card-body rjj-body mb-4 mt-5">
                             <img src="/Assets/Images/Ellipse 633.png" class="img-fluid rjj_crcl">
                             <img src="/Assets/Images/web-site.png" class="img-fluid">
-                            <h5 class="rjj-title mt-3">ই-কমার্স ডেভেলপমেন্ট</h5>
+                            <h5 class="rjj-title mt-3">ਈ-ਕਾਮਰਸ ਵਿਕਾਸ</h5>
                             <p class="rjj-card-text  mt-4">
-                                সমস্ত আকারের ব্যবসার জন্য একটি কাস্টম-উপযুক্ত ই-কমার্স সমাধান যা আমরা বিশেষ করি৷
-                                ভিতরে.
+                                ਹਰ ਆਕਾਰ ਦੇ ਕਾਰੋਬਾਰਾਂ ਲਈ ਇੱਕ ਕਸਟਮ-ਅਨੁਕੂਲ ਈ-ਕਾਮਰਸ ਹੱਲ ਹੈ ਜੋ ਅਸੀਂ ਵਿਸ਼ੇਸ਼ਤਾ ਰੱਖਦੇ ਹਾਂ
+                                ਵਿੱਚ
                             </p>
                             <div>
-                                <button class="btn4  rjj_read">
-                                    আরও পড়ুন <i class="bi bi-arrow-right"></i></button>
+                                <button class="btn4  rjj_read">ਹੋਰ ਪੜ੍ਹੋ <i class="bi bi-arrow-right"></i></button>
 
 
                             </div>
@@ -292,14 +272,14 @@
                         <div class="card-body rjj-body mb-4 mt-5">
                             <img src="/Assets/Images/Ellipse 633.png" class="img-fluid rjj_crcl">
                             <img src="/Assets/Images/wordpress.png" class="img-fluid">
-                            <h5 class="rjj-title mt-3">ওয়ার্ডপ্রেস ডেভেলপমেন্ট</h5>
+                            <h5 class="rjj-title mt-3">ਵਰਡਪਰੈਸ ਵਿਕਾਸ</h5>
                             <p class="rjj-card-text  mt-4">
-                                আপনার ব্র্যান্ডের জন্য তৈরি একটি থিম এবং একটি প্লাগইন যা আপনার সাইটের কার্যকারিতা
-                                বাড়ায়৷
+                                ਇੱਕ ਥੀਮ ਤੁਹਾਡੇ ਬ੍ਰਾਂਡ ਅਤੇ ਇੱਕ ਪਲੱਗਇਨ ਲਈ ਤਿਆਰ ਕੀਤਾ ਗਿਆ ਹੈ ਜੋ ਤੁਹਾਡੀ ਸਾਈਟ ਦੀ ਕਾਰਜਕੁਸ਼ਲਤਾ
+                                ਨੂੰ ਵਧਾਉਂਦਾ ਹੈ।
                             </p>
 
-                            <button class="btn4 rjj_read" id="service2-readmore">আরও পড়ুন <i
-                                    class="bi bi-arrow-right"></i></button>
+                            <button class="btn4 rjj_read" id="service2-readmore">
+                                ਹੋਰ ਪੜ੍ਹੋ <i class="bi bi-arrow-right"></i></button>
 
                         </div>
                     </div>
@@ -309,11 +289,11 @@
                         <div class="card-body rjj-body mb-4 mt-5">
                             <img src="/Assets/Images/Ellipse 633.png" class="img-fluid rjj_crcl">
                             <img src="/Assets/Images/web-site.png" class="img-fluid">
-                            <h5 class="rjj-title mt-3">ওয়েবসাইট রিডিজাইন</h5>
+                            <h5 class="rjj-title mt-3">ਵੈੱਬਸਾਈਟ ਰੀਡਿਜ਼ਾਈਨ </h5>
                             <p class="rjj-card-text  mt-4">
-                                আপনার বর্তমান ওয়েবসাইটের একটি পুঙ্খানুপুঙ্খ বিশ্লেষণ পরিচালনা করা। ভিজিটর উন্নতি
-                                অভিজ্ঞতা</p>
-                            <button class="btn4 rjj_read">আরও পড়ুন <i class="bi bi-arrow-right"></i></button>
+                                ਤੁਹਾਡੀ ਮੌਜੂਦਾ ਵੈੱਬਸਾਈਟ ਦਾ ਪੂਰਾ ਵਿਸ਼ਲੇਸ਼ਣ ਕਰਨਾ। ਵਿਜ਼ਟਰ ਨੂੰ ਸੁਧਾਰਨਾ
+                                ਅਨੁਭਵ.</p>
+                            <button class="btn4 rjj_read">ਹੋਰ ਪੜ੍ਹੋ <i class="bi bi-arrow-right"></i></button>
 
                         </div>
                     </div>
@@ -326,15 +306,14 @@
                             <div class="card-body rjj-body mb-4 mt-5">
                                 <img src="/Assets/Images/Ellipse 633.png" class="img-fluid rjj_crcl">
                                 <img src="/Assets/Images/magnifying-glass.png" class="img-fluid">
-                                <h5 class="rjj-title mt-3">
-                                    রূপান্তর হার অপ্টিমাইজেশান</h5>
+                                <h5 class="rjj-title mt-3">ਪਰਿਵਰਤਨ ਦਰ ਅਨੁਕੂਲਨ</h5>
                                 <p class="rjj-card-text  mt-4">
-                                    প্রতিবন্ধকতা চিহ্নিত করতে আপনার ওয়েবসাইটের কর্মক্ষমতার একটি গভীর বিশ্লেষণ।
-                                    এর মূল্যায়ন
-                                    ওয়েবসাইটের ব্যবহারযোগ্যতা।
+                                    ਰੁਕਾਵਟਾਂ ਦੀ ਪਛਾਣ ਕਰਨ ਲਈ ਤੁਹਾਡੀ ਵੈਬਸਾਈਟ ਦੇ ਪ੍ਰਦਰਸ਼ਨ ਦਾ ਡੂੰਘਾਈ ਨਾਲ ਵਿਸ਼ਲੇਸ਼ਣ।
+                                    ਦਾ ਮੁਲਾਂਕਣ
+                                    ਵੈੱਬਸਾਈਟ ਦੀ ਉਪਯੋਗਤਾ.
                                 </p>
 
-                                <button class="btn4 rjj_read">আরও পড়ুন <i class="bi bi-arrow-right"></i></button>
+                                <button class="btn4 rjj_read">ਹੋਰ ਪੜ੍ਹੋ<i class="bi bi-arrow-right"></i></button>
 
                             </div>
                         </div>
@@ -346,14 +325,13 @@
                             <div class="card-body rjj-body mb-4 mt-5">
                                 <img src="/Assets/Images/Ellipse 633.png" class="img-fluid rjj_crcl">
                                 <img src="/Assets/Images/startup.png" class="img-fluid">
-                                <h5 class="rjj-title mt-3">সন্ধান যন্ত্র নিখুতকরন</h5>
+                                <h5 class="rjj-title mt-3">ਖੋਜ ਇੰਜਨ ਔਪਟੀਮਾਈਜੇਸ਼ਨ</h5>
                                 <p class="rjj-card-text  mt-4">
-                                    একটি ব্যাপক মূল্যায়নের উপর ভিত্তি করে একটি উপযোগী এসইও কৌশল তৈরি করুন। ক্রমবর্ধমান
-                                    লোক অনুসন্ধান
-                                    ব্যবসা
+                                    ਇੱਕ ਵਿਆਪਕ ਮੁਲਾਂਕਣ ਦੇ ਅਧਾਰ ਤੇ ਇੱਕ ਅਨੁਕੂਲ ਐਸਈਓ ਰਣਨੀਤੀ ਵਿਕਸਿਤ ਕਰੋ। ਵਧ ਰਿਹਾ ਹੈ
+                                    ਲੋਕ ਲਈ ਖੋਜ
+                                    ਕਾਰੋਬਾਰ।
                                 </p>
-                                <button class="btn4 rjj_read" id="service5-readmore">
-                                    আরও পড়ুন <i class="bi bi-arrow-right"></i></button>
+                                <button class="btn4 rjj_read" id="service5-readmore">ਹੋਰ ਪੜ੍ਹੋ <i class="bi bi-arrow-right"></i></button>
 
                             </div>
                         </div>
@@ -365,16 +343,16 @@
                             <div class="card-body rjj-body mb-4 mt-5">
                                 <img src="/Assets/Images/Ellipse 633.png" class="img-fluid rjj_crcl">
                                 <img src="/Assets/Images/layers.png" class="img-fluid">
-                                <h5 class="rjj-title mt-3">ক্রস প্ল্যাটফর্ম মোবাইল অ্যাপ</h5>
+                                <h5 class="rjj-title mt-3">ਕਰਾਸ ਪਲੇਟਫਾਰਮ ਮੋਬਾਈਲ ਐਪ</h5>
                                 <p class="rjj-card-text mt-4">
-                                    রিঅ্যাক্ট নেটিভ মোবাইল অ্যাপের বিকাশ একটি ব্যাপকতার একটি অপরিহার্য অংশ
-                                    ক্রস-প্ল্যাটফর্ম
-                                    কৌশল
+                                    ਰੀਐਕਟ ਨੇਟਿਵ ਮੋਬਾਈਲ ਐਪਸ ਦਾ ਵਿਕਾਸ ਇੱਕ ਵਿਆਪਕ ਦਾ ਇੱਕ ਜ਼ਰੂਰੀ ਹਿੱਸਾ ਹੈ
+                                    ਕਰਾਸ-ਪਲੇਟਫਾਰਮ
+                                    ਰਣਨੀਤੀ.
                                 </p>
 
 
                                 <button class="btn4  rjj_read" id="service6-readmore ">
-                                    আরও পড়ুন <i class="bi bi-arrow-right"></i></button>
+                                    ਹੋਰ ਪੜ੍ਹੋ <i class="bi bi-arrow-right"></i></button>
 
                             </div>
                         </div>
@@ -391,8 +369,8 @@
             <div class="row justify-content-center mt-3">
                 <div class="col-lg-7 mt-5">
                     <h3 class="h-3">Portfolio <span class="span-day1" id="current-date-month-year"></span></h3>
-                    <h2 class="h-2 mt-2" style="text-align: center;">আমাদের মহান কাজ <img
-                            src="/Assets/Images/briefcase.png" class="img-fluid"></h2>
+                    <h2 class="h-2 mt-2" style="text-align: center;">
+                        ਸਾਡਾ ਮਹਾਨ ਕੰਮ<img src="/Assets/Images/briefcase.png" class="img-fluid"></h2>
 
                 </div>
 
@@ -403,12 +381,10 @@
                 <div style="text-align: center;" class="col-lg-12  g-3 mb-5 ">
                     <!-- <div class="mb-5 btn-card1rj"> -->
                     <div class="mt-5 rjj-ebtn">
-                        <button type="button" class="btn-0 btn-light ck_sec4_btn1 " style="border: 1px solid black;"
-                            onclick="showCategory('ecommerce', 1)">ওয়েব ডেভেলপমেন্ট</button>
-                        <button type="button" class="btn-0 btn-light ck_sec4_btn2 " style="border: 1px solid black;"
-                            onclick="showCategory('redesign', 2)">ওয়েবসাইট রিডিজাইন</button>
-                        <button type="button" class="btn-0 btn-light ck_sec4_btn3 " style="border: 1px solid black;"
-                            onclick="showCategory('mobileapps', 3)">মোবাইল অ্যাপস</button>
+                        <button type="button" class="btn-0 btn-light ck_sec4_btn1 " style="border: 1px solid black;" onclick="showCategory('ecommerce', 1)">ਵੈੱਬ ਵਿਕਾਸ</button>
+                        <button type="button" class="btn-0 btn-light ck_sec4_btn2 " style="border: 1px solid black;" onclick="showCategory('redesign', 2)">
+                            ਵੈੱਬਸਾਈਟ ਰੀਡਿਜ਼ਾਈਨ</button>
+                        <button type="button" class="btn-0 btn-light ck_sec4_btn3 " style="border: 1px solid black;" onclick="showCategory('mobileapps', 3)">ਮੋਬਾਈਲ ਐਪਸ</button>
                     </div>
 
                     <div id="image-carousel123" class="owl-carousel">
@@ -416,41 +392,39 @@
 
                         <div class="thumb-wrapper mt-5">
                             <div class="img-box">
-                                <img src="/Assets/Images/s-img/Imgae Place Holder (1).png" class="img-fluid ck-img-rj"
-                                    alt="">
+                                <img src="/Assets/Images/s-img/Imgae Place Holder (1).png" class="img-fluid ck-img-rj" alt="">
                             </div>
                             <div class="thumb-content mt-5">
-                                <p class="card-text">একটি ঐতিহ্যবাহী থেকে ফ্রুনিরোর যাত্রা
-                                    একটি আসবাবপত্র খুচরা বিক্রেতা
-                                    সমৃদ্ধ ই-কমার্স
-                                    ব্র্যান্ড একটি কৌশলগত ডিজিটালের শক্তিকে চিত্রিত করে
-                                    রূপান্তর</p>
+                                <p class="card-text">ਇੱਕ ਰਵਾਇਤੀ ਤੱਕ Fruniro ਦੀ ਯਾਤਰਾ
+                                    ਫਰਨੀਚਰ ਰਿਟੇਲਰ ਨੂੰ ਏ
+                                    ਸੰਪੰਨ ਈ-ਕਾਮਰਸ
+                                    ਬ੍ਰਾਂਡ ਇੱਕ ਰਣਨੀਤਕ ਡਿਜੀਟਲ ਦੀ ਸ਼ਕਤੀ ਨੂੰ ਦਰਸਾਉਂਦਾ ਹੈ
+                                    ਪਰਿਵਰਤਨ
+                                </p>
                             </div>
                         </div>
 
                         <div class="thumb-wrapper mt-5">
                             <div class="img-box">
-                                <img src="/Assets/Images/s-img/Imgae Place Holder (2).png" class="img-fluid ck-img-rj"
-                                    alt="">
+                                <img src="/Assets/Images/s-img/Imgae Place Holder (2).png" class="img-fluid ck-img-rj" alt="">
                             </div>
                             <div class="thumb-content mt-5">
-                                <p class="card-text">শপির মতো একটি ই-কমার্স পাওয়ার হাউস রয়েছে
-                                    একটি ঐতিহ্যগত আউটলেট নেওয়া হয়েছে
-                                    খুচরা বিক্রেতা এবং
-                                    এটিকে একটি সমৃদ্ধশালী ই-কমার্স ব্যবসায় রূপান্তরিত করেছে।</p>
+                                <p class="card-text">ਸ਼ਾਪੀ ਵਰਗਾ ਈ-ਕਾਮਰਸ ਪਾਵਰਹਾਊਸ ਹੈ
+                                    ਇੱਕ ਰਵਾਇਤੀ ਆਊਟਲੈੱਟ ਲਿਆ
+                                    ਰਿਟੇਲਰ ਅਤੇ
+                                    ਇਸ ਨੂੰ ਇੱਕ ਸੰਪੰਨ ਈ-ਕਾਮਰਸ ਕਾਰੋਬਾਰ ਵਿੱਚ ਬਦਲ ਦਿੱਤਾ।</p>
                             </div>
                         </div>
 
                         <div class="thumb-wrapper mt-5">
                             <div class="img-box">
-                                <img src="/Assets/Images/s-img/Imgae Place Holder.png" class="img-fluid ck-img-rj"
-                                    alt="">
+                                <img src="/Assets/Images/s-img/Imgae Place Holder.png" class="img-fluid ck-img-rj" alt="">
                             </div>
                             <div class="thumb-content mt-5">
-                                <p class="card-text">কৌশলগত ডিজিটাল উদ্ভাবন আছে
-                                    একটি ঐতিহ্যগত থেকে FASCO রূপান্তরিত
-                                    শিল্প
-                                    একটি লাভজনক ই-কমার্স পাওয়ার হাউসে সরঞ্জাম সরবরাহকারী।
+                                <p class="card-text">ਰਣਨੀਤਕ ਡਿਜੀਟਲ ਨਵੀਨਤਾ ਹੈ
+                                    ਫਾਸਕੋ ਨੂੰ ਰਵਾਇਤੀ ਤੋਂ ਬਦਲ ਦਿੱਤਾ
+                                    ਉਦਯੋਗਿਕ
+                                    ਇੱਕ ਲਾਭਦਾਇਕ ਈ-ਕਾਮਰਸ ਪਾਵਰਹਾਊਸ ਲਈ ਉਪਕਰਣ ਸਪਲਾਇਰ।
                                 </p>
                             </div>
                         </div>
@@ -460,10 +434,10 @@
                                 <img src="/Assets/Images/s-img/ck_1.png" class="img-fluid ck-img-rj" alt="">
                             </div>
                             <div class="thumb-content mt-5">
-                                <p class="card-text">একটি আধুনিক, ব্যবহারকারী-বান্ধব, এবং তৈরি করা
-                                    আকর্ষক ওয়েবসাইট রিডিজাইন আছে
-                                    হকিন্সকে সাহায্য করেছেন
-                                    এর ব্র্যান্ড উন্নত করুন এবং নতুন বাজারের সুযোগগুলি ক্যাপচার করুন।</p>
+                                <p class="card-text">ਇੱਕ ਆਧੁਨਿਕ, ਉਪਭੋਗਤਾ-ਅਨੁਕੂਲ ਬਣਾਉਣਾ, ਅਤੇ
+                                    ਰੁਝੇਵੇਂ ਵਾਲੀ ਵੈੱਬਸਾਈਟ ਰੀਡਿਜ਼ਾਈਨ ਹੈ
+                                    ਹਾਕਿੰਸ ਦੀ ਮਦਦ ਕੀਤੀ
+                                    ਇਸਦੇ ਬ੍ਰਾਂਡ ਨੂੰ ਵਧਾਓ ਅਤੇ ਮਾਰਕੀਟ ਦੇ ਨਵੇਂ ਮੌਕੇ ਹਾਸਲ ਕਰੋ।</p>
                             </div>
                         </div>
 
@@ -472,10 +446,10 @@
                                 <img src="/Assets/Images/s-img/ck_2.png" class="img-fluid ck-img-rj" alt="">
                             </div>
                             <div class="thumb-content mt-5">
-                                <p class="card-text">এর ওয়েবসাইটের এই রূপান্তর
-                                    একটি অত্যাধুনিক অনলাইন
-                                    প্ল্যাটফর্ম চিত্রিত করে
-                                    মোবাইল অ্যাপ্লিকেশনের রূপান্তরকারী শক্তি।</p>
+                                <p class="card-text">ਵਿੱਚ Takee ਦੀ ਵੈੱਬਸਾਈਟ ਦਾ ਇਹ ਪਰਿਵਰਤਨ
+                                    ਇੱਕ ਅਤਿ-ਆਧੁਨਿਕ ਔਨਲਾਈਨ
+                                    ਪਲੇਟਫਾਰਮ ਦਰਸਾਉਂਦਾ ਹੈ
+                                    ਮੋਬਾਈਲ ਐਪਲੀਕੇਸ਼ਨਾਂ ਦੀ ਪਰਿਵਰਤਨਸ਼ੀਲ ਸ਼ਕਤੀ।</p>
                             </div>
                         </div>
 
@@ -484,10 +458,10 @@
                                 <img src="/Assets/Images/s-img/ck_3.png" class="img-fluid ck-img-rj" alt="">
                             </div>
                             <div class="thumb-content mt-5">
-                                <p class="card-text">একটি আধুনিক, ব্যবহারকারী-বান্ধব, এবং তৈরি করা
-                                    আকর্ষক ওয়েবসাইট রিডিজাইন আছে
-                                    হকিন্সকে সাহায্য করেছেন
-                                    এর ব্র্যান্ড উন্নত করুন এবং নতুন বাজারের সুযোগগুলি ক্যাপচার করুন।</p>
+                                <p class="card-text">ਇੱਕ ਆਧੁਨਿਕ, ਉਪਭੋਗਤਾ-ਅਨੁਕੂਲ ਬਣਾਉਣਾ, ਅਤੇ
+                                    ਰੁਝੇਵੇਂ ਵਾਲੀ ਵੈੱਬਸਾਈਟ ਰੀਡਿਜ਼ਾਈਨ ਹੈ
+                                    ਹਾਕਿੰਸ ਦੀ ਮਦਦ ਕੀਤੀ
+                                    ਇਸਦੇ ਬ੍ਰਾਂਡ ਨੂੰ ਵਧਾਓ ਅਤੇ ਮਾਰਕੀਟ ਦੇ ਨਵੇਂ ਮੌਕੇ ਹਾਸਲ ਕਰੋ।</p>
                             </div>
                         </div>
 
@@ -496,11 +470,11 @@
                                 <img src="/Assets/Images/s-img/ck_44.png" class="img-fluid ck-img-rj" alt="">
                             </div>
                             <div class="thumb-content mt-5">
-                                <p class="card-text">আমরা একটি সুবিধাজনক খাদ্য বিতরণ প্রদান
-                                    আমাদের মোবাইলের মাধ্যমে অভিজ্ঞতা
-                                    অ্যাপ উপরন্তু,
-                                    জাস্ট ইট অ্যাপটি গ্রাহকের আনুগত্য উন্নত করেছে এবং
-                                    সন্তোষ.</p>
+                                <p class="card-text">ਅਸੀਂ ਇੱਕ ਸੁਵਿਧਾਜਨਕ ਭੋਜਨ ਡਿਲਿਵਰੀ ਪ੍ਰਦਾਨ ਕਰਦੇ ਹਾਂ
+                                    ਸਾਡੇ ਮੋਬਾਈਲ ਦੁਆਰਾ ਅਨੁਭਵ
+                                    ਐਪ। ਇਸ ਤੋਂ ਇਲਾਵਾ,
+                                    ਜਸਟ ਈਟ ਐਪ ਨੇ ਗਾਹਕਾਂ ਦੀ ਵਫ਼ਾਦਾਰੀ ਵਿੱਚ ਸੁਧਾਰ ਕੀਤਾ ਹੈ ਅਤੇ
+                                    ਸੰਤੁਸ਼ਟੀ</p>
                             </div>
                         </div>
 
@@ -509,11 +483,11 @@
                                 <img src="/Assets/Images/s-img/ck_4.png" class="img-fluid ck-img-rj" alt="">
                             </div>
                             <div class="thumb-content mt-5">
-                                <p class="card-text">ট্রাভেল বুকিং সহজ হয়েছে
-                                    Beesnbirds' মোবাইল অ্যাপস। অ্যাপস
-                                    এটাই না
-                                    বুকিং প্রক্রিয়া স্ট্রিমলাইন, কিন্তু গ্রাহক বৃদ্ধি
-                                    সন্তোষ.</p>
+                                <p class="card-text">ਨਾਲ ਯਾਤਰਾ ਬੁਕਿੰਗ ਆਸਾਨ ਹੋ ਗਈ ਹੈ
+                                    ਬੀਸਨਬਰਡਜ਼ ਦੇ ਮੋਬਾਈਲ ਐਪਸ। ਐਪਸ
+                                    ਨਾ ਸਿਰਫ਼
+                                    ਬੁਕਿੰਗ ਪ੍ਰਕਿਰਿਆਵਾਂ ਨੂੰ ਸੁਚਾਰੂ ਬਣਾਓ, ਪਰ ਗਾਹਕ ਵੀ ਵਧਾਓ
+                                    ਸੰਤੁਸ਼ਟੀ</p>
                             </div>
                         </div>
 
@@ -522,11 +496,11 @@
                                 <img src="/Assets/Images/s-img/ck_5.png" class="img-fluid ck-img-rj" alt="">
                             </div>
                             <div class="thumb-content mt-4">
-                                <p class="card-text">আমাদের মোবাইল অ্যাপ সমাধানের সাথে, মুডট্র্যাক
-                                    আমাদের ব্যবহারকারীদের প্রদান করতে সক্ষম
-                                    সঙ্গে একটি
-                                    ব্যবহারকারী বান্ধব এবং কার্যকর মেজাজ ট্র্যাকিং প্ল্যাটফর্ম যে তারা
-                                    যেতে যেতে ব্যবহার করতে পারেন।</p>
+                                <p class="card-text">ਸਾਡੇ ਮੋਬਾਈਲ ਐਪ ਹੱਲਾਂ ਦੇ ਨਾਲ, ਮੂਡਟ੍ਰੈਕ ਹੈ
+                                    ਸਾਡੇ ਉਪਭੋਗਤਾਵਾਂ ਨੂੰ ਪ੍ਰਦਾਨ ਕਰਨ ਦੇ ਯੋਗ
+                                    ਨਾਲ ਇੱਕ
+                                    ਉਪਭੋਗਤਾ-ਅਨੁਕੂਲ ਅਤੇ ਪ੍ਰਭਾਵਸ਼ਾਲੀ ਮੂਡ ਟਰੈਕਿੰਗ ਪਲੇਟਫਾਰਮ ਜੋ ਕਿ ਉਹ ਹਨ
+                                    ਜਾਂਦੇ ਹੋਏ ਵਰਤ ਸਕਦੇ ਹੋ।</p>
                             </div>
                         </div>
                     </div>
@@ -535,8 +509,9 @@
                 </div>
 
                 <div style="text-align: center;" class="">
-                    <button type="button" class="btn ck_sec4_btn " onclick="showSection('ck_456')">দেখা
-                        সব</button>
+                    <button type="button" class="btn ck_sec4_btn " onclick="showSection('ck_456')">
+                        ਦੇਖੋ
+                        ਸਾਰੇ</button>
                 </div>
             </div>
 
@@ -564,7 +539,7 @@
     </script>
 
     <script>
-        $(document).ready(function () {
+        $(document).ready(function() {
             $("#image-carousel123").owlCarousel({
                 items: 3,
                 responsive: {
@@ -621,10 +596,9 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-7 mt-5">
-                    <h3 class="h-3">
-                        পোর্টফোলিও <span class="span-day1" id="current-date-month-year"></span></h3>
+                    <h3 class="h-3">ਪੋਰਟਫੋਲੀਓ <span class="span-day1" id="current-date-month-year"></span></h3>
                     <h2 class="h-2" style="text-align: center;">
-                        আমাদের মহান কাজ <img src="/Assets/Images/briefcase.png" class="img-fluid"></h2>
+                        ਸਾਡਾ ਮਹਾਨ ਕੰਮ <img src="/Assets/Images/briefcase.png" class="img-fluid"></h2>
 
                 </div>
 
@@ -637,9 +611,9 @@
                         <img src="Assets/Images/ck_img41.png" class="card-img-top" alt="..." />
                         <div class="card-body">
                             <p class="card-text ms-card-text">
-                                একটি ঐতিহ্যবাহী আসবাবপত্র খুচরা বিক্রেতার কাছ থেকে ফ্রুনিরোর যাত্রা
-                                একটি সমৃদ্ধশালী ই-কমার্স ব্র্যান্ডের শক্তির চিত্র তুলে ধরে
-                                কৌশলগত ডিজিটাল রূপান্তর।
+                                ਇੱਕ ਰਵਾਇਤੀ ਫਰਨੀਚਰ ਰਿਟੇਲਰ ਤੋਂ ਫਰੂਨੀਰੋ ਦੀ ਯਾਤਰਾ
+                                ਇੱਕ ਸੰਪੰਨ ਈ-ਕਾਮਰਸ ਬ੍ਰਾਂਡ ਦੀ ਸ਼ਕਤੀ ਨੂੰ ਦਰਸਾਉਂਦਾ ਹੈ
+                                ਰਣਨੀਤਕ ਡਿਜ਼ੀਟਲ ਪਰਿਵਰਤਨ.
                             </p>
                         </div>
                     </div>
@@ -647,9 +621,9 @@
                         <img src="Assets/Images/ck_img42.png" class="card-img-top" alt="..." />
                         <div class="card-body">
                             <p class="card-text ms-card-text">
-                                শপির মতো একটি ই-কমার্স পাওয়ার হাউস একটি ঐতিহ্যগতভাবে নিয়েছে
-                                আউটলেট খুচরা বিক্রেতা এবং এটি একটি সমৃদ্ধ ই-কমার্সে রূপান্তরিত করেছে
-                                ব্যবসা
+                                ਸ਼ੌਪੀ ਵਰਗੇ ਈ-ਕਾਮਰਸ ਪਾਵਰਹਾਊਸ ਨੇ ਇੱਕ ਰਵਾਇਤੀ ਲਿਆ ਹੈ
+                                ਆਊਟਲੈੱਟ ਰਿਟੇਲਰ ਅਤੇ ਇਸਨੂੰ ਇੱਕ ਸੰਪੰਨ ਈ-ਕਾਮਰਸ ਵਿੱਚ ਬਦਲ ਦਿੱਤਾ
+                                ਕਾਰੋਬਾਰ.
                             </p>
                         </div>
                     </div>
@@ -657,9 +631,9 @@
                         <img src="Assets/Images/ck_img43.png" class="card-img-top" alt="..." />
                         <div class="card-body">
                             <p class="card-text ms-card-text">
-                                কৌশলগত ডিজিটাল উদ্ভাবন FASCO কে একটি থেকে রূপান্তরিত করেছে
-                                একটি লাভজনক ঐতিহ্যগত শিল্প সরঞ্জাম সরবরাহকারী
-                                ই-কমার্স পাওয়ার হাউস।
+                                ਰਣਨੀਤਕ ਡਿਜੀਟਲ ਨਵੀਨਤਾ ਨੇ ਫਾਸਕੋ ਨੂੰ ਏ ਤੋਂ ਬਦਲ ਦਿੱਤਾ ਹੈ
+                                ਇੱਕ ਲਾਭਦਾਇਕ ਨੂੰ ਰਵਾਇਤੀ ਉਦਯੋਗਿਕ ਉਪਕਰਣ ਸਪਲਾਇਰ
+                                ਈ-ਕਾਮਰਸ ਪਾਵਰਹਾਊਸ.
                             </p>
                         </div>
                     </div>
@@ -673,9 +647,9 @@
                         <img src="Assets/Images/ck_img44.png" class="card-img-top" alt="..." />
                         <div class="card-body">
                             <p class="card-text ms-card-text">
-                                একটি আধুনিক, ব্যবহারকারী-বান্ধব, এবং আকর্ষক ওয়েবসাইট তৈরি করা
-                                রিডিজাইন হকিন্সকে তার ব্র্যান্ড বাড়াতে এবং নতুন ক্যাপচার করতে সাহায্য করেছে
-                                বাজারের সুযোগ - সুবিধা সমূহ.
+                                ਇੱਕ ਆਧੁਨਿਕ, ਉਪਭੋਗਤਾ-ਅਨੁਕੂਲ, ਅਤੇ ਰੁਝੇਵੇਂ ਵਾਲੀ ਵੈਬਸਾਈਟ ਬਣਾਉਣਾ
+                                ਰੀਡਿਜ਼ਾਈਨ ਨੇ ਹਾਕਿਨਸ ਨੂੰ ਇਸਦੇ ਬ੍ਰਾਂਡ ਨੂੰ ਵਧਾਉਣ ਅਤੇ ਨਵਾਂ ਹਾਸਲ ਕਰਨ ਵਿੱਚ ਮਦਦ ਕੀਤੀ ਹੈ
+                                ਮਾਰਕੀਟ ਮੌਕੇ.
                             </p>
                         </div>
                     </div>
@@ -683,9 +657,9 @@
                         <img src="Assets/Images/ck_img45.png" class="card-img-top" alt="..." />
                         <div class="card-body">
                             <p class="card-text ms-card-text">
-                                আমাদের দলের উত্সর্গের মাধ্যমে, স্যামসাং এর উন্নতি করতে সক্ষম হয়েছে৷
-                                ব্র্যান্ড এবং অনলাইন বাড়িতে নতুন সুযোগ ক্যাপচার
-                                ইলেকট্রনিক বাজার।
+                                ਸਾਡੀ ਟੀਮ ਦੇ ਸਮਰਪਣ ਦੁਆਰਾ, ਸੈਮਸੰਗ ਇਸ ਨੂੰ ਵਧਾਉਣ ਦੇ ਯੋਗ ਸੀ
+                                ਆਨਲਾਈਨ ਘਰ ਵਿੱਚ ਬ੍ਰਾਂਡ ਅਤੇ ਨਵੇਂ ਮੌਕੇ ਹਾਸਲ ਕਰੋ
+                                ਇਲੈਕਟ੍ਰਾਨਿਕ ਬਾਜ਼ਾਰ.
                             </p>
                         </div>
                     </div>
@@ -693,9 +667,9 @@
                         <img src="Assets/Images/ck_img46.png" class="card-img-top" alt="..." />
                         <div class="card-body">
                             <p class="card-text ms-card-text">
-                                এর ওয়েবসাইটের এই রূপান্তর একটি কাটিং-এজ
-                                অনলাইন প্ল্যাটফর্ম মোবাইলের রূপান্তরকারী শক্তিকে চিত্রিত করে
-                                অ্যাপ্লিকেশন
+                                ਟੇਕੀ ਦੀ ਵੈੱਬਸਾਈਟ ਨੂੰ ਇੱਕ ਅਤਿ-ਆਧੁਨਿਕ ਰੂਪ ਵਿੱਚ ਬਦਲਣਾ
+                                ਔਨਲਾਈਨ ਪਲੇਟਫਾਰਮ ਮੋਬਾਈਲ ਦੀ ਪਰਿਵਰਤਨਸ਼ੀਲ ਸ਼ਕਤੀ ਨੂੰ ਦਰਸਾਉਂਦਾ ਹੈ
+                                ਐਪਲੀਕੇਸ਼ਨ.
                             </p>
                         </div>
                     </div>
@@ -709,9 +683,9 @@
                         <img src="Assets/Images/ck_img47.png" class="card-img-top" alt="..." />
                         <div class="card-body">
                             <p class="card-text ms-card-text">
-                                এর মোবাইল দিয়ে ভ্রমণ বুকিং সহজ হয়েছে
-                                অ্যাপস অ্যাপগুলি কেবল বুকিং প্রক্রিয়াগুলিকে স্ট্রীমলাইন করে না, এছাড়াও
-                                গ্রাহক সন্তুষ্টি বৃদ্ধি।
+                                ਬੀਸਨਬਰਡਜ਼ ਦੇ ਮੋਬਾਈਲ ਨਾਲ ਯਾਤਰਾ ਬੁਕਿੰਗ ਆਸਾਨ ਹੋ ਗਈ ਹੈ
+                                ਐਪਸ। ਐਪਸ ਨਾ ਸਿਰਫ਼ ਬੁਕਿੰਗ ਪ੍ਰਕਿਰਿਆਵਾਂ ਨੂੰ ਸੁਚਾਰੂ ਬਣਾਉਂਦੇ ਹਨ, ਸਗੋਂ ਇਹ ਵੀ
+                                ਗਾਹਕ ਸੰਤੁਸ਼ਟੀ ਵਧਾਓ.
                             </p>
                         </div>
                     </div>
@@ -719,9 +693,9 @@
                         <img src="Assets/Images/ck_img48.png" class="card-img-top" alt="..." />
                         <div class="card-body">
                             <p class="card-text ms-card-text">
-                                আমরা আমাদের মাধ্যমে একটি সুবিধাজনক খাদ্য বিতরণ অভিজ্ঞতা প্রদান করি
-                                মোবাইল অ্যাপ. উপরন্তু, Just Eat অ্যাপটি উন্নত হয়েছে
-                                গ্রাহকের আনুগত্য এবং সন্তুষ্টি।
+                                ਅਸੀਂ ਆਪਣੇ ਦੁਆਰਾ ਇੱਕ ਸੁਵਿਧਾਜਨਕ ਭੋਜਨ ਡਿਲਿਵਰੀ ਅਨੁਭਵ ਪ੍ਰਦਾਨ ਕਰਦੇ ਹਾਂ
+                                ਮੋਬਾਈਲ ਐਪ। ਇਸ ਤੋਂ ਇਲਾਵਾ, ਜਸਟ ਈਟ ਐਪ ਵਿੱਚ ਸੁਧਾਰ ਹੋਇਆ ਹੈ
+                                ਗਾਹਕ ਦੀ ਵਫ਼ਾਦਾਰੀ ਅਤੇ ਸੰਤੁਸ਼ਟੀ.
                             </p>
                         </div>
                     </div>
@@ -729,10 +703,9 @@
                         <img src="Assets/Images/ck_img49.png" class="card-img-top" alt="..." />
                         <div class="card-body">
                             <p class="card-text ms-card-text">
-                                আমাদের মোবাইল অ্যাপ সমাধানের সাথে, মুডট্র্যাক প্রদান করতে সক্ষম
-                                একটি ব্যবহারকারী-বান্ধব এবং কার্যকর মেজাজ ট্র্যাকিং সঙ্গে আমাদের ব্যবহারকারীদের
-                                প্ল্যাটফর্ম যা তারা যেতে যেতে ব্যবহার করতে পারে।
-
+                                ਸਾਡੇ ਮੋਬਾਈਲ ਐਪ ਹੱਲਾਂ ਦੇ ਨਾਲ, ਮੂਡਟ੍ਰੈਕ ਪ੍ਰਦਾਨ ਕਰਨ ਦੇ ਯੋਗ ਹੈ
+                                ਉਪਭੋਗਤਾ-ਅਨੁਕੂਲ ਅਤੇ ਪ੍ਰਭਾਵਸ਼ਾਲੀ ਮੂਡ ਟਰੈਕਿੰਗ ਵਾਲੇ ਸਾਡੇ ਉਪਭੋਗਤਾ
+                                ਪਲੇਟਫਾਰਮ ਜਿਸ ਨੂੰ ਉਹ ਜਾਂਦੇ ਸਮੇਂ ਵਰਤ ਸਕਦੇ ਹਨ।
                             </p>
                         </div>
                     </div>
@@ -741,9 +714,8 @@
         </div>
 
         <div class="d-flex justify-content-center my-5">
-            <button class="border-0 ms_sellal rounded-pill btn ck_sec4_btn" onclick="showSection('ck_123')">
-                দেখুন
-                কম</button>
+            <button class="border-0 ms_sellal rounded-pill btn ck_sec4_btn" onclick="showSection('ck_123')">ਦੇਖੋ
+                ਘੱਟ</button>
         </div>
     </section>
 
@@ -760,16 +732,16 @@
         }
 
         // Function to switch between sections when buttons are clicked
-        $(document).ready(function () {
+        $(document).ready(function() {
             showSection('ck_123'); // Show 'ck_123' initially
 
             // "See All" button click event
-            $(".btn-outline-primary1").click(function () {
+            $(".btn-outline-primary1").click(function() {
                 showSection('ck_456'); // Show 'ck_456' and hide 'ck_123'
             });
 
             // "View Less" button click event
-            $(".ms_sellal").click(function () {
+            $(".ms_sellal").click(function() {
                 showSection('ck_123'); // Show 'ck_123' and hide 'ck_456'
             });
         });
@@ -784,16 +756,17 @@
                 <div class="col-md-12 onlypadding">
                     <div class="rjj_main">
                         <h1 class="rjj_idea mx-3">
-                            আপনার ধারণা বাস্তবে হয় <span class="rjj_re"> রূপান্তরিত🚀</span>
+                            ਤੁਹਾਡਾ ਵਿਚਾਰ <span class="rjj_re"> ਹਕੀਕਤ🚀</span> ਵਿੱਚ ਬਦਲ ਜਾਂਦਾ ਹੈ
                             <!-- <span><img src="Assets/Images/rocket.png" class="img-fluid rocket" alt="" /></span> -->
                         </h1>
                         <p class="rjj_web">
-                            প্রতিটি ওয়েব ডেভেলপমেন্ট প্রজেক্ট শুরু হয় একজন প্রজেক্ট ম্যানেজার দিয়ে
+
+                            ਹਰ ਵੈੱਬ ਵਿਕਾਸ ਪ੍ਰੋਜੈਕਟ ਇੱਕ ਪ੍ਰੋਜੈਕਟ ਮੈਨੇਜਰ ਨਾਲ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ
                             <span style="color: #040484">
-                                ইটেকনেবুলা </span>আপনার সাক্ষাৎকার নিচ্ছি
-                            আপনার লক্ষ্য সম্পর্কে। আমাদের এটি করতে হবে যাতে আমরা আসতে পারি
-                            আপনার ঐতিহ্যবাহী ব্যবসার জন্য একটি সমাধান, একটি সময়রেখা অনুমান করুন,
-                            এবং একটি বাজেট গণনা করুন।
+                                ਇਟੇਨੇਬਿਊਲਾ</span>ਤੁਹਾਡੀ ਇੰਟਰਵਿਊ ਕਰ ਰਿਹਾ ਹੈ
+                            ਤੁਹਾਡੇ ਟੀਚਿਆਂ ਬਾਰੇ. ਸਾਨੂੰ ਅਜਿਹਾ ਕਰਨ ਦੀ ਲੋੜ ਹੈ ਤਾਂ ਜੋ ਅਸੀਂ ਇਸ ਦੇ ਨਾਲ ਆ ਸਕੀਏ
+                            ਤੁਹਾਡੇ ਰਵਾਇਤੀ ਕਾਰੋਬਾਰ ਲਈ ਇੱਕ ਹੱਲ, ਇੱਕ ਸਮਾਂਰੇਖਾ ਦਾ ਅੰਦਾਜ਼ਾ ਲਗਾਓ,
+                            ਅਤੇ ਬਜਟ ਦੀ ਗਣਨਾ ਕਰੋ।
                         </p>
                     </div>
                     <div class="row">
@@ -802,70 +775,65 @@
                             <div class=" mx-4  ">
                                 <div class="rjj_fex ">
                                     <div class="">
-                                        <button onclick="showImage(1)" class="rjj_2 shadow border-0 rounded-pill active"
-                                            id="button1">1</button>
+                                        <button onclick="showImage(1)" class="rjj_2 shadow border-0 rounded-pill active" id="button1">1</button>
                                     </div>
                                     <div class="">
-                                        <h5 class="rjj_h">আপনার ধারণা</h5>
+                                        <h5 class="rjj_h">ਤੁਹਾਡਾ ਵਿਚਾਰ</h5>
                                         <p class="rjj_p">
-                                            আমরা যখন
-                                            ইটেকনেবুলা আমরা ভাল কিনা তা মূল্যায়ন করছে
-                                            আপনার প্রকল্পের জন্য উপযুক্ত, আমরা সর্বদা স্ক্রীনিং জিজ্ঞাসা করে শুরু করি
-                                            প্রশ্নগুলি নিশ্চিত করার জন্য যে আমরা ভাল ফিট।
+                                            ਜਦੋਂ ਅਸੀਂ 'ਤੇ
+                                            ਇਟੈਕਨੇਬਿਊਲਾ ਇਹ ਮੁਲਾਂਕਣ ਕਰ ਰਹੇ ਹਨ ਕਿ ਕੀ ਅਸੀਂ ਚੰਗੇ ਹਾਂ
+                                            ਤੁਹਾਡੇ ਪ੍ਰੋਜੈਕਟ ਲਈ ਫਿੱਟ, ਅਸੀਂ ਹਮੇਸ਼ਾ ਸਕ੍ਰੀਨਿੰਗ ਪੁੱਛ ਕੇ ਸ਼ੁਰੂ ਕਰਦੇ ਹਾਂ
+                                            ਇਹ ਪੁਸ਼ਟੀ ਕਰਨ ਲਈ ਸਵਾਲ ਕਿ ਅਸੀਂ ਇੱਕ ਚੰਗੇ ਫਿਟ ਹਾਂ।
                                         </p>
                                     </div>
                                 </div>
 
                                 <div class="rjj_fex">
                                     <div>
-                                        <button onclick="showImage(2)" class="rjj_2  border-0 shadow rounded-pill"
-                                            id="button2">
+                                        <button onclick="showImage(2)" class="rjj_2  border-0 shadow rounded-pill" id="button2">
                                             2
                                         </button>
                                     </div>
                                     <div>
-                                        <h5 class="rjj_h">
-                                            কৌশল সভা</h5>
+                                        <h5 class="rjj_h">ਰਣਨੀਤੀ ਮੀਟਿੰਗ</h5>
                                         <p class="rjj_p">
-                                            এটি একটি মিটিং হবে যেখানে আমরা আমাদের প্রস্তাবিত বিষয়ে আলোচনা করব
-                                            একসাথে আপনার ওয়েবসাইটের লক্ষ্যে পৌঁছানোর কৌশল। থেকে
-                                            শুরু থেকে শেষ পর্যন্ত অনুসরণ করতে পারবেন
-                                            এই প্রকল্প আপডেট সিস্টেমের সাথে সম্পূর্ণ প্রক্রিয়া।
+                                            ਇਹ ਇੱਕ ਮੀਟਿੰਗ ਹੋਵੇਗੀ ਜਿੱਥੇ ਅਸੀਂ ਆਪਣੇ ਪ੍ਰਸਤਾਵਿਤ 'ਤੇ ਚਰਚਾ ਕਰਾਂਗੇ
+                                            ਤੁਹਾਡੇ ਵੈੱਬਸਾਈਟ ਦੇ ਟੀਚਿਆਂ ਨੂੰ ਇਕੱਠੇ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਰਣਨੀਤੀ. ਤੋਂ
+                                            ਅੰਤ ਤੱਕ ਸ਼ੁਰੂ, ਤੁਹਾਨੂੰ ਦੀ ਪਾਲਣਾ ਕਰਨ ਦੇ ਯੋਗ ਹੋ ਜਾਵੇਗਾ
+                                            ਇਸ ਪ੍ਰੋਜੈਕਟ ਅਪਡੇਟ ਸਿਸਟਮ ਨਾਲ ਪੂਰੀ ਪ੍ਰਕਿਰਿਆ।
                                         </p>
                                     </div>
                                 </div>
                                 <div class="rjj_fex">
                                     <div>
-                                        <button onclick="showImage(3)" class="rounded-pill border-0 rjj_2"
-                                            id="button3">3</button>
+                                        <button onclick="showImage(3)" class="rounded-pill border-0 rjj_2" id="button3">3</button>
                                     </div>
                                     <div>
-                                        <h5 class="rjj_h">চটপটে এবং স্ক্রাম ফ্রেমওয়ার্ক</h5>
+                                        <h5 class="rjj_h">ਚੁਸਤ ਅਤੇ ਸਕ੍ਰਮ ਫਰੇਮਵਰਕ</h5>
                                         <p class="rjj_p">
-                                            এ সময় প্রজেক্ট ম্যানেজার ও লিড ডেভেলপার মো
-                                            এবং ডিজাইনার প্রকল্প নিয়ে আলোচনা করতে মিলিত হবে
-                                            ফলাফল, আমরা একটি চটপটে এবং স্ক্রাম সঙ্গে কাজ করা হবে
-                                            আপনার প্রকল্প সময়মত সম্পন্ন হয়েছে তা নিশ্চিত করার জন্য কাঠামো
-                                            এবং বাজেটের মধ্যে।
+                                            ਇਸ ਮੌਕੇ 'ਤੇ, ਪ੍ਰੋਜੈਕਟ ਮੈਨੇਜਰ ਅਤੇ ਲੀਡ ਡਿਵੈਲਪਰ
+                                            ਅਤੇ ਡਿਜ਼ਾਈਨਰ ਪ੍ਰੋਜੈਕਟ ਬਾਰੇ ਚਰਚਾ ਕਰਨ ਲਈ ਮਿਲਣਗੇ
+                                            ਨਤੀਜੇ ਵਜੋਂ, ਅਸੀਂ ਚੁਸਤ ਅਤੇ ਸਕ੍ਰਮ ਨਾਲ ਕੰਮ ਕਰਾਂਗੇ
+                                            ਇਹ ਯਕੀਨੀ ਬਣਾਉਣ ਲਈ ਫਰੇਮਵਰਕ ਕਿ ਤੁਹਾਡਾ ਪ੍ਰੋਜੈਕਟ ਸਮੇਂ ਸਿਰ ਪੂਰਾ ਹੋਇਆ ਹੈ
+                                            ਅਤੇ ਬਜਟ ਦੇ ਅੰਦਰ।
                                         </p>
                                     </div>
                                 </div>
                                 <div class="rjj_fex">
                                     <div>
-                                        <button onclick="showImage(4)" class=" rjj_2 rounded-pill  border-0 "
-                                            id="button4">
+                                        <button onclick="showImage(4)" class=" rjj_2 rounded-pill  border-0 " id="button4">
                                             4
                                         </button>
                                     </div>
                                     <div>
                                         <h5 class="rjj_h">
-                                            আপনার ওয়েবসাইট লাইভ হয়</h5>
+                                            ਤੁਹਾਡੀ ਵੈੱਬਸਾਈਟ ਲਾਈਵ ਹੋ ਜਾਂਦੀ ਹੈ</h5>
                                         <p class="rjj_p">
-                                            চূড়ান্ত চেক সম্পন্ন হওয়ার পরে, আমরা তা নিশ্চিত করব
-                                            সব ট্র্যাকিং পিক্সেল, লিঙ্ক, এবং ব্যবহারকারী ইন্টারফেস হয়
-                                            সমস্ত প্ল্যাটফর্ম জুড়ে সামঞ্জস্যপূর্ণ। প্রক্রিয়ার অংশ হিসাবে
-                                            ব্যবহারকারীর অভিজ্ঞতার জন্য ওয়েবসাইটটি অপ্টিমাইজ করা, আমরা করব
-                                            বিভিন্ন পরীক্ষা সঞ্চালন।
+                                            ਅੰਤਿਮ ਜਾਂਚਾਂ ਪੂਰੀਆਂ ਹੋਣ ਤੋਂ ਬਾਅਦ, ਅਸੀਂ ਇਹ ਯਕੀਨੀ ਬਣਾਵਾਂਗੇ
+                                            ਸਾਰੇ ਟਰੈਕਿੰਗ ਪਿਕਸਲ, ਲਿੰਕ, ਅਤੇ ਯੂਜ਼ਰ ਇੰਟਰਫੇਸ ਹਨ
+                                            ਸਾਰੇ ਪਲੇਟਫਾਰਮਾਂ ਵਿੱਚ ਅਨੁਕੂਲ. ਦੀ ਪ੍ਰਕਿਰਿਆ ਦੇ ਹਿੱਸੇ ਵਜੋਂ
+                                            ਉਪਭੋਗਤਾ ਅਨੁਭਵ ਲਈ ਵੈਬਸਾਈਟ ਨੂੰ ਅਨੁਕੂਲ ਬਣਾਉਣਾ, ਅਸੀਂ ਕਰਾਂਗੇ
+                                            ਕਈ ਵੱਖ-ਵੱਖ ਟੈਸਟ ਕਰੋ.
                                         </p>
                                     </div>
                                 </div>
@@ -874,9 +842,7 @@
                         <div class="col-md-6 d-flex justify-content-end">
                             <div class="position-relative rightImgeMainDivision">
                                 <!-- Add your UFO and other images here based on the button clicks -->
-                                <img id="selectedImage"
-                                    src="Assets/Images/Businessman with a coffee mug got a new idea.png"
-                                    class="img-fluid jumping-image ck_img_index_1" alt="" />
+                                <img id="selectedImage" src="Assets/Images/Businessman with a coffee mug got a new idea.png" class="img-fluid jumping-image ck_img_index_1" alt="" />
                             </div>
                         </div>
                     </div>
@@ -891,18 +857,17 @@
                 <div class="col-md-12 onlypadding">
                     <div class="rjj_main">
                         <h1 class="rjj_idea mx-3">
-                            আপনার ধারণা পরিণত <span class="rjj_re">
-                                বাস্তবতা🚀</span>
+                            ਤੁਹਾਡਾ ਵਿਚਾਰ ਵਿੱਚ ਬਦਲਦਾ ਹੈ <span class="rjj_re">
+                                ਅਸਲੀਅਤ🚀</span>
                             <!-- <span><img src="Assets/Images/rocket.png" class="img-fluid rocket" alt="" /></span> -->
                         </h1>
                         <p class="rjj_web">
-
-                            প্রতিটি ওয়েব ডেভেলপমেন্ট প্রজেক্ট শুরু হয় একজন প্রজেক্ট ম্যানেজার দিয়ে
+                            ਹਰ ਵੈੱਬ ਵਿਕਾਸ ਪ੍ਰੋਜੈਕਟ ਇੱਕ ਪ੍ਰੋਜੈਕਟ ਮੈਨੇਜਰ ਨਾਲ ਸ਼ੁਰੂ ਹੁੰਦਾ ਹੈ
                             <span style="color: #040484">
-                                ইটেকনেবুলা </span>আপনার সাক্ষাৎকার নিচ্ছি
-                            আপনার লক্ষ্য সম্পর্কে। আমাদের এটি করতে হবে যাতে আমরা আসতে পারি
-                            আপনার ঐতিহ্যবাহী ব্যবসার জন্য একটি সমাধান, একটি সময়রেখা অনুমান করুন,
-                            এবং একটি বাজেট গণনা করুন।
+                                ਇਟੇਨੇਬਿਊਲਾ </span>ਤੁਹਾਡੀ ਇੰਟਰਵਿਊ ਕਰ ਰਿਹਾ ਹੈ
+                            ਤੁਹਾਡੇ ਟੀਚਿਆਂ ਬਾਰੇ. ਸਾਨੂੰ ਅਜਿਹਾ ਕਰਨ ਦੀ ਲੋੜ ਹੈ ਤਾਂ ਜੋ ਅਸੀਂ ਇਸ ਦੇ ਨਾਲ ਆ ਸਕੀਏ
+                            ਤੁਹਾਡੇ ਰਵਾਇਤੀ ਕਾਰੋਬਾਰ ਲਈ ਇੱਕ ਹੱਲ, ਇੱਕ ਸਮਾਂਰੇਖਾ ਦਾ ਅੰਦਾਜ਼ਾ ਲਗਾਓ,
+                            ਅਤੇ ਬਜਟ ਦੀ ਗਣਨਾ ਕਰੋ।
                         </p>
                     </div>
                     <div class="row">
@@ -911,70 +876,66 @@
                             <div class=" mx-4  ">
                                 <div class="rjj_fex ">
                                     <div class="">
-                                        <button onclick="showImage(1)" class="rjj_2 shadow border-0 rounded-pill active"
-                                            id="button1">1</button>
+                                        <button onclick="showImage(1)" class="rjj_2 shadow border-0 rounded-pill active" id="button1">1</button>
                                     </div>
                                     <div class="">
-                                        <h5 class="rjj_h">আপনার ধারণা</h5>
+                                        <h5 class="rjj_h">
+                                            ਤੁਹਾਡਾ ਵਿਚਾਰ</h5>
                                         <p class="rjj_p">
-                                            আমরা যখন
-                                            ইটেকনেবুলা আমরা ভাল কিনা তা মূল্যায়ন করছে
-                                            আপনার প্রকল্পের জন্য উপযুক্ত, আমরা সর্বদা স্ক্রীনিং জিজ্ঞাসা করে শুরু করি
-                                            প্রশ্নগুলি নিশ্চিত করার জন্য যে আমরা ভাল ফিট।
+                                            ਜਦੋਂ ਅਸੀਂ 'ਤੇ
+                                            ਇਟੈਕਨੇਬਿਊਲਾ ਇਹ ਮੁਲਾਂਕਣ ਕਰ ਰਹੇ ਹਨ ਕਿ ਕੀ ਅਸੀਂ ਚੰਗੇ ਹਾਂ
+                                            ਤੁਹਾਡੇ ਪ੍ਰੋਜੈਕਟ ਲਈ ਫਿੱਟ, ਅਸੀਂ ਹਮੇਸ਼ਾ ਸਕ੍ਰੀਨਿੰਗ ਪੁੱਛ ਕੇ ਸ਼ੁਰੂ ਕਰਦੇ ਹਾਂ
+                                            ਇਹ ਪੁਸ਼ਟੀ ਕਰਨ ਲਈ ਸਵਾਲ ਕਿ ਅਸੀਂ ਇੱਕ ਚੰਗੇ ਫਿਟ ਹਾਂ।
                                         </p>
                                     </div>
                                 </div>
 
                                 <div class="rjj_fex">
                                     <div>
-                                        <button onclick="showImage(2)" class="rjj_2  border-0 shadow rounded-pill"
-                                            id="button2">
+                                        <button onclick="showImage(2)" class="rjj_2  border-0 shadow rounded-pill" id="button2">
                                             2
                                         </button>
                                     </div>
                                     <div>
-                                        <h5 class="rjj_h">কৌশল সভা</h5>
-                                        <p class="rjj_p">
-                                            এটি একটি মিটিং হবে যেখানে আমরা আমাদের প্রস্তাবিত বিষয়ে আলোচনা করব
-                                            একসাথে আপনার ওয়েবসাইটের লক্ষ্যে পৌঁছানোর কৌশল। থেকে
-                                            শুরু থেকে শেষ পর্যন্ত অনুসরণ করতে পারবেন
-                                            এই প্রকল্প আপডেট সিস্টেমের সাথে সম্পূর্ণ প্রক্রিয়া।
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="rjj_fex">
-                                    <div>
-                                        <button onclick="showImage(3)" class="rounded-pill border-0 rjj_2"
-                                            id="button3">3</button>
-                                    </div>
-                                    <div>
                                         <h5 class="rjj_h">
-                                            চটপটে এবং স্ক্রাম ফ্রেমওয়ার্ক</h5>
+                                            ਰਣਨੀਤੀ ਮੀਟਿੰਗ</h5>
                                         <p class="rjj_p">
-                                            এ সময় প্রজেক্ট ম্যানেজার ও লিড ডেভেলপার মো
-                                            এবং ডিজাইনার প্রকল্প নিয়ে আলোচনা করতে মিলিত হবে
-                                            ফলাফল, আমরা একটি চটপটে এবং স্ক্রাম সঙ্গে কাজ করা হবে
-                                            আপনার প্রকল্প সময়মত সম্পন্ন হয়েছে তা নিশ্চিত করার জন্য কাঠামো
-                                            এবং বাজেটের মধ্যে।
+                                            ਇਹ ਇੱਕ ਮੀਟਿੰਗ ਹੋਵੇਗੀ ਜਿੱਥੇ ਅਸੀਂ ਆਪਣੇ ਪ੍ਰਸਤਾਵਿਤ 'ਤੇ ਚਰਚਾ ਕਰਾਂਗੇ
+                                            ਤੁਹਾਡੇ ਵੈੱਬਸਾਈਟ ਦੇ ਟੀਚਿਆਂ ਨੂੰ ਇਕੱਠੇ ਪ੍ਰਾਪਤ ਕਰਨ ਲਈ ਰਣਨੀਤੀ. ਤੋਂ
+                                            ਅੰਤ ਤੱਕ ਸ਼ੁਰੂ, ਤੁਹਾਨੂੰ ਦੀ ਪਾਲਣਾ ਕਰਨ ਦੇ ਯੋਗ ਹੋ ਜਾਵੇਗਾ
+                                            ਇਸ ਪ੍ਰੋਜੈਕਟ ਅਪਡੇਟ ਸਿਸਟਮ ਨਾਲ ਪੂਰੀ ਪ੍ਰਕਿਰਿਆ।
                                         </p>
                                     </div>
                                 </div>
                                 <div class="rjj_fex">
                                     <div>
-                                        <button onclick="showImage(4)" class=" rjj_2 rounded-pill  border-0 "
-                                            id="button4">
+                                        <button onclick="showImage(3)" class="rounded-pill border-0 rjj_2" id="button3">3</button>
+                                    </div>
+                                    <div>
+                                        <h5 class="rjj_h">ਚੁਸਤ ਅਤੇ ਸਕ੍ਰਮ ਫਰੇਮਵਰਕ</h5>
+                                        <p class="rjj_p">
+                                            ਇਸ ਮੌਕੇ 'ਤੇ, ਪ੍ਰੋਜੈਕਟ ਮੈਨੇਜਰ ਅਤੇ ਲੀਡ ਡਿਵੈਲਪਰ
+                                            ਅਤੇ ਡਿਜ਼ਾਈਨਰ ਪ੍ਰੋਜੈਕਟ ਬਾਰੇ ਚਰਚਾ ਕਰਨ ਲਈ ਮਿਲਣਗੇ
+                                            ਨਤੀਜੇ ਵਜੋਂ, ਅਸੀਂ ਚੁਸਤ ਅਤੇ ਸਕ੍ਰਮ ਨਾਲ ਕੰਮ ਕਰਾਂਗੇ
+                                            ਇਹ ਯਕੀਨੀ ਬਣਾਉਣ ਲਈ ਫਰੇਮਵਰਕ ਕਿ ਤੁਹਾਡਾ ਪ੍ਰੋਜੈਕਟ ਸਮੇਂ ਸਿਰ ਪੂਰਾ ਹੋਇਆ ਹੈ
+                                            ਅਤੇ ਬਜਟ ਦੇ ਅੰਦਰ।
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="rjj_fex">
+                                    <div>
+                                        <button onclick="showImage(4)" class=" rjj_2 rounded-pill  border-0 " id="button4">
                                             4
                                         </button>
                                     </div>
                                     <div>
-                                        <h5 class="rjj_h">
-                                            আপনার ওয়েবসাইট লাইভ হয়</h5>
+                                        <h5 class="rjj_h">ਤੁਹਾਡੀ ਵੈੱਬਸਾਈਟ ਲਾਈਵ ਹੋ ਜਾਂਦੀ ਹੈ</h5>
                                         <p class="rjj_p">
-                                            চূড়ান্ত চেক সম্পন্ন হওয়ার পরে, আমরা তা নিশ্চিত করব
-                                            সব ট্র্যাকিং পিক্সেল, লিঙ্ক, এবং ব্যবহারকারী ইন্টারফেস হয়
-                                            সমস্ত প্ল্যাটফর্ম জুড়ে সামঞ্জস্যপূর্ণ। প্রক্রিয়ার অংশ হিসাবে
-                                            ব্যবহারকারীর অভিজ্ঞতার জন্য ওয়েবসাইটটি অপ্টিমাইজ করা, আমরা করব
-                                            বিভিন্ন পরীক্ষা সঞ্চালন।
+                                            ਅੰਤਿਮ ਜਾਂਚਾਂ ਪੂਰੀਆਂ ਹੋਣ ਤੋਂ ਬਾਅਦ, ਅਸੀਂ ਇਹ ਯਕੀਨੀ ਬਣਾਵਾਂਗੇ
+                                            ਸਾਰੇ ਟਰੈਕਿੰਗ ਪਿਕਸਲ, ਲਿੰਕ, ਅਤੇ ਯੂਜ਼ਰ ਇੰਟਰਫੇਸ ਹਨ
+                                            ਸਾਰੇ ਪਲੇਟਫਾਰਮਾਂ ਵਿੱਚ ਅਨੁਕੂਲ. ਦੀ ਪ੍ਰਕਿਰਿਆ ਦੇ ਹਿੱਸੇ ਵਜੋਂ
+                                            ਉਪਭੋਗਤਾ ਅਨੁਭਵ ਲਈ ਵੈਬਸਾਈਟ ਨੂੰ ਅਨੁਕੂਲ ਬਣਾਉਣਾ, ਅਸੀਂ ਕਰਾਂਗੇ
+                                            ਕਈ ਵੱਖ-ਵੱਖ ਟੈਸਟ ਕਰੋ.
                                         </p>
                                     </div>
                                 </div>
@@ -983,9 +944,7 @@
                         <div class="col-md-6 d-flex justify-content-end">
                             <div class="position-relative rightImgeMainDivision">
                                 <!-- Add your UFO and other images here based on the button clicks -->
-                                <img id="selectedImage"
-                                    src="Assets/Images/Businessman with a coffee mug got a new idea.png"
-                                    class="img-fluid jumping-image ck_img_index_1" alt="" />
+                                <img id="selectedImage" src="Assets/Images/Businessman with a coffee mug got a new idea.png" class="img-fluid jumping-image ck_img_index_1" alt="" />
                             </div>
                         </div>
                     </div>
@@ -1028,27 +987,22 @@
         <div class="container">
             <div class="row">
                 <div class="col-12  text-center mt-5">
-                    <h1 class="h-work">আমাদের সাথে কাজ করতে আগ্রহী?🫡</h1>
-                    <h6 class="mt-3 h-hit">আপনার মেইল ​​এখানে আঘাত করুন পেতে এবং প্রতিদিন আপডেট</h6>
+                    <h1 class="h-work">ਸਾਡੇ ਨਾਲ ਕੰਮ ਕਰਨ ਵਿੱਚ ਦਿਲਚਸਪੀ ਰੱਖਦੇ ਹੋ?🫡</h1>
+                    <h6 class="mt-3 h-hit">ਇੱਥੇ ਆਪਣੀ ਮੇਲ ਮਾਰੋ ਅਤੇ ਰੋਜ਼ਾਨਾ ਅੱਪਡੇਟ ਕਰੋ</h6>
 
                     <div class="main-btnrjj mb-5 mt-5 ">
                         <form action="email.php" method="post" class="btn-rjj2 ">
                             <div class="d-flex input-group">
                                 <div class="col-2">
-                                    <span class="input-group-text"> <img src="/Assets/Images/mail-bulk.png"
-                                            class="img-fluid "></span>
+                                    <span class="input-group-text"> <img src="/Assets/Images/mail-bulk.png" class="img-fluid "></span>
                                     <!-- <i class="fa fa-envelope"></i> -->
                                 </div>
                                 <div class="col">
-                                    <input
-                                        style="border: none; z-index: -1;border-top-left-radius: 20px; border-bottom-left-radius: 20px;"
-                                        placeholder="Enter Your Email" type="text" class="input1"
-                                        aria-label="Recipient's username" aria-describedby="basic-addon2" name="email1"
-                                        id="email1">
+                                    <input style="border: none; z-index: -1;border-top-left-radius: 20px; border-bottom-left-radius: 20px;" placeholder="Enter Your Email" type="text" class="input1" aria-label="Recipient's username" aria-describedby="basic-addon2" name="email1" id="email1">
                                 </div>
                                 <div class="col-auto">
                                     <button class="btn-rjj3" style="border-radius: 100px;
-                background: #5454AC;">বোতাম চাপায়</button>
+                background: #5454AC;">ਬਟਨ ਦਬਾਓ</button>
                                 </div>
                             </div>
                         </form>
@@ -1063,10 +1017,10 @@
             <div class="row">
                 <div class="col-md-12 mt-5 mb-5">
                     <div>
-                        <h6 class="card-top-h">প্রশংসাপত্র</h6>
-                        <h5 class="card-top-h1">
-                            আমাদের শুভ 🙂</h5>
-                        <h5 class="card-top-h2">ক্লায়েন্ট</h5>
+                        <h6 class="card-top-h">
+                            ਪ੍ਰਸੰਸਾ ਪੱਤਰ</h6>
+                        <h5 class="card-top-h1">ਸਾਡੀ ਖੁਸ਼ੀ 🙂</h5>
+                        <h5 class="card-top-h2">ਗਾਹਕ</h5>
                     </div>
                     <div id="custCarousel" class="carousel slide" data-ride="carousel" align="center">
 
@@ -1081,9 +1035,9 @@
                                 <span class="star-icon">&starf;</span>
                                 <span class="star-icon">&starf;</span>
                                 <span class="star-icon">&starf;</span>
-                                <h1 class="card-h">ইটেকনেবুলার জন্য পাঁচ তারকা! তাদের দলের প্রযুক্তিগত দক্ষতা রয়েছে
-                                    অতুলনীয় আমাদের আইটি
-                                    উদ্বেগ অতীতের একটি জিনিস</h1>
+                                <h1 class="card-h">Itechnebula ਲਈ ਪੰਜ ਤਾਰੇ! ਉਨ੍ਹਾਂ ਦੀ ਟੀਮ ਦੀ ਤਕਨੀਕੀ ਨਿਪੁੰਨਤਾ ਹੈ
+                                    ਬੇਮਿਸਾਲ ਸਾਡੇ ਆਈ.ਟੀ
+                                    ਚਿੰਤਾ ਬੀਤੇ ਦੀ ਗੱਲ ਹੈ</h1>
                             </div>
                             <div class="carousel-item">
                                 <p class="rateing-p">5.0</p>
@@ -1092,11 +1046,12 @@
                                 <span class="star-icon">&starf;</span>
                                 <span class="star-icon">&starf;</span>
                                 <span class="star-icon">&starf;</span>
-                                <h1 class="card-h">আমি আন্তরিকভাবে কোনো ব্যবসা খুঁজছেন itechnebula এজেন্সি সুপারিশ
-                                    এ থাকার জন্য
-                                    উদ্ভাবনের অগ্রভাগে। 10+ প্রযুক্তি জুড়ে তাদের দক্ষতার সাথে, তারা তা নয়
-                                    শুধু একটি সেবা
-                                    প্রদানকারী; তারা একটি কৌশলগত অংশীদার যা ব্যবসায়িক বৃদ্ধির ড্রাইভিং</h1>
+                                <h1 class="card-h">ਮੈਂ ਪੂਰੇ ਦਿਲ ਨਾਲ ਕਿਸੇ ਵੀ ਕਾਰੋਬਾਰ ਦੀ ਭਾਲ ਕਰਨ ਲਈ itechnebula ਏਜੰਸੀ ਦੀ
+                                    ਸਿਫਾਰਸ਼ ਕਰਦਾ ਹਾਂ
+                                    'ਤੇ ਰਹਿਣ ਲਈ
+                                    ਨਵੀਨਤਾ ਦੇ ਮੋਹਰੀ. 10+ ਤਕਨਾਲੋਜੀਆਂ ਵਿੱਚ ਆਪਣੀ ਮਹਾਰਤ ਦੇ ਨਾਲ, ਉਹ ਨਹੀਂ ਹਨ
+                                    ਸਿਰਫ ਇੱਕ ਸੇਵਾ
+                                    ਦੇਣ ਵਾਲੇ; ਉਹ ਇੱਕ ਰਣਨੀਤਕ ਭਾਈਵਾਲ ਹਨ ਜੋ ਕਾਰੋਬਾਰ ਦੇ ਵਾਧੇ ਨੂੰ ਚਲਾ ਰਹੇ ਹਨ</h1>
                             </div>
 
                             <div class="carousel-item active">
@@ -1106,7 +1061,8 @@
                                 <span class="star-icon">&starf;</span>
                                 <span class="star-icon">&starf;</span>
                                 <span class="star-icon">&starf;</span>
-                                <h1 class="card-h">খুব সুন্দর এবং ব্যবহারকারী বান্ধব....</h1>
+                                <h1 class="card-h">
+                                    ਬਹੁਤ ਵਧੀਆ ਅਤੇ ਉਪਭੋਗਤਾ ਦੇ ਅਨੁਕੂਲ ....</h1>
                             </div>
 
                             <div class="carousel-item">
@@ -1119,12 +1075,11 @@
                                 <!-- <h1 class="card-h">Reliable IT support from <span class="spn-rj">itechnebula</span>. Their quick
                 response and problem-solving skills have saved us countless hours</h1> -->
 
-                                <h1 class="card-h">
-                                    ইটেকনবুল এজেন্সি বেছে নেওয়ার জন্য আমরা কতটা কৃতজ্ঞ তা প্রকাশ করতে পারব না
-                                    আমাদের জন্য
-                                    ই-কমার্স প্ল্যাটফর্ম উন্নয়ন। তাদের দল আমাদের দৃষ্টিভঙ্গি নিয়েছে এবং এটিকে পরিণত
-                                    করেছে
-                                    বাস্তবতা</h1>
+                                <h1 class="card-h">ਮੈਂ ਇਹ ਬਿਆਨ ਨਹੀਂ ਕਰ ਸਕਦਾ ਕਿ ਅਸੀਂ itechnebula ਏਜੰਸੀ ਨੂੰ ਚੁਣਨ ਲਈ ਕਿੰਨੇ
+                                    ਸ਼ੁਕਰਗੁਜ਼ਾਰ ਹਾਂ
+                                    ਸਾਡੇ ਲਈ
+                                    ਈ-ਕਾਮਰਸ ਪਲੇਟਫਾਰਮ ਵਿਕਾਸ. ਉਨ੍ਹਾਂ ਦੀ ਟੀਮ ਨੇ ਸਾਡੇ ਵਿਜ਼ਨ ਨੂੰ ਲਿਆ ਅਤੇ ਇਸ ਵਿੱਚ ਬਦਲ ਦਿੱਤਾ
+                                    ਅਸਲੀਅਤ</h1>
                             </div>
                             <div class="carousel-item">
                                 <p class="rateing-p">5.0</p>
@@ -1133,10 +1088,9 @@
                                 <span class="star-icon">&starf;</span>
                                 <span class="star-icon">&starf;</span>
                                 <span class="star-icon">&starf;</span>
-                                <h1 class="card-h">
-                                    থেকে নির্ভরযোগ্য আইটি সমর্থন
-                                    তাদের দ্রুত<span class="spn-rj">ইটেকনেবুলা</span>.
-                                    প্রতিক্রিয়া এবং সমস্যা সমাধানের দক্ষতা আমাদের অসংখ্য ঘন্টা বাঁচিয়েছে</h1>
+                                <h1 class="card-h">ਤੋਂ ਭਰੋਸੇਯੋਗ ਆਈ.ਟੀ <span class="spn-rj">itechnebula</span>.
+                                    ਉਨ੍ਹਾਂ ਦੇ ਤੇਜ਼
+                                    ਜਵਾਬ ਅਤੇ ਸਮੱਸਿਆ-ਹੱਲ ਕਰਨ ਦੇ ਹੁਨਰ ਨੇ ਸਾਡੇ ਅਣਗਿਣਤ ਘੰਟੇ ਬਚਾਏ ਹਨ</h1>
                             </div>
 
                             <!-- Add more carousel items as needed -->
@@ -1153,8 +1107,7 @@
                         <!-- Thumbnails -->
                         <ol class="carousel-indicators list-inline">
                             <li class="list-inline-item ">
-                                <a id="carousel-selector-0" class="selected" data-slide-to="0"
-                                    data-target="#custCarousel">
+                                <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#custCarousel">
                                     <img src="/Assets/Images/aahid.png" width="60%" class="img-fluid">
                                     <p class="vr-h mt-2">Aahid Quamre</p>
                                     <!-- <h6 class="ow-h">Owner, EY PVT Ltd</h6> -->
@@ -1168,8 +1121,7 @@
                                 </a>
                             </li>
                             <li class="list-inline-item active">
-                                <a id="carousel-selector-0" class="selected" data-slide-to="0"
-                                    data-target="#custCarousel">
+                                <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#custCarousel">
                                     <img src="/Assets/Images/DINESH.png" width="60%" class="img-fluid">
                                     <p class="vr-h mt-2">DINESH DINKER</p>
                                     <!-- <h6 class="ow-h">Owner, EY PVT Ltd</h6> -->
@@ -1183,8 +1135,7 @@
                                 </a>
                             </li>
                             <li class="list-inline-item ">
-                                <a id="carousel-selector-0" class="selected" data-slide-to="0"
-                                    data-target="#custCarousel">
+                                <a id="carousel-selector-0" class="selected" data-slide-to="0" data-target="#custCarousel">
                                     <img src="/Assets/Images/Nahid.png" width="60%" class="img-fluid">
                                     <p class="vr-h mt-2">Nahid Khan</p>
                                     <!-- <h6 class="ow-h">Owner, EY PVT Ltd</h6> -->
@@ -1204,7 +1155,7 @@
 
     <script>
         // Initialize the carousel and set it to start from the center image
-        $(document).ready(function () {
+        $(document).ready(function() {
             var carousel = $('#custCarousel');
 
             carousel.carousel({
@@ -1226,18 +1177,18 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6 main-p">
-                    <h3 class="top-h">খবরের প্রবন্ধ<img src="/Assets/Images/newspaper.png" class="img-fluid"></h3>
+                    <h3 class="top-h">ਖ਼ਬਰਾਂ ਅਤੇ ਲੇਖ<img src="/Assets/Images/newspaper.png" class="img-fluid"></h3>
                     <h2 class="madil-h">
 
-                        ইটেকনেবুলা ব্লগ</h2>
+                        ਇਟੈਕਨੇਬਿਊਲਾ ਬਲੌਗ</h2>
                     <p class="butm-p">On
-                        <span class="ck_textsec8_12">इटेकनेब्यूला</span> ব্লগ, আমরা ওয়েবে সর্বশেষ পর্যালোচনা করব
-                        জন্য উন্নয়ন
-                        <span class="ck_text_sec_121" style=" font-weight: bold;">लोकल</span> 
-                        ব্যবসা-
-                                                আমাদের শিল্প।
+                        <span class="ck_textsec8_12">ਇਟੇਨੇਬਿਊਲਾ</span> ਬਲੌਗ, ਅਸੀਂ ਵੈੱਬ ਵਿੱਚ ਨਵੀਨਤਮ ਦੀ ਸਮੀਖਿਆ ਕਰਾਂਗੇ
+                        ਲਈ ਵਿਕਾਸ
+                        <span class="ck_text_sec_121" style=" font-weight: bold;">ਲੋਕਲ</span> ਕਾਰੋਬਾਰ-
+                        ਸਾਡੇ ਉਦਯੋਗ.
+                    </p>
                     <div class="mt-5 ms_button_view">
-                        <button type="button" class="btn ck_carousel4_text1 " id="see-all-button">সবগুলো দেখ</button>
+                        <button type="button" class="btn ck_carousel4_text1 " id="see-all-button">ਸਭ ਦੇਖੋ</button>
                     </div>
                 </div>
 
@@ -1247,38 +1198,38 @@
                             <div class="item ">
                                 <div class="card g-5 ck_card_111" style="width: 15rem;">
                                     <div class="card-body">
-                                        <h5 class="card-title-rj">অনলাইন উপস্থিতি: ঐতিহ্যগত ব্যবসার শক্তি
+                                        <h5 class="card-title-rj">ਔਨਲਾਈਨ ਮੌਜੂਦਗੀ: ਰਵਾਇਤੀ ਵਪਾਰ ਦੀ ਸ਼ਕਤੀ
                                         </h5>
-                                        <p class="card-text-rj">একটি ওয়েবসাইট কিভাবে আপনার নাগাল প্রসারিত করতে পারে, উন্নত করতে পারে তা খুঁজে বের করুন
-                                            আপনার বিশ্বাসযোগ্যতা, এবং
-                                            আপনার ঐতিহ্যগত ব্যবসার জন্য বৃদ্ধি চালান।</p>
-                                        <a href="#" class="card-link">আরও পড়ুন<i class="bi bi-arrow-right"></i></a>
+                                        <p class="card-text-rj">ਇਹ ਪਤਾ ਲਗਾਓ ਕਿ ਇੱਕ ਵੈਬਸਾਈਟ ਤੁਹਾਡੀ ਪਹੁੰਚ ਨੂੰ ਕਿਵੇਂ ਵਧਾ ਸਕਦੀ ਹੈ, ਵਧਾ ਸਕਦੀ ਹੈ
+                                            ਤੁਹਾਡੀ ਭਰੋਸੇਯੋਗਤਾ, ਅਤੇ
+                                            ਆਪਣੇ ਰਵਾਇਤੀ ਕਾਰੋਬਾਰ ਲਈ ਵਿਕਾਸ ਨੂੰ ਵਧਾਓ।</p>
+                                        <a href="#" class="card-link">ਹੋਰ ਪੜ੍ਹੋ <i class="bi bi-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="card g-3 ck_card_111" style="width: 15rem;">
                                     <div class="card-body">
-                                        <h5 class="card-title-rj">অনলাইন উপস্থিতি: ঐতিহ্যগত ব্যবসার শক্তি
+                                        <h5 class="card-title-rj">ਔਨਲਾਈਨ ਮੌਜੂਦਗੀ: ਰਵਾਇਤੀ ਵਪਾਰ ਦੀ ਸ਼ਕਤੀ
                                         </h5>
-                                        <p class="card-text-rj">একটি ওয়েবসাইট কিভাবে আপনার নাগাল প্রসারিত করতে পারে, উন্নত করতে পারে তা খুঁজে বের করুন
-                                            আপনার বিশ্বাসযোগ্যতা, এবং
-                                            আপনার ঐতিহ্যগত ব্যবসার জন্য বৃদ্ধি চালান।</p>
+                                        <p class="card-text-rj">ਇਹ ਪਤਾ ਲਗਾਓ ਕਿ ਇੱਕ ਵੈਬਸਾਈਟ ਤੁਹਾਡੀ ਪਹੁੰਚ ਨੂੰ ਕਿਵੇਂ ਵਧਾ ਸਕਦੀ ਹੈ, ਵਧਾ ਸਕਦੀ ਹੈ
+                                            ਤੁਹਾਡੀ ਭਰੋਸੇਯੋਗਤਾ, ਅਤੇ
+                                            ਆਪਣੇ ਰਵਾਇਤੀ ਕਾਰੋਬਾਰ ਲਈ ਵਿਕਾਸ ਨੂੰ ਵਧਾਓ।</p>
                                         <a href="#" class="card-link">
-                                            আরও পড়ুন <i class="bi bi-arrow-right"></i></a>
+                                            ਹੋਰ ਪੜ੍ਹੋ <i class="bi bi-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="item">
                                 <div class="card g-3 ck_card_111" style="width: 15rem;">
                                     <div class="card-body">
-                                        <h5 class="card-title-rj">অনলাইন উপস্থিতি: ঐতিহ্যগত ব্যবসার শক্তি
+                                        <h5 class="card-title-rj">ਔਨਲਾਈਨ ਮੌਜੂਦਗੀ: ਰਵਾਇਤੀ ਵਪਾਰ ਦੀ ਸ਼ਕਤੀ
                                         </h5>
-                                        <p class="card-text-rj">একটি ওয়েবসাইট কিভাবে আপনার নাগাল প্রসারিত করতে পারে, উন্নত করতে পারে তা খুঁজে বের করুন
-                                            আপনার বিশ্বাসযোগ্যতা, এবং
-                                            আপনার ঐতিহ্যগত ব্যবসার জন্য বৃদ্ধি চালান।</p>
+                                        <p class="card-text-rj">ਇਹ ਪਤਾ ਲਗਾਓ ਕਿ ਇੱਕ ਵੈਬਸਾਈਟ ਤੁਹਾਡੀ ਪਹੁੰਚ ਨੂੰ ਕਿਵੇਂ ਵਧਾ ਸਕਦੀ ਹੈ, ਵਧਾ ਸਕਦੀ ਹੈ
+                                            ਤੁਹਾਡੀ ਭਰੋਸੇਯੋਗਤਾ, ਅਤੇ
+                                            ਆਪਣੇ ਰਵਾਇਤੀ ਕਾਰੋਬਾਰ ਲਈ ਵਿਕਾਸ ਨੂੰ ਵਧਾਓ।</p>
                                         <a href="#" class="card-link">
-                                            আরও পড়ুন <i class="bi bi-arrow-right"></i></a>
+                                            ਹੋਰ ਪੜ੍ਹੋ<i class="bi bi-arrow-right"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -1298,7 +1249,7 @@
     <!-- see all button-->
 
     <script>
-        document.getElementById('see-all-button').addEventListener('click', function () {
+        document.getElementById('see-all-button').addEventListener('click', function() {
             var butmP = document.querySelector('.butm-p');
             butmP.innerHTML += '<br>we understand the importance of keeping our valued clients and partners informed, engaged, and inspired. That is why we have dedicated a space just for you – our blog and news section. ';
             document.getElementById('see-all-button').style.display = 'none';
@@ -1309,7 +1260,7 @@
 
     <!--8 section  -->
     <script>
-        $(document).ready(function () {
+        $(document).ready(function() {
             $('#myCarousel').owlCarousel({
                 items: 1,
                 responsive: {
@@ -1358,13 +1309,14 @@
                             <!--Grid column-->
                             <div class="col-lg-5 col-md-6 mb-4 mb-md-0 ft-rjj">
                                 <img src="/Assets/Images/Rectangle 179.png" alt="" class="img-fluid mb-4 " />
-                                <h5 class="text-rjj">এর সাথে আপনার ডিজিটাল যাত্রার ক্ষমতায়ন
+                                <h5 class="text-rjj">ਨਾਲ ਤੁਹਾਡੀ ਡਿਜੀਟਲ ਯਾਤਰਾ ਨੂੰ ਸਮਰੱਥ ਬਣਾਉਣਾ
 
-                                    <span class="ck_textsec8_122" style=" font-weight: bold;">ইটেকনেবুলা</span>
-                                    ভবিষ্যত নেভিগেট
-                                    আত্মবিশ্বাসের সঙ্গে
+                                    <span class="ck_textsec8_122" style=" font-weight: bold;">
+                                        ਇਟੇਨੇਬਿਊਲਾ</span>
+                                    ਭਵਿੱਖ ਨੂੰ ਨੈਵੀਗੇਟ ਕਰਨਾ
+                                    ਵਿਸ਼ਵਾਸ ਨਾਲ
                                 </h5>
-                                <p class="Copyright"> কোডেডেলহাইটস টেক প্রাইভেট লিমিটেড (CIN : U62013DL2023PTC418762)
+                                <p class="Copyright"> ਕੋਡਡੇਲਹਾਈਟਸ ਟੇਕ ਪ੍ਰਾਈਵੇਟ ਲਿਮਿਟੇਡ (CIN : U62013DL2023PTC418762)
                                 </p>
                                 <p class="Copyright">
 
@@ -1375,20 +1327,18 @@
 
                             <!--Grid column-->
                             <div class="col-lg-2 col-md-6 mb-4 mb-md-0 ft2-rjj">
-                                <h5 class="text-w">কাজ</h5>
+                                <h5 class="text-w">ਕੰਮ</h5>
 
                                 <ul class="list-unstyled mb-0">
                                     <li>
-                                        <a href="bangla_Blog.html" class="text-inner">
-                                            ব্লগ</a>
+                                        <a href="panjabi_Blog.html" class="text-inner">ਬਲੌਗ</a>
                                     </li>
                                     <li>
-                                        <a href="bangla_careers1.html" class="text-inner">
-                                            কেরিয়ার</a>
+                                        <a href="panjabi_careers1.html" class="text-inner">
+                                            ਕਰੀਅਰ</a>
                                     </li>
                                     <li>
-                                        <a href="bangla_ContactUs.html" class="text-inner">
-                                            যোগাযোগ করুন</a>
+                                        <a href="panjabi_ContactUs.html" class="text-inner">ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ</a>
                                     </li>
                                     <!-- <li>
               <a href="#!" class="text-white">Link 4</a>
@@ -1399,23 +1349,23 @@
 
                             <!--Grid column-->
                             <div class="col-lg-3 col-md-6 mb-4 mb-md-0 ft2-rjj">
-                                <h5 class="text-w">
-                                    সেবা</h5>
+                                <h5 class="text-w">ਸੇਵਾਵਾਂ</h5>
 
                                 <ul class="list-unstyled mb-0">
                                     <li>
-                                        <a href="bangla_WebsiteDevelopmentServices.html" class="text-inner">ওয়েব ডেভেলপমেন্ট
+                                        <a href="bangla_WebsiteDevelopmentServices.html" class="text-inner">
+                                            ਵੈੱਬ ਵਿਕਾਸ
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="bangla_SEO.html" class="text-inner">এসইও এবং পারফরম্যান্স মার্কেটিং</a>
+                                        <a href="panjabi_SEO.html" class="text-inner">ਐਸਈਓ ਅਤੇ ਪ੍ਰਦਰਸ਼ਨ ਮਾਰਕੀਟਿੰਗ</a>
                                     </li>
                                     <li>
-                                        <a href="bangla_WRS.html" class="text-inner">ওয়েবসাইট রিডিজাইন</a>
+                                        <a href="panjabi_WRS.html" class="text-inner">ਵੈੱਬਸਾਈਟ ਰੀਡਿਜ਼ਾਈਨ</a>
                                     </li>
                                     <li>
-                                        <a href="bangla_MDS.html" class="text-inner">
-                                            মোবাইল অ্যাপ ডেভেলপমেন্ট</a>
+                                        <a href="panjabi_MDS.html" class="text-inner">
+                                            ਮੋਬਾਈਲ ਐਪ ਵਿਕਾਸ</a>
                                     </li>
                                 </ul>
                             </div>
@@ -1423,17 +1373,18 @@
 
                             <!--Grid column-->
                             <div class="col-lg-1 col-md-6 mb-4 mb-md-0 ft2-rjj">
-                                <h5 class="text-w">সমাধান</h5>
+                                <h5 class="text-w">ਹੱਲ</h5>
 
                                 <ul class="list-unstyled mb-0">
                                     <li>
-                                        <a href="bangla_coming_soon.html" class="text-inner">পাঠ্যধারাগুলি</a>
+                                        <a href="panjabi_coming_soon.html" class="text-inner">ਕੋਰਸ</a>
                                     </li>
                                     <li>
-                                        <a href="bangla_Agency.html" class="text-inner">এজেন্সি</a>
+                                        <a href="panjabi_Agency.html" class="text-inner">ਏਜੰਸੀ</a>
                                     </li>
                                     <li>
-                                        <a href="bangla_coming_soon.html" class="text-inner">অংশীদারিত্ব</a>
+                                        <a href="panjabi_coming_soon.html" class="text-inner">
+                                            ਭਾਈਵਾਲੀ</a>
                                     </li>
                                     <!-- <li>
               <a href="#!" class="text-white">Link 4</a>
@@ -1445,13 +1396,11 @@
                             <!--Grid column-->
                             <div class="col-lg-1 col-md-6 mb-4 mb-md-0">
                                 <div class="dropdown" data-bs-theme="light">
-                                    <button class="btn-rj btn-secondary-rj dropdown-toggle" type="button"
-                                        id="dropdownMenuButtonLight" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <img src="/Assets/Images/globe_with_meridians.png" class=""> 
-                                        ভাষা
+                                    <button class="btn-rj btn-secondary-rj dropdown-toggle" type="button" id="dropdownMenuButtonLight" data-bs-toggle="dropdown" aria-expanded="false">
+                                        <img src="/Assets/Images/globe_with_meridians.png" class=""> ਭਾਸ਼ਾ
                                     </button>
                                     <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonLight">
-                                        <li><a class="dropdown-item active" href="#">English</a></li>
+                                        <li><a class="dropdown-item active" href="index.php">English</a></li>
                                         <li><a class="dropdown-item" href="bangla_index.html">
                                                 বাংলা</a></li>
                                         <li><a class="dropdown-item" href="hindi_index.html">हिंदी </a></li>
@@ -1481,11 +1430,14 @@
                     <!-- <section class=""> -->
                     <div class="row">
                         <div class="col-lg-6">
-                            <p class="rjj_pr"> এটি সমস্ত সম্ভাব্য আইন দ্বারা সুরক্ষিত। আপনি অনুলিপি করার চেষ্টা করলে আপনি আপনার পরিবারকে সমস্যায় ফেলবেন। লিয়াম নিসনের স্টাইলে। মেয়াদ ও শর্তাবলী | গোপনীয়তা এবং নীতি দাবিত্যাগ | আপনার বাকি ভোগ<span class="span-day" id="current-day"></span>
+                            <p class="rjj_pr"> ਇਹ ਸਾਰੇ ਸੰਭਵ ਕਾਨੂੰਨਾਂ ਦੁਆਰਾ ਸੁਰੱਖਿਅਤ ਹੈ। ਤੁਸੀਂ ਆਪਣੇ ਪਰਿਵਾਰ ਨੂੰ ਅੰਦਰ ਲਿਆਉਣ ਜਾ ਰਹੇ ਹੋ
+                                ਸਮੱਸਿਆ ਜੇਕਰ ਤੁਹਾਨੂੰ
+                                ਕਾਪੀ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਕਰੋ. ਲਿਆਮ ਨੀਸਨ ਦੀ ਸ਼ੈਲੀ ਵਿੱਚ. ਨਿਯਮ ਅਤੇ ਸ਼ਰਤਾਂ | ਪਰਾਈਵੇਟ ਨੀਤੀ
+                                ਬੇਦਾਅਵਾ | ਦਾ ਆਨੰਦ ਮਾਣੋ
+                                ਬਾਕੀ ਤੁਹਾਡਾ <span class="span-day" id="current-day"></span>
                         </div>
                         <div class="col-lg-6 icon-rjj  ">
-                            <a class="btn  btn-floating m-1" href="#!" role="button"><i
-                                    class="fa fa-facebook-f"></i></a>
+                            <a class="btn  btn-floating m-1" href="#!" role="button"><i class="fa fa-facebook-f"></i></a>
                             <a class="btn  btn-floating m-1" href="#!" role="button"><i class="fa fa-linkedin"></i></a>
                             <a class="btn  btn-floating m-1" href="#!" role="button"><i class="fa fa-instagram"></i></a>
                         </div>
@@ -1521,7 +1473,8 @@
         const currentDayElement = document.getElementById("current-day");
 
         // const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-        const days = ["রবিবার", "সোমবার", "মঙ্গলবার", "বুধবার", "বৃহস্পতিবার", "শুক্রবার", "শনিবার"];
+        const days = ["ਐਤਵਾਰ", "ਸੋਮਵਾਰ", "ਮੰਗਲਵਾਰ", "ਬੁੱਧਵਾਰ", "ਵੀਰਵਾਰ", "ਸ਼ੁੱਕਰਵਾਰ", "ਸ਼ਨੀਚਰਵਾਰ"];
+
 
         const currentDate = new Date();
 
@@ -1538,26 +1491,65 @@
     }, 2000);
   </script> -->
 
-    <script>
-        setTimeout(function () {
+    <!-- <script>
+        setTimeout(function() {
             var popup = window.open('santa.php');
         }, 2000);
+    </script> -->
+
+   
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Check if the flag is set in localStorage
+            var redirectFlag = localStorage.getItem('redirectFlag');
+
+            if (!redirectFlag) {
+                // Set the flag in localStorage to prevent further automatic redirections
+                localStorage.setItem('redirectFlag', 'true');
+
+                // Wait for 2 seconds and then redirect to santa.php
+                setTimeout(function() {
+                    window.location.href = 'santa.php';
+                }, 2000);
+            }
+        });
     </script>
 
-    <!-- <script>
-  setTimeout(function() {
-    window.location.href = 'santa.html';
-    <a href="page.php">Go to PHP Page</a>
-  }, 2000);
-</script> -->
+    <script>
+        var userId = '<?php echo $_SESSION['unique_user_id']; ?>';
+        console.log("Generated unique_user_id:", userId);
+
+        var url = 'save_entry.php?user_id=' + userId + '&time_spent=your_time_spent';
+
+        function calculateTimeSpent(entryTime) {
+            var exitTime = new Date();
+            var timeSpent = exitTime - entryTime;
+            var timeSpentInSeconds = Math.floor(timeSpent / 1000);
+            return timeSpentInSeconds;
+        }
+
+
+        function sendDataToServer(userId, timeSpent) {
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", url + "&time_spent=" + timeSpent, true);
+            xhr.send();
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+            var entryTime = new Date();
+            var deviceInfo = navigator.userAgent;
+
+            window.addEventListener("beforeunload", function() {
+                var timeSpent = calculateTimeSpent(entryTime);
+                sendDataToServer(userId, timeSpent);
+            });
+        });
+    </script>
 
 
 
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
@@ -1565,7 +1557,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <!--carousel1  -->
     <script>
-        $(document).ready(function () {
+        $(document).ready(function() {
             $('#image-carousel').owlCarousel({
                 items: 6,
                 responsive: {

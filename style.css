@@ -975,7 +975,7 @@ a {
   }
   /* .rjj-textC {
     padding: 44px
-} */
+ } */
   .btn-rjj2 {
     width: 306.5px;
   }
@@ -1023,7 +1023,7 @@ a {
   }
   /* .rjj_web {
     font-size: 16px;
-} */
+  } */
   .icon {
     display: flex;
     justify-content: center;
@@ -1197,9 +1197,9 @@ a {
   }
 }
 @media (min-width: 993px) and (max-width: 1200px) {
-    .ck_ln2_hide{
-        display:none;
-    }
+  .ck_ln2_hide {
+    display: none;
+  }
   .btn-secondary-rj {
     padding: 7px 5px;
     margin-left: 22px;
@@ -1233,16 +1233,16 @@ a {
   .ck_76768 {
     display: none;
   }
-  .ck_ln_hide{
-    display:none;
-}
+  .ck_ln_hide {
+    display: none;
+  }
 }
 
 @media (min-width: 1401px) and (max-width: 1600px) {
   .ck_76768 {
     display: none;
   }
-  .ck_ln_hide{
-    display:none;
-}
+  .ck_ln_hide {
+    display: none;
+  }
 }

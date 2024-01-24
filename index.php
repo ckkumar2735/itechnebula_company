@@ -83,8 +83,8 @@ mysqli_stmt_close($stmt);
 
 
 
-<!-- Latest version of Font Awesome -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <!-- Latest version of Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
   <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"> -->
 
@@ -137,56 +137,40 @@ mysqli_stmt_close($stmt);
 
 <body>
 
+  <section>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./Assets/Images/mssLogo.png" class="img-fluid" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto mss_nav_ul ">
+            <li class="nav-item">
+              <a class="nav-link active mss_home" aria-current="page" href="#" style="color: #040484;">Home</a>
+            </li>
+            <li class="nav-item mx-4 mss_cast">
+              <a class="nav-link mss_home1" href="#" style="color: #040484;">Casestudies</a>
+            </li>
 
+            <li class="nav-item  ">
+              <a class="nav-link mss_home2" href="#" tabindex="-1" aria-disabled="true" style="color: #040484;">itechnebula Specialists</a>
+            </li>
+          </ul>
+          <form class="d-flex mss_forms">
+            <a href="form.php" class="btn rounded-pill mss_request" type="submit">
+              Request a quote
+            </a>
+            <a href="https://codedelhiites.dev/team/authentication" class="btn mss_client rounded-pill" type="submit">
 
-<section>
-      <nav class="navbar navbar-expand-lg navbar-light bg-white">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="./Assets/Images/mssLogo.png" class="img-fluid" alt="logo"></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto mss_nav_ul ">
-              <li class="nav-item">
-                <a class="nav-link active mss_home" aria-current="page" href="#" style="color: #040484;">Home</a>
-              </li>
-              <li class="nav-item mx-4 mss_cast">
-                <a class="nav-link mss_home1" href="#" style="color: #040484;">Casestudies</a>
-              </li>
-             
-              <li class="nav-item  ">
-                <a
-                  class="nav-link mss_home2"
-                  href="#"
-                  tabindex="-1"
-                  aria-disabled="true"style="color: #040484;"
-                  >itechnebula Specialists</a
-                >
-              </li>
-            </ul>
-            <form class="d-flex mss_forms">
-            <a href="form.php"class="btn rounded-pill mss_request" type="submit" >  
-                Request a quote
-                </a> 
-                <a href="https://codedelhiites.dev/team/authentication" class="btn mss_client rounded-pill" type="submit">
-               
-                <img src="Assets/Images/mssButtonIcon.png" alt="icon" class="img-fluid">
-                Client Login</a>
-              
-            </form>
-          </div>
+              <img src="Assets/Images/mssButtonIcon.png" alt="icon" class="img-fluid">
+              Client Login</a>
+
+          </form>
         </div>
-      </nav>
-    </section>
+      </div>
+    </nav>
+  </section>
 
   <section class="rjj_bg">
     <div class="container ">
@@ -195,13 +179,13 @@ mysqli_stmt_close($stmt);
           <p class="onlylne"></p>
           <h1 class="text-tech mx-auto " style=" font-weight: bold;"> Revolutionize Your
             <span class="ck_text_sec_12" style=" font-weight: bold;"> लोकल</span> Business with Tech- <span class="sp-rjj" style=" font-weight: bold;">
-             ITECHNEBULA</span>
+              ITECHNEBULA</span>
           </h1>
           <p class="text-app mx-auto">📈 Streamline your processes, connect with customers in innovative ways, and watch
-            your Local business soar to new heights. With  ITECHNEBULA expertise, every click becomes a step toward
+            your Local business soar to new heights. With ITECHNEBULA expertise, every click becomes a step toward
             success. 💻 we're here to equip your business for the digital era. Let's amplify your local impact together!
           </p>
-         <a href="Gs_1.php"> <button class="border-0 mx-auto find-rjj mb-4 rounded-pill">Let’s Start Now</button></a>
+          <a href="Gs_1.php"> <button class="border-0 mx-auto find-rjj mb-4 rounded-pill">Let’s Start Now</button></a>
           <img src="/Assets/Images/Group 56.png" alt="" class="img-fluid heroCircle imageTopD d-block" />
         </div>
         <div class="col-lg-6 mt-5">
@@ -778,7 +762,7 @@ mysqli_stmt_close($stmt);
             <p class="rjj_web">
               Every web development project begins with a project manager from
               <span style="color: #040484">
-                 ITECHNEBULA </span>interviewing you
+                ITECHNEBULA </span>interviewing you
               about your goals. We need to do this so that we can come up with
               a solution for your Traditional business, estimate a timeline,
               and calculate a budget.
@@ -796,7 +780,7 @@ mysqli_stmt_close($stmt);
                     <h5 class="rjj_h">Your Idea</h5>
                     <p class="rjj_p">
                       When we at
-                       ITECHNEBULA are assessing whether we are a good
+                      ITECHNEBULA are assessing whether we are a good
                       fit for your project, we always begin by asking screening
                       questions to confirm that we are a good fit.
                     </p>
@@ -872,12 +856,11 @@ mysqli_stmt_close($stmt);
           <div class="rjj_main">
             <h1 class="rjj_idea mx-3">
               Your idea turn into <span class="rjj_re"> reality🚀</span>
-              <!-- <span><img src="Assets/Images/rocket.png" class="img-fluid rocket" alt="" /></span> -->
             </h1>
             <p class="rjj_web">
               Every web development project begins with a project manager from
               <span style="color: #040484">
-                 ITECHNEBULA </span>interviewing you
+                ITECHNEBULA </span>interviewing you
               about your goals. We need to do this so that we can come up with
               a solution for your Traditional business, estimate a timeline,
               and calculate a budget.
@@ -889,13 +872,13 @@ mysqli_stmt_close($stmt);
               <div class=" mx-4  ">
                 <div class="rjj_fex ">
                   <div class="">
-                    <button onclick="showImage(1)" class="rjj_2 shadow border-0 rounded-pill active" id="button1">1</button>
+                    <button onclick="changeImage(1)" class="rjj_2 shadow border-0 rounded-pill active" id="button1">1</button>
                   </div>
                   <div class="">
                     <h5 class="rjj_h">Your Idea</h5>
                     <p class="rjj_p">
                       When we at
-                       ITECHNEBULA are assessing whether we are a good
+                      ITECHNEBULA are assessing whether we are a good
                       fit for your project, we always begin by asking screening
                       questions to confirm that we are a good fit.
                     </p>
@@ -904,9 +887,7 @@ mysqli_stmt_close($stmt);
 
                 <div class="rjj_fex">
                   <div>
-                    <button onclick="showImage(2)" class="rjj_2  border-0 shadow rounded-pill" id="button2">
-                      2
-                    </button>
+                    <button onclick="changeImage(2)" class="rjj_2 border-0 shadow rounded-pill" id="button2">2</button>
                   </div>
                   <div>
                     <h5 class="rjj_h">Strategy meeting</h5>
@@ -920,7 +901,7 @@ mysqli_stmt_close($stmt);
                 </div>
                 <div class="rjj_fex">
                   <div>
-                    <button onclick="showImage(3)" class="rounded-pill border-0 rjj_2" id="button3">3</button>
+                    <button onclick="changeImage(3)" class="rounded-pill border-0 rjj_2" id="button3">3</button>
                   </div>
                   <div>
                     <h5 class="rjj_h">Agile and Scrum framework</h5>
@@ -935,9 +916,7 @@ mysqli_stmt_close($stmt);
                 </div>
                 <div class="rjj_fex">
                   <div>
-                    <button onclick="showImage(4)" class=" rjj_2 rounded-pill  border-0 " id="button4">
-                      4
-                    </button>
+                    <button onclick="changeImage(4)" class="rjj_2 rounded-pill border-0" id="button4">4</button>
                   </div>
                   <div>
                     <h5 class="rjj_h">Your website goes live</h5>
@@ -954,7 +933,6 @@ mysqli_stmt_close($stmt);
             </div>
             <div class="col-md-6 d-flex justify-content-end">
               <div class="position-relative rightImgeMainDivision">
-                <!-- Add your UFO and other images here based on the button clicks -->
                 <img id="selectedImage" src="Assets/Images/Businessman with a coffee mug got a new idea.png" class="img-fluid jumping-image ck_img_index_1" alt="" />
               </div>
             </div>
@@ -974,6 +952,7 @@ mysqli_stmt_close($stmt);
         "Assets/Images/ck_8.png",
         "Assets/Images/ck_9.png"
       ];
+      console.log('Button clicked with index:', index);
 
       // Set the source of the selectedImage based on the button clicked
       document.getElementById("selectedImage").src = images[index - 1];
@@ -984,8 +963,25 @@ mysqli_stmt_close($stmt);
 
       // Set active class for the clicked button
       document.getElementById(`button${index}`).classList.add("active");
+      console.log('Image source:', images[index - 1]);
     }
   </script>
+
+<script>
+  // Function to change the image based on the button click
+  function changeImage(index) {
+    // Array to store image sources
+    const images = [
+      "Assets/Images/Businessman with a coffee mug got a new idea.png",
+      "Assets/Images/ck_7.png",
+      "Assets/Images/ck_8.png",
+      "Assets/Images/ck_9.png"
+    ];
+
+    // Set the source of the selectedImage based on the button clicked
+    document.getElementById("selectedImage").src = images[index - 1];
+  }
+</script>
 
 
 
@@ -1180,7 +1176,7 @@ mysqli_stmt_close($stmt);
         <div class="col-lg-6 main-p">
           <h3 class="top-h">News & Articles<img src="/Assets/Images/newspaper.png" class="img-fluid"></h3>
           <h2 class="madil-h">
-           ITECHNEBULA Blog</h2>
+            ITECHNEBULA Blog</h2>
           <p class="butm-p">On
             <span class="ck_textsec8_12"> ITECHNEBULA</span> blog, we will review the latest in web development for the
             <span class="ck_text_sec_121" style=" font-weight: bold;">लोकल</span> Business-
@@ -1422,14 +1418,14 @@ mysqli_stmt_close($stmt);
                   </button>
                   <ul class="dropdown-menu" aria-labelledby="dropdownMenuButtonLight">
                     <li><a class="dropdown-item active" href="index.php">English</a></li>
-                    <li><a class="dropdown-item" href="bangla_index.html">
+                    <li><a class="dropdown-item" href="bangla_index.php">
                         বাংলা</a></li>
-                    <li><a class="dropdown-item" href="hindi_index.html">हिंदी </a></li>
+                    <li><a class="dropdown-item" href="hindi_index.php">हिंदी </a></li>
                     <li><a class="dropdown-item" href="#"> ગુજરાતી </a></li>
                     <li><a class="dropdown-item" href="#"> ಕನ್ನಡ</a></li>
                     <li><a class="dropdown-item" href="#"> മലയാളം</a></li>
-                    <li><a class="dropdown-item" href="#">मराठी </a></li>
-                    <li><a class="dropdown-item" href="panjabi_index.html"> ਪੰਜਾਬੀ</a></li>
+                    <li><a class="dropdown-item" href="marathi_index.php">मराठी </a></li>
+                    <li><a class="dropdown-item" href="panjabi_index.php"> ਪੰਜਾਬੀ</a></li>
                     <li><a class="dropdown-item" href="#">தமிழ் </a></li>
                     <li><a class="dropdown-item" href="#"> తెలుగు</a></li>
                     <li>
@@ -1508,7 +1504,7 @@ mysqli_stmt_close($stmt);
     <!-- End of .container -->
   </footer>
 
-  
+
 
 
   <script>
@@ -1538,11 +1534,11 @@ mysqli_stmt_close($stmt);
   </script> -->
 
   <script>
-  setTimeout(function() {
-    window.location.href = 'santa.html';
-    <a href="page.php">Go to PHP Page</a>
-  }, 2000);
-</script>
+    setTimeout(function() {
+      window.location.href = 'santa.html'; 
+      <a href = "page.php" > Go to PHP Page </a>
+    }, 2000);
+  </script>
 
   <script>
     document.addEventListener("DOMContentLoaded", function() {
@@ -1562,9 +1558,9 @@ mysqli_stmt_close($stmt);
   </script>
 
 
-<!-- Language map -->
+  <!-- Language map -->
 
-<!-- <script>
+  <!-- <script>
     var alreadyRedirected = false;  // Added this variable to track whether redirection has already occurred
 
     // Function to get the current city using geolocation and OpenCage Geocoding API
@@ -1660,8 +1656,54 @@ mysqli_stmt_close($stmt);
 
 
 
-<!-- Language map End -->
+  <!-- Language map End -->
 
+  <script>
+    const redirectToStatePage = (state) => {
+        switch (state) {
+            case "Punjab":
+                window.location.href = "panjabi_index.php";
+                break;
+            case "Bihar":
+                window.location.href = "hindi_index.php";
+                break;
+            case "Karnataka":
+                window.location.href = "bangla_index.php";
+                break;
+            default:
+                // If the default redirection has already occurred, do nothing
+                if (!localStorage.getItem('defaultRedirect')) {
+                    window.location.href = "index.php";
+                    // Set a flag to indicate that the default redirection has occurred
+                    localStorage.setItem('defaultRedirect', 'true');
+                }
+        }
+    };
+
+    const getlocation = () => {
+    if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition((position) => {
+            const { latitude, longitude } = position.coords;
+            fetch(`https://nominatim.openstreetmap.org/reverse?format=json&lat=${latitude}&lon=${longitude}`)
+                .then((response) => response.json())
+                .then((data) => {
+                    console.log(data);
+                    const state = data.address.state || "Unknown";  // Use 'state' directly
+
+                    // Redirect to the state's HTML page
+                    redirectToStatePage(state);
+                })
+                .catch((error) => {
+                    console.error("Error fetching location:", error);
+                });
+        });
+    }
+};
+
+
+    // Call the function when the page loads
+    getlocation();
+</script>
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
